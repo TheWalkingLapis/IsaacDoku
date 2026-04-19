@@ -16,6 +16,7 @@ dataPathItemsFile = dataRawPath / "items.xml"
 dataPathModDataFile = dataRawPath / "modData.json"
 dataPathStringtableFile = dataRawPath / "stringtable.sta"
 dataCsvPath = dataPath / "csv"
+dataCsvPathItemsFile = dataCsvPath / "items.csv"
 
 
 ## Isaac
