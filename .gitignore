@@ -1,4 +1,5 @@
 .vscode
+.venv
 .out
 .luarc.json
 __pycache__
