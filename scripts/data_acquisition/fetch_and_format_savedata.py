@@ -5,25 +5,22 @@ import os
 import shutil
 import json
 
+from scripts import (
+    dataPathModDataFile,
+    isaacModDataPath
+)
+
 def main():
-    modName = "IsaacDoku"
-    modDataName = "modData.json"
-
-    dataLocation = Path(__file__).resolve().parent.parent / "data"
-
-    isaacLocation = Path("C:/Program Files (x86)") / "Steam" / "steamapps" / "common" / "The Binding of Isaac Rebirth"
-    saveDataLocation = isaacLocation / "data" / modName
-
-    files = os.listdir(saveDataLocation)
+    files = os.listdir(isaacModDataPath)
     if len(files) < 1:
-        print(f"Error: No saveData found at {saveDataLocation}")
+        print(f"Error: No saveData found at {isaacModDataPath}")
 
     # read raw json
-    with open(saveDataLocation / files[0], "r", encoding="utf-8") as f:
+    with open(isaacModDataPath / files[0], "r", encoding="utf-8") as f:
         data = json.load(f)
 
     # write formatted json
-    with open(dataLocation / modDataName, "w", encoding="utf-8") as f:
+    with open(dataPathModDataFile, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
 
