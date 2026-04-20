@@ -71,13 +71,15 @@ def parse_mod_data() -> dict[str, list]:
     with open(dataPathModDataFile, "r") as file:
         modDataRaw = json.load(file)
     
-    # modData contains information ordered by item, for the dataframe
+    itemDataRaw = modDataRaw["itemData"]
+
+    # itemData contains information ordered by item, for the dataframe
     # this is changed to be ordered by attribute
-    parsedItemData = {attrib: [] for attrib in modDataRaw[0].keys() if not attrib in REMOVE_CATEGORIES}
-    for itemDataRaw in modDataRaw:
-        if itemDataRaw["Hidden"]:
+    parsedItemData = {attrib: [] for attrib in itemDataRaw[0].keys() if not attrib in REMOVE_CATEGORIES}
+    for itemDataRawEntry in itemDataRaw:
+        if itemDataRawEntry["Hidden"]:
             continue
-        for itemAttributeKey, itemAttributeValue in itemDataRaw.items():
+        for itemAttributeKey, itemAttributeValue in itemDataRawEntry.items():
             if itemAttributeKey in REQUIRES_STRING_LOOKUP:
                 itemAttributeValue = lookup_string(itemAttributeValue)
             if itemAttributeKey in REMOVE_CATEGORIES:

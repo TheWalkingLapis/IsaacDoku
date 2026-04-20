@@ -46,4 +46,18 @@ for name, id in pairs(CollectibleType) do
     end
 end
 
-mod:SaveData(json.encode(jsonItems))
+local jsonEnums = {
+    ItemConfig = {}
+}
+for tag, value in pairs(ItemConfig) do
+    if string.sub(tag, 1, 4) == "TAG_" then
+        jsonEnums.ItemConfig[tag] = value
+    end
+end
+
+local modData = {
+    enumData = jsonEnums,
+    itemData = jsonItems
+}
+
+mod:SaveData(json.encode(modData))
