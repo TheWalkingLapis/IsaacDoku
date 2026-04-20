@@ -1,718 +1,718 @@
-,Name,ID,Description
-0,The Sad Onion,1,Tears up
-1,The Inner Eye,2,Triple shot
-2,Spoon Bender,3,Homing shots
-3,Cricket's Head,4,DMG up
-4,My Reflection,5,Boomerang tears + DMG up + luck down
-5,Number One,6,Tears up + range down
-6,Blood of the Martyr,7,DMG up
-7,Brother Bobby,8,Friends 'till the end
-8,Skatole,9,Fly love
-9,Halo of Flies,10,Projectile protection
-10,1up!,11,Extra life
-11,Magic Mushroom,12,All stats up!
-12,The Virus,13,Poison touch + speed up
-13,Roid Rage,14,Speed and range up
-14,<3,15,HP up
-15,Raw Liver,16,HP up
-16,Skeleton Key,17,99 keys
-17,A Dollar,18,$$$
-18,Boom!,19,10 bombs
-19,Transcendence,20,We all float down here...
-20,The Compass,21,The end is near
-21,Lunch,22,HP up
-22,Dinner,23,HP up
-23,Dessert,24,HP up
-24,Breakfast,25,HP up
-25,Rotten Meat,26,HP up
-26,Wooden Spoon,27,Speed up
-27,The Belt,28,Speed up
-28,Mom's Underwear,29,Range up
-29,Mom's Heels,30,Range up
-30,Mom's Lipstick,31,Range up
-31,Wire Coat Hanger,32,Tears up
-32,The Bible,33,Temporary flight
-33,The Book of Belial,34,Temporary DMG up
-34,The Necronomicon,35,Mass room damage
-35,The Poop,36,Plop!
-36,Mr. Boom,37,Reusable bomb buddy
-37,Tammy's Head,38,Reusable tear burst
-38,Mom's Bra,39,Mass paralysis
-39,Kamikaze!,40,Become the bomb!
-40,Mom's Pad,41,Mass fear
-41,Bob's Rotten Head,42,Reusable ranged bomb
-42,Teleport!,44,Teleport!
-43,Yum Heart,45,Reusable regeneration
-44,Lucky Foot,46,Luck up
-45,Doctor's Remote,47,Reusable air strike
-46,Cupid's Arrow,48,Piercing shots
-47,Shoop da Whoop!,49,BLLLARRRRGGG!
-48,Steven,50,DMG up
-49,Pentagram,51,DMG up
-50,Dr. Fetus,52,???
-51,Magneto,53,Item snatcher
-52,Treasure Map,54,Full visible map
-53,Mom's Eye,55,Eye in the back of your head
-54,Lemon Mishap,56,Oops...
-55,Distant Admiration,57,Attack fly
-56,Book of Shadows,58,Temporary invincibility
-57,The Ladder,60,Building bridges
-58,Charm of the Vampire,62,DMG up + kills heal
-59,The Battery,63,Stores energy
-60,Steam Sale,64,50% off
-61,Anarchist Cookbook,65,Summon bombs
-62,The Hourglass,66,Temporary enemy slowdown
-63,Sister Maggy,67,Friends 'till the end
-64,Technology,68,Laser tears
-65,Chocolate Milk,69,Charge shots
-66,Growth Hormones,70,Speed + DMG up
-67,Mini Mush,71,Speed + range up
-68,Rosary,72,Tears + faith up
-69,Cube of Meat,73,Gotta meat 'em all
-70,A Quarter,74,+25 coins
-71,PHD,75,Better pills
-72,X-Ray Vision,76,I've seen everything
-73,My Little Unicorn,77,Temporary badass
-74,Book of Revelations,78,Reusable soul protection
-75,The Mark,79,DMG + speed up
-76,The Pact,80,DMG + tears up
-77,Dead Cat,81,9 lives
-78,Lord of the Pit,82,Demon wings
-79,The Nail,83,Temporary demon form
-80,We Need To Go Deeper!,84,Reusable level skip
-81,Deck of Cards,85,Reusable card generator
-82,Monstro's Tooth,86,Summon Monstro
-83,Loki's Horns,87,Cross tears
-84,Little Chubby,88,Attack buddy
-85,Spider Bite,89,Slow effect
-86,The Small Rock,90,DMG up + speed down
-87,Spelunker Hat,91,See-through doors
-88,Super Bandage,92,+2 hearts
-89,The Gamekid,93,Temporary Man-Pac
-90,Sack of Pennies,94,Gives money
-91,Robo-Baby,95,Friends 'till the bbbbzzzt
-92,Little C.H.A.D.,96,Gives kisses
-93,The Book of Sin,97,Reusable item generator
-94,The Relic,98,Soul generator
-95,Little Gish,99,Sticky friend
-96,Little Steven,100,Psychic friend
-97,The Halo,101,All stats up
-98,Mom's Bottle of Pills,102,Reusable pill generator
-99,The Common Cold,103,Poison damage
-100,The Parasite,104,Split shot
-101,The D6,105,Reroll your destiny
-102,Mr. Mega,106,Bigger boom
-103,The Pinking Shears,107,Cut and run
-104,The Wafer,108,Damage resistance
-105,Money = Power,109,$$$ = DMG
-106,Mom's Contacts,110,Freeze effect
-107,The Bean,111,Toot on command
-108,Guardian Angel,112,Extra protection
-109,Demon Baby,113,Auto-turret friend
-110,Mom's Knife,114,Stab stab stab
-111,Ouija Board,115,Spectral tears + tears up
-112,9 Volt,116,Quicker charge
-113,Dead Bird,117,Protective buddy
-114,Brimstone,118,Blood laser barrage
-115,Blood Bag,119,HP + speed up
-116,Odd Mushroom,120,Tears up + damage down
-117,Odd Mushroom,121,"HP + DMG up, speed down"
-118,Whore of Babylon,122,Curse up
-119,Monster Manual,123,Temporary buddy generator
-120,Dead Sea Scrolls,124,It's a mystery
-121,Bobby-Bomb,125,Homing bombs
-122,Razor Blade,126,Feel my pain
-123,Forget Me Now,127,I don't remember...
-124,Forever alone,128,Attack fly
-125,Bucket of Lard,129,HP up
-126,A Pony,130,Flight + dash attack
-127,Bomb Bag,131,Gives bombs
-128,A Lump of Coal,132,My Xmas present
-129,Guppy's Paw,133,Soul converter
-130,Guppy's Tail,134,Cursed?
-131,IV Bag,135,Portable blood bank
-132,Best Friend,136,Friends 'till the end
-133,Remote Detonator,137,Remote bomb detonation
-134,Stigmata,138,DMG + HP up
-135,Mom's Purse,139,More trinket room
-136,Bob's Curse,140,+5 poison bombs
-137,Pageant Boy,141,Ultimate grand supreme
-138,Scapular,142,Pray for a miracle
-139,Speed Ball,143,Speed + shot speed up
-140,Bum Friend,144,He's greedy
-141,Guppy's Head,145,Reusable fly hive
-142,Prayer Card,146,Reusable eternity
-143,Notched Axe,147,Rocks don't stand a chance
-144,Infestation,148,Fly revenge
-145,Ipecac,149,Explosive shots
-146,Tough Love,150,Tooth shot
-147,The Mulligan,151,They grow inside
-148,Technology 2,152,Extra laser
-149,Mutant Spider,153,Quad shot
-150,Chemical Peel,154,DMG up
-151,The Peeper,155,Plop!
-152,Habit,156,Item martyr
-153,Bloody Lust,157,RAGE!
-154,Crystal Ball,158,I see my future
-155,Spirit of the Night,159,Scary
-156,Crack the Sky,160,Holy white death
-157,Ankh,161,Eternal life?
-158,Celtic Cross,162,Blessing of protection
-159,Ghost Baby,163,Spectral buddy
-160,The Candle,164,Reusable flames
-161,Cat-o-nine-tails,165,Shot speed + damage up
-162,D20,166,Reroll the basics
-163,Harlequin Baby,167,Double shot buddy
-164,Epic Fetus,168,On-demand air strike
-165,Polyphemus,169,Mega tears
-166,Daddy Longlegs,170,Daddy's love
-167,Spider Butt,171,Mass enemy slowdown + damage
-168,Sacrificial Dagger,172,My fate protects me
-169,Mitre,173,Blessing of purity
-170,Rainbow Baby,174,Random buddy
-171,Dad's Key,175,Opens all doors...
-172,Stem Cells,176,HP up
-173,Portable Slot,177,Gamble 24/7
-174,Holy Water,178,Splash!
-175,Fate,179,Flight eternal
-176,The Black Bean,180,Toot on touch
-177,White Pony,181,Flight + holy death
-178,Sacred Heart,182,Homing shots + DMG up
-179,Tooth Picks,183,Tears + shot speed up
-180,Holy Grail,184,Flight + HP up
-181,Dead Dove,185,Flight + spectral tears
-182,Blood Rights,186,Mass enemy damage at a cost
-183,Guppy's Hairball,187,Swing it
-184,Abel,188,Mirrored buddy
-185,SMB Super Fan,189,All stats up
-186,Pyro,190,99 bombs
-187,3 Dollar Bill,191,Rainbow tears
-188,Telepathy For Dummies,192,Temporary psychic shot
-189,MEAT!,193,DMG + HP up
-190,Magic 8 Ball,194,Shot speed up
-191,Mom's Coin Purse,195,What's all this...?
-192,Squeezy,196,Tears up
-193,Jesus Juice,197,Damage + range up
-194,Box,198,Stuff
-195,Mom's Key,199,Better chest loot +2 keys
-196,Mom's Eyeshadow,200,Charm tears
-197,Iron Bar,201,DMG up + concussive tears
-198,Midas' Touch,202,Golden touch
-199,Humbleing Bundle,203,1+1 free 4Evar
-200,Fanny Pack,204,Filled with goodies
-201,Sharp Plug,205,Infinite charge... at a cost
-202,Guillotine,206,DMG + tears up. An out-of-body experience!
-203,Ball of Bandages,207,Gotta lick 'em all!
-204,Champion Belt,208,DMG + challenge up
-205,Butt Bombs,209,Toxic blast +5 bombs
-206,Gnawed Leaf,210,Unbreakable
-207,Spiderbaby,211,Spider revenge
-208,Guppy's Collar,212,Eternal life?
-209,Lost Contact,213,Shielded tears
-210,Anemic,214,Toxic blood
-211,Goat Head,215,He accepts your offering
-212,Ceremonial Robes,216,DMG + evil up
-213,Mom's Wig,217,You feel itchy...
-214,Placenta,218,Regeneration + HP up
-215,Old Bandage,219,HP up
-216,Sad Bombs,220,Tear blasts +5 bombs
-217,Rubber Cement,221,Bouncing tears
-218,Anti-Gravity,222,Anti-gravity tears + tears up
-219,Pyromaniac,223,It hurts so good +5 bombs
-220,Cricket's Body,224,Bursting shots + tears up
-221,Gimpy,225,Sweet suffering
-222,Black Lotus,226,HP up x3
-223,Piggy Bank,227,My life savings
-224,Mom's Perfume,228,Fear shot + tears up
-225,Monstro's Lung,229,Charged burst attack
-226,Abaddon,230,Evil + DMG up + fear shot
-227,Ball of Tar,231,Sticky feet...
-228,Stop Watch,232,Let's slow this down a bit...
-229,Tiny Planet,233,Orbiting tears + range up
-230,Infestation 2,234,Infestation shot
-231,E. Coli,236,Turdy touch
-232,Death's Touch,237,Piercing shots + DMG up
-233,Key Piece 1,238,???
-234,Key Piece 2,239,???
-235,Experimental Treatment,240,"Some stats up, some stats down"
-236,Contract from Below,241,Wealth... but at what cost?
-237,Infamy,242,Blocks damage... sometimes
-238,Trinity Shield,243,You feel guarded
-239,Tech.5,244,It's still being tested...
-240,20/20,245,Double shot
-241,Blue Map,246,Secrets
-242,BFFS!,247,Your friends rule
-243,Hive Mind,248,Giant spiders and flies
-244,There's Options,249,More options
-245,BOGO Bombs,250,1+1 BOOM!
-246,Starter Deck,251,Extra card room
-247,Little Baggy,252,Extra pill room
-248,Magic Scab,253,HP + luck up
-249,Blood Clot,254,DMG + range up
-250,Screw,255,Tears + shot speed up
-251,Hot Bombs,256,Burning blast +5 bombs
-252,Fire Mind,257,Flaming tears
-253,Missing No.,258,Syntax error
-254,Dark Matter,259,DMG up + fear shot
-255,Black Candle,260,Curse immunity + evil up
-256,Proptosis,261,Short range mega tears
-257,Missing Page 2,262,Evil up. Your enemies will pay!
-258,Clear Rune,263,Rune mimic
-259,Smart Fly,264,Revenge fly
-260,Dry Baby,265,Immortal friend
-261,Juicy Sack,266,Sticky babies
-262,Robo-Baby 2.0,267,We worked out all the kinks
-263,Rotten Baby,268,Infested friend
-264,Headless Baby,269,Bloody friend
-265,Leech,270,Blood sucker
-266,Mystery Sack,271,?
-267,BBF,272,Big Beautiful Fly
-268,Bob's Brain,273,Explosive thoughts
-269,Best Bud,274,Sworn protector
-270,Lil Brimstone,275,Evil friend
-271,Isaac's Heart,276,Protect it
-272,Lil Haunt,277,Fear him
-273,Dark Bum,278,He wants to take your life
-274,Big Fan,279,Fat protector
-275,Sissy Longlegs,280,She loves you
-276,Punching Bag,281,Scape goat
-277,How to Jump,282,It's time you learned how
-278,D100,283,REEROLLLLL!
-279,D4,284,Reroll into something else
-280,D10,285,Reroll enemies
-281,Blank Card,286,Card mimic
-282,Book of Secrets,287,Tome of knowledge
-283,Box of Spiders,288,It's a box of spiders
-284,Red Candle,289,Flame on
-285,The Jar,290,Save your life
-286,Flush!,291,...
-287,Satanic Bible,292,Reusable evil... but at what cost?
-288,Head of Krampus,293,Krampus rage
-289,Butter Bean,294,Reusable knock-back
-290,Magic Fingers,295,Pay to win
-291,Converter,296,Convert your soul
-292,Pandora's Box,297,? ?
-293,Unicorn Stump,298,You feel stumped
-294,Taurus,299,Speed down + rage is building
-295,Aries,300,Ramming speed
-296,Cancer,301,HP up + you feel protected
-297,Leo,302,Stompy
-298,Virgo,303,You feel refreshed and protected
-299,Libra,304,You feel balanced
-300,Scorpio,305,Poison tears
-301,Sagittarius,306,Piercing shots + speed up
-302,Capricorn,307,All stats up
-303,Aquarius,308,Trail of tears
-304,Pisces,309,Tears up + knock-back shot
-305,Eve's Mascara,310,"DMG up, tears + shot speed down"
-306,Judas' Shadow,311,Sweet revenge
-307,Maggy's Bow,312,HP up + you feel healthy
-308,Holy Mantle,313,Holy shield
-309,Thunder Thighs,314,HP up + speed down + you feel stompy
-310,Strange Attractor,315,Magnetic tears
-311,Cursed Eye,316,Cursed charge shot
-312,Mysterious Liquid,317,Toxic splash damage
-313,Gemini,318,Conjoined friend
-314,Cain's Other Eye,319,Near-sighted friend
-315,???'s Only Friend,320,Controlled friend
-316,Samson's Chains,321,The ol' ball and chain
-317,Mongo Baby,322,Mongo friend
-318,Isaac's Tears,323,Collected tears
-319,Undefined,324,Undefined
-320,Scissors,325,Lose your head
-321,Breath of Life,326,Invincibility at a cost
-322,The Polaroid,327,Fate chosen
-323,The Negative,328,Fate chosen
-324,The Ludovico Technique,329,Controlled tears
-325,Soy Milk,330,DMG down + tears way up
-326,Godhead,331,God tears
-327,Lazarus' Rags,332,Eternal life?
-328,The Mind,333,I know all
-329,The Body,334,I feel all
-330,The Soul,335,I am all
-331,Dead Onion,336,Toxic aura tears
-332,Broken Watch,337,I think it's broken
-333,The Boomerang,338,It will never leave you
-334,Safety Pin,339,Evil + range + shot speed up
-335,Caffeine Pill,340,Speed up + size down
-336,Torn Photo,341,Tears + shot speed up
-337,Blue Cap,342,HP + tears up + shot speed down
-338,Latch Key,343,Luck up
-339,Match Book,344,Evil up
-340,Synthoil,345,DMG + range up
-341,A Snack,346,HP up
-342,Diplopia,347,Double item vision
-343,Placebo,348,Pill mimic
-344,Wooden Nickel,349,Flip a coin
-345,Toxic Shock,350,Mass poison
-346,Mega Bean,351,Giga fart!
-347,Glass Cannon,352,Be gentle...
-348,Bomber Boy,353,Cross blast + 5 bombs
-349,Crack Jacks,354,HP up. Don't swallow the prize!
-350,Mom's Pearls,355,Range + luck up
-351,Car Battery,356,Active power up
-352,Box of Friends,357,Double your friends
-353,The Wiz,358,Double wiz shot!
-354,8 Inch Nails,359,Stick it to 'em!
-355,Incubus,360,Dark friend
-356,Fate's Reward,361,Your fate beside you
-357,Lil Chest,362,What's in the box?
-358,Sworn Protector,363,Protective friend
-359,Friend Zone,364,Friendly fly
-360,Lost Fly,365,Lost protector
-361,Scatter Bombs,366,We put bombs in your bombs!
-362,Sticky Bombs,367,Egg sack bombs!
-363,Epiphora,368,Intensifying tears
-364,Continuum,369,Transcendent tears
-365,Mr. Dolly,370,Range + tears up
-366,Curse of the Tower,371,Embrace chaos
-367,Charged Baby,372,Bbbzzzzzt!
-368,Dead Eye,373,Accuracy brings power
-369,Holy Light,374,Holy death shot
-370,Host Hat,375,Blast resistance
-371,Restock,376,Never ending stores!
-372,Bursting Sack,377,Spider love
-373,No. 2,378,Uh oh...
-374,Pupula Duplex,379,Wide shot
-375,Pay To Play,380,Money talks
-376,Eden's Blessing,381,Tears up + your future shines brighter
-377,Friendly Ball,382,Gotta fetch 'em all!
-378,Tear Detonator,383,Remote tear detonation
-379,Lil Gurdy,384,A gurd of your own!
-380,Bumbo,385,Bumbo want coin!
-381,D12,386,Rerolls rocks
-382,Censer,387,Peace be with you
-383,Key Bum,388,He wants your keys!
-384,Rune Bag,389,Rune generator
-385,Seraphim,390,Sworn friend
-386,Betrayal,391,Turn your enemy
-387,Zodiac,392,The heavens will change you
-388,Serpent's Kiss,393,The kiss of death
-389,Marked,394,Directed tears
-390,Tech X,395,Laser ring tears
-391,Ventricle Razor,396,Short cutter
-392,Tractor Beam,397,Controlled tears
-393,God's Flesh,398,Shrink shot!
-394,Maw Of The Void,399,Consume thy enemy!
-395,Spear Of Destiny,400,Your destiny
-396,Explosivo,401,Sticky bomb shot
-397,Chaos,402,!!!
-398,Spider Mod,403,Mod buddy
-399,Farting Baby,404,He farts
-400,GB Bug,405,Double tap glitch
-401,D8,406,Reroll stats
-402,Purity,407,Aura stat boost
-403,Athame,408,Call to the void
-404,Empty Vessel,409,I reward an empty vessel
-405,Evil Eye,410,Eye shot
-406,Lusty Blood,411,Their blood brings rage!
-407,Cambion Conception,412,Feed them hate
-408,Immaculate Conception,413,Feed them love
-409,More Options,414,There's options
-410,Crown Of Light,415,The untainted gain power
-411,Deep Pockets,416,More money!
-412,Succubus,417,Damage booster
-413,Fruit Cake,418,Rainbow effects!
-414,Teleport 2.0,419,I-Teleport!
-415,Black Powder,420,Spin the black circle!
-416,Kidney Bean,421,Love toots
-417,Glowing Hourglass,422,Turn back time
-418,Circle of Protection,423,Protect me from myself
-419,Sack Head,424,More sacks!
-420,Night Light,425,Scared of the dark?
-421,Obsessed Fan,426,Follows my every move...
-422,Mine Crafter,427,Booom!
-423,PJs,428,You feel cozy
-424,Head of the Keeper,429,Penny tears
-425,Papa Fly,430,Turret follower
-426,Multidimensional Baby,431,ydduB Buddy
-427,Glitter Bombs,432,Prize bombs
-428,My Shadow,433,Me! And my shaaaadow!
-429,Jar of Flies,434,Bug catcher
-430,Lil Loki,435,4-way buddy!
-431,Milk!,436,Don't cry over it...
-432,D7,437,Roll again
-433,Binky,438,Tears up
-434,Mom's Box,439,What's inside?
-435,Kidney Stone,440,Matt's kidney stone
-436,Mega Blast,441,Laser breath
-437,Dark Prince's Crown,442,Loss is power
-438,Apple!,443,Trick or treat?
-439,Lead Pencil,444,He's a bleeder!
-440,Dog Tooth,445,Bark at the moon!
-441,Dead Tooth,446,Toxic breath
-442,Linger Bean,447,Crying makes me toot
-443,Shard of Glass,448,Blood and guts!
-444,Metal Plate,449,It itches...
-445,Eye of Greed,450,Gold tears!
-446,Tarot Cloth,451,I see the future
-447,Varicose Veins,452,I'm leaking...
-448,Compound Fracture,453,Bone tears!
-449,Polydactyly,454,Hold me!
-450,Dad's Lost Coin,455,I remember this...
-451,Midnight Snack,456,HP up
-452,Cone Head,457,Hard headed!
-453,Belly Button,458,What's in there?
-454,Sinus Infection,459,Booger tears!
-455,Glaucoma,460,Blind tears!
-456,Parasitoid,461,Egg tears!
-457,Eye of Belial,462,Possessed tears!
-458,Sulfuric Acid,463,Acid tears!
-459,Glyph of Balance,464,A gift from above
-460,Analog Stick,465,360 tears!
-461,Contagion,466,Outbreak!
-462,Finger!,467,Watch where you point that!
-463,Shade,468,It follows
-464,Depression,469,:(
-465,Hushy,470,Lil hush!
-466,Lil Monstro,471,Ain't he cute?
-467,King Baby,472,Hail to the king baby
-468,Big Chubby,473,Chub chub
-469,Broken Glass Cannon,474,You broke it!
-470,Plan C,475,My last resort
-471,D1,476,What will it be?
-472,Void,477,Consume
-473,Pause,478,Stop!
-474,Smelter,479,Trinket melter!
-475,Compost,480,Gain more friends!
-476,Dataminer,481,109
-477,Clicker,482,Change
-478,Mama Mega!,483,BOOOOOOOOOM!
-479,Wait What?,484,I can't believe it's not butter bean!
-480,Crooked Penny,485,50/50
-481,Dull Razor,486,I feel numb...
-482,Potato Peeler,487,A pound of flesh...
-483,Metronome,488,Waggles a finger
-484,D infinity,489,Reroll forever
-485,Eden's Soul,490,...
-486,Acid Baby,491,Pills pills pills!
-487,YO LISTEN!,492,Yo listen!
-488,Adrenaline,493,Panic = power
-489,Jacob's Ladder,494,Electric tears
-490,Ghost Pepper,495,Flame tears
-491,Euthanasia,496,Needle shot
-492,Camo Undies,497,Camo kid
-493,Duality,498,You feel very balanced
-494,Eucharist,499,Peace be with you
-495,Sack of Sacks,500,Gives sacks
-496,Greed's Gullet,501,Money = health!
-497,Large Zit,502,Creep shots
-498,Little Horn,503,Big brother is watching
-499,Brown Nugget,504,Friendly fly
-500,Poke Go,505,Gotta catch em...
-501,Backstabber,506,Watch your back!
-502,Sharp Straw,507,More blood!
-503,Mom's Razor,508,It's sharp!
-504,Bloodshot Eye,509,Bloody friend
-505,Delirious,510,Unleash the power!
-506,Angry Fly,511,He's violent
-507,Black Hole,512,Nothing can escape
-508,Bozo,513,Party time!
-509,Broken Modem,514,Lag!
-510,Mystery Gift,515,Wrapped up nice for you!
-511,Sprinkler,516,Sprinkles.
-512,Fast Bombs,517,Rapid bomb drops
-513,Buddy in a Box,518,What could it be?!
-514,Lil Delirium,519,Delirious friend
-515,Jumper Cables,520,Bloody recharge
-516,Coupon,521,Allow 6 weeks for delivery
-517,Telekinesis,522,Power of the mind
-518,Moving Box,523,Pack and unpack
-519,Technology Zero,524,Static tears
-520,Leprosy,525,You're tearing me apart!
-521,7 Seals,526,Lil harbingers!
-522,Mr. ME!,527,Caaan do!
-523,Angelic Prism,528,Eclipsed by the moon
-524,Pop!,529,Eyeball tears
-525,Death's List,530,Just hope you're not next...
-526,Haemolacria,531,I'm seeing red...
-527,Lachryphagy,532,Feed them!
-528,Trisagion,533,Smite thy enemy
-529,Schoolbag,534,Extra active item room
-530,Blanket,535,You feel safe
-531,Sacrificial Altar,536,He demands a sacrifice
-532,Lil Spewer,537,Puking buddy
-533,Marbles,538,Choking hazard
-534,Mystery Egg,539,Sacrificial insemination
-535,Flat Stone,540,Skipping tears
-536,Marrow,541,HP up?
-537,Slipped Rib,542,Projectile shield
-538,Hallowed Ground,543,Portable sanctuary
-539,Pointy Rib,544,Stabbing time
-540,Book of the Dead,545,Rise from the grave
-541,Dad's Ring,546,Father's blessing
-542,Divorce Papers,547,Tears up + you feel empty
-543,Jaw Bone,548,Fetch!
-544,Brittle Bones,549,Everything hurts
-545,Broken Shovel,550,It feels cursed
-546,Broken Shovel,551,It feels cursed
-547,Mom's Shovel,552,Lost but not forgotten
-548,Mucormycosis,553,Spore shot
-549,2Spooky,554,4me
-550,Golden Razor,555,Pain from gain
-551,Sulfur,556,Temporary demon form
-552,Fortune Cookie,557,Reusable fortunes
-553,Eye Sore,558,More eyes
-554,120 Volt,559,Zap!
-555,It Hurts,560,No it doesn't...
-556,Almond Milk,561,DMG down + tears up + you feel nutty
-557,Rock Bottom,562,It's only up from there
-558,Nancy Bombs,563,Random blast +5 bombs
-559,A Bar of Soap,564,Tears + shot speed up
-560,Blood Puppy,565,What a cute little thing!
-561,Dream Catcher,566,Sweet dreams
-562,Paschal Candle,567,Keep the flame burning
-563,Divine Intervention,568,Double tap shield
-564,Blood Oath,569,Bleed me dry
-565,Playdough Cookie,570,Tasty rainbow
-566,Orphan Socks,571,Speed up + your feet feel stronger
-567,Eye of the Occult,572,DMG up + range up + controlled tears
-568,Immaculate Heart,573,Halo of tears
-569,Monstrance,574,Purifying light
-570,The Intruder,575,Invasive friend
-571,Dirty Mind,576,Filthy friends
-572,Damocles,577,A king's fortune... but at what cost?
-573,Free Lemonade,578,Party time!
-574,Spirit Sword,579,Divine blade
-575,Red Key,580,Explore the other side
-576,Psy Fly,581,Flamboyant protector
-577,Wavy Cap,582,Tears up. A mind changing experience!
-578,Rocket in a Jar,583,Rocket propulsion +5 bombs
-579,Book of Virtues,584,Spiritual companionship
-580,Alabaster Box,585,A sacred offering
-581,The Stairway,586,May you get what you came for
-582,Sol,588,Radiant victory
-583,Luna,589,The moon's blessing shines upon you
-584,Mercurius,590,Speed up + you feel elusive
-585,Venus,591,HP up + you feel pretty
-586,Terra,592,Born to rock
-587,Mars,593,Double tap dash
-588,Jupiter,594,You're a gas giant!
-589,Saturnus,595,Ring of tears
-590,Uranus,596,Ice tears
-591,Neptunus,597,Open the floodgates
-592,Pluto,598,Size down
-593,Voodoo Head,599,Extra curse rooms
-594,Eye Drops,600,Tears up
-595,Act of Contrition,601,"Tears up, you feel forgiven"
-596,Member Card,602,Exclusive access!
-597,Battery Pack,603,Instant energy!
-598,Mom's Bracelet,604,Mother's strength
-599,The Scooper,605,Plop!
-600,Ocular Rift,606,Stare into the abyss
-601,Boiled Baby,607,Messy friend
-602,Freezer Baby,608,Iced iced baby
-603,Eternal D6,609,???
-604,Bird Cage,610,Fat buddy
-605,Larynx,611,Hear my pain
-606,Lost Soul,612,Protect him
-607,Blood Bombs,614,Bloody blast + HP up
-608,Lil Dumpy,615,Puffy buddy
-609,Bird's Eye,616,It burns
-610,Lodestone,617,Magnetizing tears
-611,Rotten Tomato,618,Delicious!
-612,Birthright,619,???
-613,Red Stew,621,Full HP + temporary DMG up
-614,Genesis,622,In the beginning
-615,Sharp Key,623,Open your enemies
-616,Booster Pack,624,Collect them all!
-617,Mega Mush,625,I'm a big boy now!
-618,Knife Piece 1,626,???
-619,Knife Piece 2,627,???
-620,Death Certificate,628,Where am I?
-621,Bot Fly,629,Defense drone
-622,Meat Cleaver,631,Slice but no dice
-623,Evil Charm,632,Luck up + you feel protected
-624,Dogma,633,Ascended
-625,Purgatory,634,Help from beyond
-626,Stitches,635,Bait and switch
-627,R Key,636,Time to start over
-628,Knockout Drops,637,They pack a punch!
-629,Eraser,638,Erase thy enemy
-630,Yuck Heart,639,Gross!
-631,Urn of Souls,640,Unleash their sorrow
-632,Akeldama,641,Spill your guts
-633,Magic Skin,642,All your desires fulfilled
-634,Revelation,643,Awaken your faith
-635,Consolation Prize,644,+1 to lowest stat
-636,Tinytoma,645,Itching for revenge
-637,Brimstone Bombs,646,Demon blast +5 bombs
-638,4.5 Volt,647,Beat the juice out of them!
-639,Fruity Plum,649,Bouncy friend
-640,Plum Flute,650,Play time!
-641,Star of Bethlehem,651,Follow the light
-642,Cube Baby,652,Kick it!
-643,Vade Retro,653,Begone!
-644,False PHD,654,Worse pills + evil up
-645,Spin to Win,655,Let it rip!
-646,Vasculitis,657,Clogged enemies
-647,Giant Cell,658,Micro friends
-648,Tropicamide,659,Tear size + range up
-649,Card Reading,660,A link to your future
-650,Quints,661,They lurk inside
-651,Tooth and Nail,663,You feel prickly
-652,Binge Eater,664,All you can eat
-653,Guppy's Eye,665,An eye for secrets
-654,Strawman,667,A helping hand
-655,Dad's Note,668,...
-656,Sausage,669,All stats up
-657,Options?,670,There might be options
-658,Candy Heart,671,Power of love
-659,A Pound of Flesh,672,Blood money
-660,Redemption,673,Deliver me from evil
-661,Spirit Shackles,674,Unfinished business
-662,Cracked Orb,675,Shards of knowledge
-663,Empty Heart,676,It multiplies
-664,Astral Projection,677,The true out-of-body experience!
-665,C Section,678,Fetus shots
-666,Lil Abaddon,679,Abyssal friend
-667,Montezuma's Revenge,680,Oh no...
-668,Lil Portal,681,It hungers
-669,Worm Friend,682,Clingy buddy
-670,Bone Spurs,683,Break your enemies
-671,Hungry Soul,684,Out for blood
-672,Jar of Wisps,685,Your faith grows
-673,Soul Locket,686,Power of faith
-674,Friend Finder,687,Best friends forever!
-675,Inner Child,688,Let him free
-676,Glitched Crown,689,?????
-677,Belly Jelly,690,Bounce away!
-678,Sacred Orb,691,Destined for greatness
-679,Sanguine Bond,692,He awaits your offering
-680,The Swarm,693,Infest
-681,Heartbreak,694,Eternal sorrow
-682,Bloody Gust,695,May your rage bring haste
-683,Salvation,696,Divine protection
-684,Vanishing Twin,697,He wants revenge
-685,Twisted Pair,698,Double trouble!
-686,Azazel's Rage,699,Ancient power
-687,Echo Chamber,700,I can see see the future future future
-688,Isaac's Tomb,701,Buried memories
-689,Vengeful Spirit,702,Hot blooded
-690,Esau Jr.,703,Lost brother
-691,Berserk!,704,Rip and tear
-692,Dark Arts,705,One with the shadows
-693,Abyss,706,Come forth from the depths
-694,Supper,707,HP up
-695,Stapler,708,DMG up
-696,Suplex!,709,Angel breaker
-697,Bag of Crafting,710,Make your destiny
-698,Flip,711,Twist of fate
-699,Lemegeton,712,Item summoner
-700,Sumptorium,713,Blood to blood
-701,Keeper's Sack,716,Spending power
-702,Keeper's Kin,717,Under a rock
-703,Keeper's Box,719,Portable shop
-704,Everything Jar,720,Anything is possible
-705,TMTRAINER,721,Isaac and his mother lived alone in a small house on a hill
-706,Anima Sola,722,Repent
-707,Spindown Dice,723,-1
-708,Hypercoagulation,724,Thick blooded
-709,IBS,725,Your stomach rumbles
-710,Hemoptysis,726,Double tap sneeze
-711,Ghost Bombs,727,Spooky blast +5 bombs
-712,Gello,728,Demonic gestation
-713,Decap Attack,729,Chuck away!
-714,Glass Eye,730,DMG + luck up
-715,Stye,731,DMG + range up
-716,Mom's Ring,732,DMG up
+,Name,ID,Description,Quality,Itempools,Tags,InitCharge,AddBlackHearts,CacheFlags,AddKeys,AddMaxHearts,MaxCooldown,DevilPrice,ClearEffectsOnRemove,AchievementID,MaxCharges,AddCostumeOnPickup,ShopPrice,AddCoins,AddSoulHearts,AddHearts,PersistentEffect,CraftingQuality,Special,PassiveCache,GfxFileName,ChargeType,AddBombs
+0,The Sad Onion,1,Tears up,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_001_TheSadOnion.png,0,0
+1,The Inner Eye,2,Triple shot,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,3,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_002_TheInnerEye.png,0,0
+2,Spoon Bender,3,Homing shots,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,112,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_003_SpoonBender.png,0,0
+3,Cricket's Head,4,DMG up,4,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEAD",-1,0,5,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_004_CricketsHead.png,0,0
+4,My Reflection,5,Boomerang tears + DMG up + luck down,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1069,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_005_MyReflection.png,0,0
+5,Number One,6,Tears up + range down,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,74,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_006_NumberOne.png,0,0
+6,Blood of the Martyr,7,DMG up,3,"treasure,angel,woodenChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_007_BloodOfTheMartyr.png,0,0
+7,Brother Bobby,8,Friends 'till the end,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_008_BrotherBobby.png,0,0
+8,Skatole,9,Fly love,0,shellGame,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_POOP,TAG_FLY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_009_Skatole.png,0,0
+9,Halo of Flies,10,Projectile protection,2,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_010_HaloOfFlies.png,0,0
+10,1up!,11,Extra life,2,secret,"TAG_UNIQUE_FAMILIAR,TAG_MUSHROOM",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_011_1Up.png,0,0
+11,Magic Mushroom,12,All stats up!,4,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,2073,0,2,0,1,True,-1,0,True,15,0,0,100,False,4,False,False,gfx/items/collectibles/Collectibles_012_MagicMushroom.png,0,0
+12,The Virus,13,Poison touch + speed up,2,"treasure,demonBeggar,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SYRINGE",-1,0,4112,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_013_TheVirus.png,0,0
+13,Roid Rage,14,Speed and range up,2,"treasure,boss,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SYRINGE",-1,0,24,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_014_RoidRage.png,0,0
+14,<3,15,HP up,2,"treasure,ultraSecret",TAG_NO_LOST_BR,-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,99,False,2,False,False,gfx/items/collectibles/Collectibles_015_Heart.png,0,0
+15,Raw Liver,16,HP up,2,secret,TAG_NO_LOST_BR,-1,0,0,0,4,0,1,True,-1,0,True,15,0,0,99,False,2,False,False,gfx/items/collectibles/Collectibles_016_RawLiver.png,0,0
+16,Skeleton Key,17,99 keys,2,"treasure,secret,keyMaster","TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,99,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_017_SkeletonKey.png,0,0
+17,A Dollar,18,$$$,3,,"TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,100,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_018_ADollar.png,0,0
+18,Boom!,19,10 bombs,0,treasure,TAG_OFFENSIVE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_019_Boom.png,0,10
+19,Transcendence,20,We all float down here...,2,secret,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,128,0,0,0,1,True,8,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_020_Transcendence.png,0,0
+20,The Compass,21,The end is near,1,"shop,beggar,craneGame","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_021_TheCompass.png,0,0
+21,Lunch,22,HP up,1,"boss,beggar","TAG_NO_CANTRIP,TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_022_Lunch.png,0,0
+22,Dinner,23,HP up,1,"boss,beggar","TAG_NO_CANTRIP,TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_023_Dinner.png,0,0
+23,Dessert,24,HP up,1,"boss,beggar","TAG_NO_CANTRIP,TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_024_Dessert.png,0,0
+24,Breakfast,25,HP up,1,"boss,beggar","TAG_NO_CANTRIP,TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_025_Breakfast.png,0,0
+25,Rotten Meat,26,HP up,1,"boss,beggar,rottenBeggar","TAG_NO_CANTRIP,TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_026_RottenMeat.png,0,0
+26,Wooden Spoon,27,Speed up,1,"boss,woodenChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,16,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_027_WoodenSpoon.png,0,0
+27,The Belt,28,Speed up,1,"boss,goldenChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,16,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_028_TheBelt.png,0,0
+28,Mom's Underwear,29,Range up,1,"boss,goldenChest,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,8,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_029_MomsUnderwear.png,0,0
+29,Mom's Heels,30,Range up,1,"boss,momsChest,ultraSecret,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,8,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_030_MomsHeels.png,0,0
+30,Mom's Lipstick,31,Range up,1,"boss,momsChest,ultraSecret,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,8,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_031_MomsLipstick.png,0,0
+31,Wire Coat Hanger,32,Tears up,3,"boss,goldenChest,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,139,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_032_WireCoatHanger.png,0,0
+32,The Bible,33,Temporary flight,1,"shop,angel,library","TAG_WISP,TAG_NO_LOST_BR,TAG_BOOK,TAG_ANGEL",-1,0,128,0,0,0,1,False,-1,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_033_TheBible.png,0,0
+33,The Book of Belial,34,Temporary DMG up,2,"devil,library","TAG_LAZ_SHARED_GLOBAL,TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,1,0,0,0,1,False,-1,3,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_034_TheBookOfBelial.png,0,0
+34,The Necronomicon,35,Mass room damage,0,"devil,secret,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,False,36,4,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_035_TheNecronomicon.png,0,0
+35,The Poop,36,Plop!,0,"treasure,shellGame","TAG_WISP,TAG_POOP",-1,0,0,0,0,0,1,False,-1,1,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_036_ThePoop.png,0,0
+36,Mr. Boom,37,Reusable bomb buddy,1,"treasure,bombBum","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_037_MrBoom.png,0,0
+37,Tammy's Head,38,Reusable tear burst,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE,TAG_DEAD",-1,0,0,0,0,0,1,False,-1,1,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_038_TammysHead.png,0,0
+38,Mom's Bra,39,Mass paralysis,0,"treasure,momsChest,oldChest","TAG_WISP,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,220,1,False,-1,3,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_039_MomsBra.png,0,0
+39,Kamikaze!,40,Become the bomb!,0,"treasure,ultraSecret","TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,30,1,False,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_040_Kamikaze.png,0,0
+40,Mom's Pad,41,Mass fear,0,"treasure,momsChest,oldChest","TAG_WISP,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,450,1,False,-1,2,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_041_MomsPad.png,0,0
+41,Bob's Rotten Head,42,Reusable ranged bomb,1,"treasure,rottenBeggar","TAG_WISP,TAG_OFFENSIVE,TAG_BOB,TAG_DEAD",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_042_BobsRottenHead.png,0,0
+42,Teleport!,44,Teleport!,0,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,30,1,False,-1,2,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_044_Teleport.png,0,0
+43,Yum Heart,45,Reusable regeneration,1,"treasure,ultraSecret","TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_045_YumHeart.png,0,0
+44,Lucky Foot,46,Luck up,2,"treasure,beggar,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1024,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_046_LuckyFoot.png,0,0
+45,Doctor's Remote,47,Reusable air strike,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_047_DoctorsRemote.png,0,0
+46,Cupid's Arrow,48,Piercing shots,2,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_048_CupidsArrow.png,0,0
+47,Shoop da Whoop!,49,BLLLARRRRGGG!,2,"treasure,craneGame,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_049_ShoopDaWhoop.png,0,0
+48,Steven,50,DMG up,3,,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_050_Steven.png,0,0
+49,Pentagram,51,DMG up,3,"boss,devil,demonBeggar,curse,craneGame,ultraSecret","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEVIL",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_051_Pentagram.png,0,0
+50,Dr. Fetus,52,???,4,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,11,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/Collectibles_052_DrFetus.png,0,0
+51,Magneto,53,Item snatcher,1,"treasure,ultraSecret",TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_053_Magneto.png,0,0
+52,Treasure Map,54,Full visible map,1,"shop,beggar","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_054_TreasureMap.png,0,0
+53,Mom's Eye,55,Eye in the back of your head,1,"treasure,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_055_MomsEye.png,0,0
+54,Lemon Mishap,56,Oops...,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_056_LemonMishap.png,0,0
+55,Distant Admiration,57,Attack fly,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_057_DistantAdmiration.png,0,0
+56,Book of Shadows,58,Temporary invincibility,3,"treasure,library","TAG_WISP,TAG_BOOK",-1,0,0,0,0,300,1,False,-1,3,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_058_BookOfShadows.png,0,0
+57,The Ladder,60,Building bridges,1,"shop,woodenChest","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_060_TheLadder.png,0,0
+58,Charm of the Vampire,62,DMG up + kills heal,2,treasure,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_062_CharmOfTheVampire.png,0,0
+59,The Battery,63,Stores energy,2,"shop,batteryBum,craneGame","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BATTERY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_063_TheBattery.png,0,0
+60,Steam Sale,64,50% off,2,shop,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_064_SteamSale.png,0,0
+61,Anarchist Cookbook,65,Summon bombs,0,"treasure,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,35,1,False,-1,3,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_065_AnarchistCookbook.png,0,0
+62,The Hourglass,66,Temporary enemy slowdown,0,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,240,1,False,-1,2,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_066_TheHourglass.png,0,0
+63,Sister Maggy,67,Friends 'till the end,1,"treasure,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_067_SisterMaggy.png,0,0
+64,Technology,68,Laser tears,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TECH",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_068_Technology.png,0,0
+65,Chocolate Milk,69,Charge shots,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_069_ChocolateMilk.png,0,0
+66,Growth Hormones,70,Speed + DMG up,3,"boss,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SYRINGE",-1,0,17,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_070_GrowthHormones.png,0,0
+67,Mini Mush,71,Speed + range up,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,2072,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_071_MiniMushroom.png,0,0
+68,Rosary,72,Tears + faith up,2,"treasure,angel,ultraSecret","TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_ANGEL",-1,0,2,0,0,0,1,True,-1,0,True,15,0,6,0,False,2,False,False,gfx/items/collectibles/Collectibles_072_Rosary.png,0,0
+69,Cube of Meat,73,Gotta meat 'em all,1,"ultraSecret,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,6,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_073_CubeOfMeat.png,0,0
+70,A Quarter,74,+25 coins,0,"devil,goldenChest","TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,10,0,True,15,25,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_074_AQuarter.png,0,0
+71,PHD,75,Better pills,2,"treasure,shop","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/Collectibles_075_PHD.png,0,0
+72,X-Ray Vision,76,I've seen everything,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_076_XrayVision.png,0,0
+73,My Little Unicorn,77,Temporary badass,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,16,0,0,180,1,False,-1,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_077_MyLittleUnicorn.png,0,0
+74,Book of Revelations,78,Reusable soul protection,3,"treasure,angel,library","TAG_LAZ_SHARED_GLOBAL,TAG_WISP,TAG_NO_LOST_BR,TAG_BOOK",-1,0,0,0,0,0,2,False,7,6,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_078_BookOfRevelations.png,0,0
+75,The Mark,79,DMG + speed up,3,"devil,demonBeggar,curse,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEVIL",-1,2,17,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_079_TheMark.png,0,0
+76,The Pact,80,DMG + tears up,3,"devil,demonBeggar,curse,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_DEVIL",-1,4,3,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_080_ThePact.png,0,0
+77,Dead Cat,81,9 lives,3,"devil,redChest,curse","TAG_UNIQUE_FAMILIAR,TAG_NO_CANTRIP,TAG_GUPPY,TAG_DEAD",-1,0,512,0,0,0,2,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_081_DeadCat.png,0,0
+78,Lord of the Pit,82,Demon wings,3,"devil,demonBeggar,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_DEVIL",-1,0,144,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_082_LordOfThePit.png,0,0
+79,The Nail,83,Temporary demon form,2,"devil,demonBeggar","TAG_WISP,TAG_DEVIL",-1,0,17,0,0,0,1,False,9,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_083_TheNail.png,0,0
+80,We Need To Go Deeper!,84,Reusable level skip,2,"devil,secret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_084_WeNeedToGoDeeper.png,0,0
+81,Deck of Cards,85,Reusable card generator,2,"treasure,shop,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_085_DeckOfCards.png,0,0
+82,Monstro's Tooth,86,Summon Monstro,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,13,3,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_086_MonstrosTooth.png,0,0
+83,Loki's Horns,87,Cross tears,1,"treasure,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,15,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_087_LokisHorns.png,0,0
+84,Little Chubby,88,Attack buddy,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,14,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_088_LittleChubby.png,0,0
+85,Spider Bite,89,Slow effect,2,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_089_SpidersBite.png,0,0
+86,The Small Rock,90,DMG up + speed down,3,craneGame,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,83,0,0,0,1,True,12,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_090_SmallRock.png,0,0
+87,Spelunker Hat,91,See-through doors,2,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_091_SpelunkerHat.png,0,0
+88,Super Bandage,92,+2 hearts,2,"treasure,boss",TAG_NO_LOST_BR,-1,0,0,0,2,0,1,True,19,0,True,15,0,4,4,False,2,False,False,gfx/items/collectibles/Collectibles_092_SuperBandage.png,0,0
+89,The Gamekid,93,Temporary Man-Pac,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,200,1,False,26,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_093_TheGameKid.png,0,0
+90,Sack of Pennies,94,Gives money,1,treasure,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,21,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_094_SackOfPennies.png,0,0
+91,Robo-Baby,95,Friends 'till the bbbbzzzt,1,"treasure,craneGame,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY,TAG_TECH",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_095_RoboBaby.png,0,0
+92,Little C.H.A.D.,96,Gives kisses,2,"treasure,ultraSecret,babyShop","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,512,0,0,0,1,True,25,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_096_LittleChad.png,0,0
+93,The Book of Sin,97,Reusable item generator,1,"treasure,devil,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,False,22,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_097_BookOfSin.png,0,0
+94,The Relic,98,Soul generator,3,"treasure,angel","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,512,0,0,0,2,True,20,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_098_TheRelic.png,0,0
+95,Little Gish,99,Sticky friend,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,23,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_099_LittleGish.png,0,0
+96,Little Steven,100,Psychic friend,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,24,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_100_LittleSteve.png,0,0
+97,The Halo,101,All stats up,3,"treasure,angel","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_ANGEL",-1,0,27,0,2,0,1,True,27,0,True,15,0,0,4,False,3,False,False,gfx/items/collectibles/Collectibles_101_TheHalo.png,0,0
+98,Mom's Bottle of Pills,102,Reusable pill generator,1,"treasure,shop,beggar,demonBeggar,momsChest,craneGame,oldChest","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,0,1,False,-1,6,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_102_MomsBottleOfPills.png,0,0
+99,The Common Cold,103,Poison damage,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_103_TheCommonCold.png,0,0
+100,The Parasite,104,Split shot,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,31,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_104_TheParasite.png,0,0
+101,The D6,105,Reroll your destiny,4,"treasure,craneGame,ultraSecret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,29,6,False,15,0,0,0,False,4,True,False,gfx/items/collectibles/Collectibles_105_Dice.png,0,0
+102,Mr. Mega,106,Bigger boom,2,"treasure,bombBum",TAG_OFFENSIVE,-1,0,0,0,0,0,1,True,28,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_106_MrMega.png,0,5
+103,The Pinking Shears,107,Cut and run,2,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,512,0,0,0,1,False,-1,4,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_107_PinkingShears.png,0,0
+104,The Wafer,108,Damage resistance,4,"treasure,angel","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,2,True,-1,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_108_TheWafer.png,0,0
+105,Money = Power,109,$$$ = DMG,3,"treasure,devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_109_MoneyisPower.png,0,0
+106,Mom's Contacts,110,Freeze effect,3,"treasure,momsChest,ultraSecret,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,104,0,0,0,1,True,35,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_110_MomsContacts.png,0,0
+107,The Bean,111,Toot on command,0,"treasure,beggar","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,120,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_111_TheBean.png,1,0
+108,Guardian Angel,112,Extra protection,1,"angel,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,45,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_112_GuardianAngel.png,0,0
+109,Demon Baby,113,Auto-turret friend,1,"treasure,devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,47,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_113_DemonBaby.png,0,0
+110,Mom's Knife,114,Stab stab stab,4,"treasure,devil,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,65535,0,0,0,2,True,43,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/Collectibles_114_MomsKnife.png,0,0
+111,Ouija Board,115,Spectral tears + tears up,2,"treasure,devil","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,98,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_115_OuijaBoard.png,0,0
+112,9 Volt,116,Quicker charge,2,"shop,batteryBum,craneGame","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BATTERY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_116_9Volt.png,0,0
+113,Dead Bird,117,Protective buddy,0,"treasure,babyShop","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_DEAD",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_117_DeadBird.png,0,0
+114,Brimstone,118,Blood laser barrage,4,"devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEVIL",-1,0,65535,0,0,0,2,True,-1,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/Collectibles_118_Brimstone.png,0,0
+115,Blood Bag,119,HP + speed up,2,ultraSecret,TAG_NO_LOST_BR,-1,0,16,0,2,0,1,True,147,0,True,15,0,0,10,False,2,False,False,gfx/items/collectibles/Collectibles_119_BloodBag.png,0,0
+116,Odd Mushroom,120,Tears up + damage down,2,"treasure,secret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_MUSHROOM",-1,0,2067,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_120_OddMushroomThin.png,0,0
+117,Odd Mushroom,121,"HP + DMG up, speed down",2,"treasure,secret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,2073,0,2,0,1,True,-1,0,True,15,0,0,2,False,2,False,False,gfx/items/collectibles/Collectibles_121_OddMushroomLarge.png,0,0
+118,Whore of Babylon,122,Curse up,2,"devil,demonBeggar,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,17,0,0,0,1,True,-1,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_122_WhoreOFBabylon.png,0,0
+119,Monster Manual,123,Temporary buddy generator,1,"treasure,devil,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,False,-1,6,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_123_MonsterManual.png,0,0
+120,Dead Sea Scrolls,124,It's a mystery,1,"treasure,angel","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_124_DeadSeaScrolls.png,0,0
+121,Bobby-Bomb,125,Homing bombs,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_125_BobbyBomb.png,0,5
+122,Razor Blade,126,Feel my pain,0,"treasure,demonBeggar,curse","TAG_NO_EDEN,TAG_NO_EDEN,TAG_WISP,TAG_NO_LOST_BR",-1,0,1,0,0,0,1,False,44,0,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_126_RazorBlade.png,0,0
+123,Forget Me Now,127,I don't remember...,3,"treasure,devil,secret,demonBeggar","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,48,0,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_127_ForgetMeNow.png,0,0
+124,Forever alone,128,Attack fly,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_128_ForeverAlone.png,0,0
+125,Bucket of Lard,129,HP up,1,treasure,TAG_NO_LOST_BR,-1,0,16,0,4,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_129_BucketofLard.png,0,0
+126,A Pony,130,Flight + dash attack,2,,"TAG_WISP,TAG_OFFENSIVE",-1,0,144,0,0,0,1,False,-1,2,True,15,0,0,0,False,2,False,True,gfx/items/collectibles/Collectibles_130_APony.png,0,0
+127,Bomb Bag,131,Gives bombs,1,treasure,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,46,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_131_BombBag.png,0,0
+128,A Lump of Coal,132,My Xmas present,3,,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,97,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_132_ALumpOfCoal.png,0,0
+129,Guppy's Paw,133,Soul converter,3,"devil,redChest,curse","TAG_WISP,TAG_NO_LOST_BR,TAG_GUPPY,TAG_DEAD",-1,0,0,0,0,0,1,False,-1,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_133_GuppysPaw.png,0,0
+130,Guppy's Tail,134,Cursed?,2,"devil,redChest,curse","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_GUPPY,TAG_DEAD",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_134_GuppysTail.png,0,0
+131,IV Bag,135,Portable blood bank,2,ultraSecret,"TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,15,1,False,-1,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_135_IVBag.png,0,0
+132,Best Friend,136,Friends 'till the end,0,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,3,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_136_BestFriend.png,0,0
+133,Remote Detonator,137,Remote bomb detonation,0,"treasure,shop,craneGame,ultraSecret,bombBum","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,2,1,False,-1,0,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_137_RemoteDetonator.png,0,5
+134,Stigmata,138,DMG + HP up,2,"treasure,angel,woodenChest","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,1,0,2,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/Collectibles_138_Stigmata.png,0,0
+135,Mom's Purse,139,More trinket room,2,"shop,momsChest,oldChest","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_139_MomsPurse.png,0,0
+136,Bob's Curse,140,+5 poison bombs,1,"treasure,redChest,bombBum,rottenBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BOB",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_140_BobsCurse.png,0,5
+137,Pageant Boy,141,Ultimate grand supreme,0,boss,TAG_OFFENSIVE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_141_PageantBoy.png,0,0
+138,Scapular,142,Pray for a miracle,2,"treasure,angel","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_ANGEL",-1,0,0,0,0,0,1,True,-1,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_142_Scapular.png,0,0
+139,Speed Ball,143,Speed + shot speed up,2,"treasure,boss,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SYRINGE",-1,0,20,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_143_Speedball.png,0,0
+140,Bum Friend,144,He's greedy,1,"treasure,beggar,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_144_BumFriend.png,0,0
+141,Guppy's Head,145,Reusable fly hive,2,"devil,redChest,curse","TAG_WISP,TAG_OFFENSIVE,TAG_GUPPY,TAG_DEAD",-1,0,0,0,0,0,1,False,-1,1,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_145_GuppysHead.png,0,0
+142,Prayer Card,146,Reusable eternity,3,"treasure,angel","TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,0,2,False,-1,6,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_146_PrayerCard.png,0,0
+143,Notched Axe,147,Rocks don't stand a chance,1,"shop,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,64,False,15,0,0,0,True,1,False,False,gfx/items/collectibles/Collectibles_147_NotchedAxe.png,2,0
+144,Infestation,148,Fly revenge,0,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_FLY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_148_Infestation.png,0,0
+145,Ipecac,149,Explosive shots,4,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BOB",-1,0,65535,0,0,0,1,True,140,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_149_Ipecac.png,0,0
+146,Tough Love,150,Tooth shot,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_150_ToughLove.png,0,0
+147,The Mulligan,151,They grow inside,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_FLY",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_151_TheMulligan.png,0,0
+148,Technology 2,152,Extra laser,2,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TECH",-1,0,258,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_152_Technology2.png,0,0
+149,Mutant Spider,153,Quad shot,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,3,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,True,False,gfx/items/collectibles/Collectibles_153_MutantSpider.png,0,0
+150,Chemical Peel,154,DMG up,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_154_ChemicalPeel.png,0,0
+151,The Peeper,155,Plop!,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_155_ThePeeper.png,0,0
+152,Habit,156,Item martyr,2,"shop,angel","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_156_Habit.png,0,0
+153,Bloody Lust,157,RAGE!,2,"treasure,devil,ultraSecret","TAG_NO_EDEN,TAG_NO_EDEN,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,4097,0,0,0,1,True,54,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_157_BloodyLust.png,0,0
+154,Crystal Ball,158,I see my future,3,,"TAG_LAZ_SHARED_GLOBAL,TAG_WISP,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,6,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_158_CrystalBall.png,0,0
+155,Spirit of the Night,159,Scary,3,"devil,demonBeggar,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_DEVIL",-1,0,224,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_159_SpiritOfTheNight.png,0,0
+156,Crack the Sky,160,Holy white death,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,30,1,False,-1,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_160_CrackTheSky.png,0,0
+157,Ankh,161,Eternal life?,0,treasure,"TAG_NO_CHALLENGE,TAG_NO_CANTRIP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_161_Ankh.png,0,0
+158,Celtic Cross,162,Blessing of protection,1,"treasure,angel","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_ANGEL",-1,0,0,0,0,200,1,True,50,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_162_CelticCross.png,0,0
+159,Ghost Baby,163,Spectral buddy,1,"treasure,devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_163_GhostBaby.png,0,0
+160,The Candle,164,Reusable flames,2,shop,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,59,110,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_164_BlueCandle.png,1,0
+161,Cat-o-nine-tails,165,Shot speed + damage up,3,boss,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,5,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_165_CatONineTails.png,0,0
+162,D20,166,Reroll the basics,2,"treasure,craneGame,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,49,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_166_D20.png,0,0
+163,Harlequin Baby,167,Double shot buddy,1,"treasure,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_167_HarlequinBaby.png,0,0
+164,Epic Fetus,168,On-demand air strike,4,"treasure,secret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,62,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/Collectibles_168_EpicFetus.png,0,0
+165,Polyphemus,169,Mega tears,4,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,35,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/Collectibles_169_Polyphemus.png,0,0
+166,Daddy Longlegs,170,Daddy's love,3,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_SPIDER",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_170_DaddyLonglegs.png,0,0
+167,Spider Butt,171,Mass enemy slowdown + damage,1,treasure,"TAG_WISP,TAG_OFFENSIVE,TAG_SPIDER",-1,0,0,0,0,120,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_171_SpiderButt.png,0,0
+168,Sacrificial Dagger,172,My fate protects me,2,"treasure,devil",TAG_SUMMONABLE,-1,0,512,0,0,0,1,True,53,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_172_SacrificialDagger.png,0,0
+169,Mitre,173,Blessing of purity,3,"treasure,angel","TAG_SUMMONABLE,TAG_ANGEL",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_173_Mitre.png,0,0
+170,Rainbow Baby,174,Random buddy,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_174_RainbowBaby.png,0,0
+171,Dad's Key,175,Opens all doors...,2,"treasure,keyMaster,oldChest","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,58,2,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_175_DadsKey.png,0,0
+172,Stem Cells,176,HP up,1,"treasure,boss,ultraSecret",TAG_NO_LOST_BR,-1,0,4,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_176_StemCells.png,0,0
+173,Portable Slot,177,Gamble 24/7,0,ultraSecret,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,0,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_177_PortableSlot.png,0,0
+174,Holy Water,178,Splash!,3,"treasure,angel","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_178_HolyWater.png,0,0
+175,Fate,179,Flight eternal,3,goldenChest,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,128,0,0,0,1,True,113,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_179_Fate.png,0,0
+176,The Black Bean,180,Toot on touch,0,"treasure,beggar","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,30,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_180_BlackBean.png,0,0
+177,White Pony,181,Flight + holy death,3,,"TAG_WISP,TAG_OFFENSIVE",-1,0,144,0,0,0,1,False,-1,2,True,15,0,0,0,False,3,False,True,gfx/items/collectibles/Collectibles_181_WhitePony.png,0,0
+178,Sacred Heart,182,Homing shots + DMG up,4,"angel,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,111,0,2,0,2,True,-1,0,True,15,0,0,99,False,4,True,False,gfx/items/collectibles/Collectibles_182_SacredHeart.png,0,0
+179,Tooth Picks,183,Tears + shot speed up,3,"boss,woodenChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,6,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_183_ToothPicks.png,0,0
+180,Holy Grail,184,Flight + HP up,3,angel,"TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_ANGEL",-1,0,128,0,2,0,2,True,-1,0,True,15,0,0,4,False,3,False,False,gfx/items/collectibles/Collectibles_184_HolyGrail.png,0,0
+181,Dead Dove,185,Flight + spectral tears,3,angel,"TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_ANGEL",-1,0,224,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_185_DeadDove.png,0,0
+182,Blood Rights,186,Mass enemy damage at a cost,0,"treasure,devil","TAG_NO_EDEN,TAG_NO_EDEN,TAG_WISP,TAG_NO_LOST_BR",-1,0,2,0,0,0,1,False,56,0,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_186_BloodRights.png,0,0
+183,Guppy's Hairball,187,Swing it,1,devil,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_GUPPY",-1,0,512,0,0,0,1,True,65,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_187_GuppysHairball.png,0,0
+184,Abel,188,Mirrored buddy,0,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,51,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_188_Abel.png,0,0
+185,SMB Super Fan,189,All stats up,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,27,0,2,0,1,True,63,0,True,15,0,0,99,False,3,False,False,gfx/items/collectibles/Collectibles_189_SMBSuperFan.png,0,0
+186,Pyro,190,99 bombs,3,"treasure,secret,bombBum","TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_190_Pyro.png,0,99
+187,3 Dollar Bill,191,Rainbow tears,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_191_3DollarBill.png,0,0
+188,Telepathy For Dummies,192,Temporary psychic shot,1,"treasure,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,104,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_192_TelepathyForDummies.png,0,0
+189,MEAT!,193,DMG + HP up,2,"boss,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,1,0,2,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/Collectibles_193_Meat.png,0,0
+190,Magic 8 Ball,194,Shot speed up,1,"boss,goldenChest,craneGame","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,4,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_194_Magic8Ball.png,0,0
+191,Mom's Coin Purse,195,What's all this...?,0,"shop,boss,beggar,demonBeggar,momsChest,oldChest","TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_195_MomsCoinPurse.png,0,0
+192,Squeezy,196,Tears up,3,"boss,goldenChest,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_196_Squeezy.png,0,0
+193,Jesus Juice,197,Damage + range up,2,"boss,angel","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,9,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_197_JesusJuice.png,0,0
+194,Box,198,Stuff,0,"boss,beggar",TAG_OFFENSIVE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_198_Box.png,0,0
+195,Mom's Key,199,Better chest loot +2 keys,3,"shop,keyMaster,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,8192,2,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_199_momskey.png,0,0
+196,Mom's Eyeshadow,200,Charm tears,1,"treasure,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_200_momseyeshadow.png,0,0
+197,Iron Bar,201,DMG up + concussive tears,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_201_ironbar.png,0,0
+198,Midas' Touch,202,Golden touch,1,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_202_midastouch.png,0,0
+199,Humbleing Bundle,203,1+1 free 4Evar,3,shop,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_203_humblingbundle.png,0,0
+200,Fanny Pack,204,Filled with goodies,1,"shop,beggar","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_204_fannypack.png,0,0
+201,Sharp Plug,205,Infinite charge... at a cost,2,"shop,batteryBum","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_205_sharpplug.png,0,0
+202,Guillotine,206,DMG + tears up. An out-of-body experience!,0,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,515,0,0,0,1,True,107,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_206_guillotine.png,0,0
+203,Ball of Bandages,207,Gotta lick 'em all!,1,babyShop,"TAG_SUMMONABLE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,6,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_207_ballofbandages.png,0,0
+204,Champion Belt,208,DMG + challenge up,3,"shop,craneGame,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_208_championbelt.png,0,0
+205,Butt Bombs,209,Toxic blast +5 bombs,1,"treasure,shellGame,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_POOP",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_209_buttbombs.png,0,5
+206,Gnawed Leaf,210,Unbreakable,1,treasure,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_210_GnawedLeaf.png,0,0
+207,Spiderbaby,211,Spider revenge,0,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_SPIDER",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_211_spiderbaby.png,0,0
+208,Guppy's Collar,212,Eternal life?,1,"devil,redChest,curse,craneGame",TAG_GUPPY,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_212_GuppysCollar.png,0,0
+209,Lost Contact,213,Shielded tears,2,"treasure,secret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,36,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_213_lostcontact.png,0,0
+210,Anemic,214,Toxic blood,1,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,8,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_214_anemic.png,0,0
+211,Goat Head,215,He accepts your offering,3,"devil,curse","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_215_goathead.png,0,0
+212,Ceremonial Robes,216,DMG + evil up,3,"devil,demonBeggar,curse","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,6,1,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_216_CeremonialRobes.png,0,0
+213,Mom's Wig,217,You feel itchy...,2,"treasure,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,2,False,2,False,False,gfx/items/collectibles/collectibles_217_momswig.png,0,0
+214,Placenta,218,Regeneration + HP up,2,boss,TAG_NO_LOST_BR,-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/collectibles_218_placenta.png,0,0
+215,Old Bandage,219,HP up,2,boss,TAG_NO_LOST_BR,-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_219_oldbandage.png,0,0
+216,Sad Bombs,220,Tear blasts +5 bombs,2,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_220_sadbombs.png,0,5
+217,Rubber Cement,221,Bouncing tears,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,150,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_221_rubbercement.png,0,0
+218,Anti-Gravity,222,Anti-gravity tears + tears up,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,4130,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_222_antigravity.png,0,0
+219,Pyromaniac,223,It hurts so good +5 bombs,4,"treasure,bombBum",TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/collectibles_223_pyromaniac.png,0,5
+220,Cricket's Body,224,Bursting shots + tears up,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_DEAD",-1,0,42,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_224_cricketsbody.png,0,0
+221,Gimpy,225,Sweet suffering,2,"treasure,devil,demonBeggar,curse","TAG_NO_EDEN,TAG_NO_EDEN,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_225_gimpy.png,0,0
+222,Black Lotus,226,HP up x3,2,secret,TAG_NO_LOST_BR,-1,2,0,0,2,0,1,True,-1,0,True,15,0,2,4,False,2,False,False,gfx/items/collectibles/collectibles_226_blacklotus.png,0,0
+223,Piggy Bank,227,My life savings,1,"treasure,shop,craneGame","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,3,0,0,False,1,False,False,gfx/items/collectibles/collectibles_227_piggybank.png,0,0
+224,Mom's Perfume,228,Fear shot + tears up,2,"treasure,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_MOM",-1,0,66,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_228_momsperfume.png,0,0
+225,Monstro's Lung,229,Charged burst attack,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_229_monstroslung.png,0,0
+226,Abaddon,230,Evil + DMG up + fear shot,3,"devil,demonBeggar,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEVIL",-1,0,17,0,0,0,2,True,128,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_230_abaddon.png,0,0
+227,Ball of Tar,231,Sticky feet...,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_231_balloftar.png,0,0
+228,Stop Watch,232,Let's slow this down a bit...,4,"shop,craneGame",TAG_SUMMONABLE,-1,0,16,0,0,0,1,True,138,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/collectibles_232_stopwatch.png,0,0
+229,Tiny Planet,233,Orbiting tears + range up,0,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_233_tinyplanet.png,0,0
+230,Infestation 2,234,Infestation shot,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_234_infestation2.png,0,0
+231,E. Coli,236,Turdy touch,0,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_POOP",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_236_ecoli.png,0,0
+232,Death's Touch,237,Piercing shots + DMG up,3,"treasure,devil","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,35,0,0,0,2,True,103,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_237_deathstouch.png,0,0
+233,Key Piece 1,238,???,0,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_UNIQUE_FAMILIAR,TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_QUEST",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_238_keypiece1.png,0,0
+234,Key Piece 2,239,???,0,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_UNIQUE_FAMILIAR,TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_QUEST",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_239_keypiece2.png,0,0
+235,Experimental Treatment,240,"Some stats up, some stats down",1,"treasure,boss,demonBeggar","TAG_OFFENSIVE,TAG_SYRINGE",-1,0,65535,0,0,0,1,True,141,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_240_experimentaltreatment.png,0,0
+236,Contract from Below,241,Wealth... but at what cost?,2,"devil,demonBeggar,curse","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_241_contractfrombelow.png,0,0
+237,Infamy,242,Blocks damage... sometimes,2,"treasure,secret",TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_242_infamy.png,0,0
+238,Trinity Shield,243,You feel guarded,2,angel,TAG_SUMMONABLE,-1,0,256,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_243_trinityshield.png,0,0
+239,Tech.5,244,It's still being tested...,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TECH",-1,0,0,0,0,0,1,True,104,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_244_techpointfive.png,0,0
+240,20/20,245,Double shot,4,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,3,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/collectibles_245_2020.png,0,0
+241,Blue Map,246,Secrets,1,"shop,beggar","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,134,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_246_bluemap.png,0,0
+242,BFFS!,247,Your friends rule,2,"shop,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_247_bffs.png,0,0
+243,Hive Mind,248,Giant spiders and flies,2,shop,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER,TAG_FLY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_248_hivemind.png,0,0
+244,There's Options,249,More options,3,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,135,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_249_theresoptions.png,0,0
+245,BOGO Bombs,250,1+1 BOOM!,1,shop,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_250_bogobombs.png,0,0
+246,Starter Deck,251,Extra card room,2,"shop,craneGame","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_251_starterdeck.png,0,0
+247,Little Baggy,252,Extra pill room,0,shop,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,146,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_252_littlebaggy.png,0,0
+248,Magic Scab,253,HP + luck up,2,"boss,ultraSecret",TAG_NO_LOST_BR,-1,0,1024,0,2,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/collectibles_253_magicscab.png,0,0
+249,Blood Clot,254,DMG + range up,2,"boss,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_254_bloodclot.png,0,0
+250,Screw,255,Tears + shot speed up,2,"boss,goldenChest,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,6,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_255_screw.png,0,0
+251,Hot Bombs,256,Burning blast +5 bombs,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_256_hotbombs.png,0,5
+252,Fire Mind,257,Flaming tears,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_257_firemind.png,0,0
+253,Missing No.,258,Syntax error,0,secret,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,105,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_258_missingno.png,0,0
+254,Dark Matter,259,DMG up + fear shot,3,"devil,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,97,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_259_darkmatter.png,0,0
+255,Black Candle,260,Curse immunity + evil up,3,"shop,curse","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,2,8193,0,0,0,1,True,136,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_260_blackcandle.png,0,0
+256,Proptosis,261,Short range mega tears,3,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,33,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_261_proptosis.png,0,0
+257,Missing Page 2,262,Evil up. Your enemies will pay!,0,"devil,secret,demonBeggar","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,2,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_262_missingpage2.png,0,0
+258,Clear Rune,263,Rune mimic,2,"secret,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,233,4,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_263_BlankRune.png,0,0
+259,Smart Fly,264,Revenge fly,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_264_smartfly.png,0,0
+260,Dry Baby,265,Immortal friend,3,"treasure,devil,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_265_drybaby.png,0,0
+261,Juicy Sack,266,Sticky babies,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_SPIDER",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_266_juicysack.png,0,0
+262,Robo-Baby 2.0,267,We worked out all the kinks,1,"treasure,craneGame,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY,TAG_TECH",-1,0,512,0,0,0,1,True,102,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_267_robobaby2.png,0,0
+263,Rotten Baby,268,Infested friend,3,"treasure,devil,babyShop,rottenBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_268_rottenbaby.png,0,0
+264,Headless Baby,269,Bloody friend,1,"treasure,devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_269_headlessbaby.png,0,0
+265,Leech,270,Blood sucker,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_270_leech.png,0,0
+266,Mystery Sack,271,?,2,"treasure,secret,beggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,124,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_271_mysterysack.png,0,0
+267,BBF,272,Big Beautiful Fly,0,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_272_bff.png,0,0
+268,Bob's Brain,273,Explosive thoughts,0,"treasure,babyShop,rottenBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BOB",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_273_bobsbrain.png,0,0
+269,Best Bud,274,Sworn protector,0,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_274_bestbud.png,0,0
+270,Lil Brimstone,275,Evil friend,2,"treasure,devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_275_lilbrimstone.png,0,0
+271,Isaac's Heart,276,Protect it,0,"treasure,ultraSecret","TAG_UNIQUE_FAMILIAR,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,512,0,0,0,1,True,129,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_276_isaacsheart.png,0,0
+272,Lil Haunt,277,Fear him,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_277_lilhaunt.png,0,0
+273,Dark Bum,278,He wants to take your life,3,"treasure,devil,demonBeggar,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_278_darkbum.png,0,0
+274,Big Fan,279,Fat protector,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_279_bigfan.png,0,0
+275,Sissy Longlegs,280,She loves you,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_SPIDER",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_280_sissylonglegs.png,0,0
+276,Punching Bag,281,Scape goat,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_281_punchingbag.png,0,0
+277,How to Jump,282,It's time you learned how,1,"treasure,library","TAG_WISP,TAG_NO_CANTRIP,TAG_NO_LOST_BR,TAG_BOOK",-1,0,0,0,0,14,1,False,-1,0,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_282_howtojump.png,0,0
+278,D100,283,REEROLLLLL!,1,"treasure,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,133,6,False,15,0,0,0,False,2,True,False,gfx/items/collectibles/collectibles_283_d100.png,0,0
+279,D4,284,Reroll into something else,1,"treasure,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,148,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_284_d4.png,0,0
+280,D10,285,Reroll enemies,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_285_d10.png,0,0
+281,Blank Card,286,Card mimic,2,"shop,secret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,121,4,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_286_blankcard.png,0,0
+282,Book of Secrets,287,Tome of knowledge,0,"treasure,secret,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,False,122,6,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_287_bookofsecrets.png,0,0
+283,Box of Spiders,288,It's a box of spiders,1,treasure,"TAG_WISP,TAG_OFFENSIVE,TAG_SPIDER",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_288_boxofspiders.png,0,0
+284,Red Candle,289,Flame on,1,"shop,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,137,110,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_289_redcandle.png,1,0
+285,The Jar,290,Save your life,0,shop,"TAG_WISP,TAG_NO_CANTRIP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,False,-1,0,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_290_thejar.png,0,0
+286,Flush!,291,...,1,treasure,"TAG_WISP,TAG_OFFENSIVE,TAG_POOP",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_291_flush.png,0,0
+287,Satanic Bible,292,Reusable evil... but at what cost?,3,"treasure,devil,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,2,False,126,6,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_292_satanicbible.png,0,0
+288,Head of Krampus,293,Krampus rage,1,,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,143,3,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_293_headofkrampus.png,0,0
+289,Butter Bean,294,Reusable knock-back,0,"treasure,beggar","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,145,60,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_294_butterbean.png,1,0
+290,Magic Fingers,295,Pay to win,0,"treasure,shop","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,0,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_295_magicfingers.png,0,0
+291,Converter,296,Convert your soul,1,shop,"TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,False,-1,3,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_296_converter.png,0,0
+292,Pandora's Box,297,? ?,2,"shop,redChest","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,119,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_297_bluebox.png,0,0
+293,Unicorn Stump,298,You feel stumped,1,treasure,TAG_WISP,-1,0,16,0,0,180,1,False,-1,1,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_298_unicornstump.png,0,0
+294,Taurus,299,Speed down + rage is building,1,treasure,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_STARS",-1,0,16,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_299_taurus.png,0,0
+295,Aries,300,Ramming speed,2,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,16,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_300_aries.png,0,0
+296,Cancer,301,HP up + you feel protected,3,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,6,0,False,3,False,False,gfx/items/collectibles/collectibles_301_cancer.png,0,0
+297,Leo,302,Stompy,1,treasure,"TAG_SUMMONABLE,TAG_STARS",-1,0,2048,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_302_leo.png,0,0
+298,Virgo,303,You feel refreshed and protected,2,treasure,"TAG_SUMMONABLE,TAG_STARS",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_303_virgo.png,0,0
+299,Libra,304,You feel balanced,1,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,27,6,0,0,1,True,-1,0,True,15,6,0,0,False,1,False,False,gfx/items/collectibles/collectibles_304_libra.png,0,6
+300,Scorpio,305,Poison tears,3,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_305_scorpio.png,0,0
+301,Sagittarius,306,Piercing shots + speed up,3,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,48,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_306_sagittarius.png,0,0
+302,Capricorn,307,All stats up,3,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,27,1,2,0,1,True,-1,0,True,15,1,0,4,False,3,False,False,gfx/items/collectibles/collectibles_307_capricorn.png,0,1
+303,Aquarius,308,Trail of tears,2,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_308_aquarius.png,0,0
+304,Pisces,309,Tears up + knock-back shot,2,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,34,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_309_pisces.png,0,0
+305,Eve's Mascara,310,"DMG up, tears + shot speed down",3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,71,0,0,0,1,True,112,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_310_evesmascara.png,0,0
+306,Judas' Shadow,311,Sweet revenge,3,devil,"TAG_NO_CHALLENGE,TAG_NO_CANTRIP,TAG_NO_LOST_BR",-1,0,0,0,0,0,2,True,108,0,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_311_judasshadow.png,0,0
+307,Maggy's Bow,312,HP up + you feel healthy,2,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,2,0,1,True,109,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/collectibles_312_maggysbow.png,0,0
+308,Holy Mantle,313,Holy shield,4,"treasure,angel","TAG_SUMMONABLE,TAG_ANGEL",-1,0,0,0,0,0,2,True,-1,0,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/collectibles_313_holymantle.png,0,0
+309,Thunder Thighs,314,HP up + speed down + you feel stompy,1,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,16,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/collectibles_314_thunderthighs.png,0,0
+310,Strange Attractor,315,Magnetic tears,0,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_315_strangeattractor.png,0,0
+311,Cursed Eye,316,Cursed charge shot,0,"treasure,secret,redChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_316_cursedeye.png,0,0
+312,Mysterious Liquid,317,Toxic splash damage,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_317_mysteriousliquid.png,0,0
+313,Gemini,318,Conjoined friend,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_318_gemini.png,0,0
+314,Cain's Other Eye,319,Near-sighted friend,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,110,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_319_cainseye.png,0,0
+315,???'s Only Friend,320,Controlled friend,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,114,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_320_bluebabysonlyfriend.png,0,0
+316,Samson's Chains,321,The ol' ball and chain,1,"treasure,secret",TAG_SUMMONABLE,-1,0,512,0,0,0,1,True,115,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_321_samsonschains.png,0,0
+317,Mongo Baby,322,Mongo friend,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_322_mongobaby.png,0,0
+318,Isaac's Tears,323,Collected tears,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,106,6,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_323_isaacstears.png,2,0
+319,Undefined,324,Undefined,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,125,6,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_324_Undefined.png,0,0
+320,Scissors,325,Lose your head,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,512,0,0,0,1,False,30,4,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_325_scissors.png,0,0
+321,Breath of Life,326,Invincibility at a cost,1,angel,"TAG_WISP,TAG_NO_CANTRIP,TAG_NO_LOST_BR",-1,0,0,0,0,31,1,False,-1,90,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_326_breathoflife.png,1,0
+322,The Polaroid,327,Fate chosen,2,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_OFFENSIVE,TAG_QUEST",-1,0,0,0,0,150,1,True,57,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_327_thepolaroid.png,0,0
+323,The Negative,328,Fate chosen,2,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_OFFENSIVE,TAG_QUEST",-1,0,1,0,0,0,1,True,78,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_328_thenegative.png,0,0
+324,The Ludovico Technique,329,Controlled tears,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,True,False,gfx/items/collectibles/collectibles_329_theludovicotechnique.png,0,0
+325,Soy Milk,330,DMG down + tears way up,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,67,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_330_soymilk.png,0,0
+326,Godhead,331,God tears,4,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,47,0,0,0,2,True,156,0,True,15,0,0,0,False,4,True,False,gfx/items/collectibles/collectibles_331_godhead.png,0,0
+327,Lazarus' Rags,332,Eternal life?,1,"treasure,angel","TAG_NO_CHALLENGE,TAG_NO_CANTRIP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,116,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_332_lazarusrags.png,0,0
+328,The Mind,333,I know all,3,"treasure,angel","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,2,True,130,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_333_mind.png,0,0
+329,The Body,334,I feel all,3,"treasure,angel,ultraSecret",TAG_NO_LOST_BR,-1,0,0,0,6,0,2,True,131,0,True,15,0,0,6,False,3,False,False,gfx/items/collectibles/collectibles_334_body.png,0,0
+330,The Soul,335,I am all,3,"treasure,angel",TAG_SUMMONABLE,-1,0,0,0,0,0,2,True,132,0,True,15,0,4,0,False,3,False,False,gfx/items/collectibles/collectibles_335_soul.png,0,0
+331,Dead Onion,336,Toxic aura tears,2,"treasure,rottenBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEAD",-1,0,108,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_336_deadonion.png,0,0
+332,Broken Watch,337,I think it's broken,1,"shop,craneGame","TAG_NO_CANTRIP,TAG_SUMMONABLE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_337_brokenwatch.png,0,0
+333,The Boomerang,338,It will never leave you,1,"shop,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,70,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_338_boomerang.png,1,0
+334,Safety Pin,339,Evil + range + shot speed up,1,boss,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,2,13,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_339_SafetyPin.png,0,0
+335,Caffeine Pill,340,Speed up + size down,1,"boss,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,2064,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_340_CaffeinePill.png,0,0
+336,Torn Photo,341,Tears + shot speed up,3,"boss,goldenChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,6,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_341_TornPhoto.png,0,0
+337,Blue Cap,342,HP + tears up + shot speed down,3,boss,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP,TAG_MUSHROOM",-1,0,6,0,2,0,1,True,-1,0,True,15,0,0,4,False,3,False,False,gfx/items/collectibles/collectibles_342_BlueCap.png,0,0
+338,Latch Key,343,Luck up,1,"boss,goldenChest,keyMaster","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1024,0,0,0,1,True,-1,0,True,15,0,2,0,False,2,False,False,gfx/items/collectibles/collectibles_343_LatchKey.png,0,0
+339,Match Book,344,Evil up,1,"boss,goldenChest",TAG_OFFENSIVE,-1,2,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_344_MatchBook.png,0,0
+340,Synthoil,345,DMG + range up,3,"boss,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SYRINGE",-1,0,9,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_345_Synthoil.png,0,0
+341,A Snack,346,HP up,1,boss,"TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/collectibles_346_ASnack.png,0,0
+342,Diplopia,347,Double item vision,3,shop,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,0,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_347_Diplopia.png,0,0
+343,Placebo,348,Pill mimic,1,"shop,secret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,4,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_348_Placebo.png,0,0
+344,Wooden Nickel,349,Flip a coin,1,"shop,woodenChest","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,244,1,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_349_WoodenNickel.png,0,0
+345,Toxic Shock,350,Mass poison,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,4096,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_350_ToxicShock.png,0,0
+346,Mega Bean,351,Giga fart!,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,6,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_351_MegaBean.png,0,0
+347,Glass Cannon,352,Be gentle...,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,110,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_352_GlassCannon.png,1,0
+348,Bomber Boy,353,Cross blast + 5 bombs,2,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_353_BomberBoy.png,0,5
+349,Crack Jacks,354,HP up. Don't swallow the prize!,2,"boss,goldenChest",TAG_NO_LOST_BR,-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/Collectibles_354_CrackJacks.png,0,0
+350,Mom's Pearls,355,Range + luck up,2,"boss,goldenChest,momsChest,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MOM",-1,0,1032,0,0,0,1,True,-1,0,True,15,0,2,0,False,2,False,False,gfx/items/collectibles/Collectibles_355_MomsPearls.png,0,0
+351,Car Battery,356,Active power up,3,"shop,batteryBum","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BATTERY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_356_CarBattery.png,0,0
+352,Box of Friends,357,Double your friends,1,"shop,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,512,0,0,0,1,False,203,3,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_357_PandorasBox.png,0,0
+353,The Wiz,358,Double wiz shot!,0,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_358_TheWiz.png,0,0
+354,8 Inch Nails,359,Stick it to 'em!,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,33,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_359_8InchNails.png,0,0
+355,Incubus,360,Dark friend,4,"devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,2,True,190,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_360_Incubus.png,0,0
+356,Fate's Reward,361,Your fate beside you,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,183,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_361_FatesReward.png,0,0
+357,Lil Chest,362,What's in the box?,2,"treasure,beggar,craneGame,woodenChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,192,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_362_LilChest.png,0,0
+358,Sworn Protector,363,Protective friend,2,"angel,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,189,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_363_SwornProtector.png,0,0
+359,Friend Zone,364,Friendly fly,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_364_FriendZone.png,0,0
+360,Lost Fly,365,Lost protector,2,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_365_LostFly.png,0,0
+361,Scatter Bombs,366,We put bombs in your bombs!,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_366_ScatterBombs.png,0,5
+362,Sticky Bombs,367,Egg sack bombs!,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_367_StickyBombs.png,0,5
+363,Epiphora,368,Intensifying tears,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_368_Epiphora.png,0,0
+364,Continuum,369,Transcendent tears,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,40,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_369_Continuum.png,0,0
+365,Mr. Dolly,370,Range + tears up,3,"boss,goldenChest,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,10,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_370_MrDolly.png,0,0
+366,Curse of the Tower,371,Embrace chaos,0,"treasure,redChest,curse","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_371_CurseOfTheTower.png,0,0
+367,Charged Baby,372,Bbbzzzzzt!,2,"shop,batteryBum,babyShop","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_372_ChargedBaby.png,0,0
+368,Dead Eye,373,Accuracy brings power,3,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_373_DeadEye.png,0,0
+369,Holy Light,374,Holy death shot,3,"treasure,angel","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,0,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_374_HolyLight.png,0,0
+370,Host Hat,375,Blast resistance,3,treasure,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_375_HostHat.png,0,0
+371,Restock,376,Never ending stores!,2,"shop,beggar","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_376_Restock.png,0,0
+372,Bursting Sack,377,Spider love,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_377_BurstingSack.png,0,0
+373,No. 2,378,Uh oh...,2,"treasure,shellGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_POOP",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_378_NumberTwo.png,0,0
+374,Pupula Duplex,379,Wide shot,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_379_PupulaDuplex.png,0,0
+375,Pay To Play,380,Money talks,2,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,5,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_380_PayToPlay.png,0,0
+376,Eden's Blessing,381,Tears up + your future shines brighter,3,treasure,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,188,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_381_EdensBlessing.png,0,0
+377,Friendly Ball,382,Gotta fetch 'em all!,1,"treasure,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_382_FriendlyBall.png,0,0
+378,Tear Detonator,383,Remote tear detonation,1,"shop,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,450,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_383_TearDetonator.png,1,0
+379,Lil Gurdy,384,A gurd of your own!,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_384_LilGurdy.png,0,0
+380,Bumbo,385,Bumbo want coin!,1,"treasure,beggar,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_385_Bumbo.png,0,0
+381,D12,386,Rerolls rocks,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,181,3,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_386_D12.png,0,0
+382,Censer,387,Peace be with you,2,angel,TAG_SUMMONABLE,-1,0,512,0,0,0,1,True,193,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_387_Censer.png,0,0
+383,Key Bum,388,He wants your keys!,0,"treasure,secret,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,200,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_388_KeyBum.png,0,0
+384,Rune Bag,389,Rune generator,3,"treasure,secret","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,218,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_389_RuneBag.png,0,0
+385,Seraphim,390,Sworn friend,3,"treasure,angel,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_ANGEL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_390_Seraphim.png,0,0
+386,Betrayal,391,Turn your enemy,1,"treasure,devil","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,182,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_391_Betrayal.png,0,0
+387,Zodiac,392,The heavens will change you,1,treasure,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,202,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_392_Zodiac.png,0,0
+388,Serpent's Kiss,393,The kiss of death,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,220,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_393_SerpentsKiss.png,0,0
+389,Marked,394,Directed tears,0,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,10,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_394_Marked.png,0,0
+390,Tech X,395,Laser ring tears,4,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TECH",-1,0,65535,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_395_TechX.png,0,0
+391,Ventricle Razor,396,Short cutter,0,shop,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,0,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_396_VentricleRazor.png,0,0
+392,Tractor Beam,397,Controlled tears,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,46,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_397_TractorBeam.png,0,0
+393,God's Flesh,398,Shrink shot!,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_398_GodsFlesh.png,0,0
+394,Maw Of The Void,399,Consume thy enemy!,3,"devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEVIL",-1,0,64,0,0,0,2,True,186,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_399_MawOfTheVoid.png,0,0
+395,Spear Of Destiny,400,Your destiny,1,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_400_SpearOfDestiny.png,0,0
+396,Explosivo,401,Sticky bomb shot,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_401_Explosivo.png,0,0
+397,Chaos,402,!!!,3,"shop,secret","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_402_Chaos.png,0,0
+398,Spider Mod,403,Mod buddy,1,"shop,craneGame,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_403_SpiderMod.png,0,0
+399,Farting Baby,404,He farts,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,179,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_404_fartbaby.png,0,0
+400,GB Bug,405,Double tap glitch,1,"treasure,secret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,201,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_405_GBBug.png,0,0
+401,D8,406,Reroll stats,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,231,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_406_D8.png,0,0
+402,Purity,407,Aura stat boost,3,"treasure,angel","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,27,0,0,0,1,True,180,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_407_Purity.png,0,0
+403,Athame,408,Call to the void,3,"devil,curse","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,184,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_408_Athame.png,0,0
+404,Empty Vessel,409,I reward an empty vessel,2,"devil,demonBeggar",TAG_SUMMONABLE,-1,4,128,0,0,0,1,True,187,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_409_EmptyVessel.png,0,0
+405,Evil Eye,410,Eye shot,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,194,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_410_EvilEye.png,0,0
+406,Lusty Blood,411,Their blood brings rage!,3,"treasure,devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,4097,0,0,0,2,True,198,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_411_LustyBlood.png,0,0
+407,Cambion Conception,412,Feed them hate,1,"devil,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,219,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_412_CambionConception.png,0,0
+408,Immaculate Conception,413,Feed them love,1,angel,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,222,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_413_ImmaculateConception.png,0,0
+409,More Options,414,There's options,3,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,135,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_414_MoreOptions.png,0,0
+410,Crown Of Light,415,The untainted gain power,4,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,5,0,0,0,2,True,-1,0,True,15,0,4,0,False,4,False,False,gfx/items/collectibles/Collectibles_415_CrownOfLight.png,0,0
+411,Deep Pockets,416,More money!,2,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,238,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_416_deeppockets.png,0,0
+412,Succubus,417,Damage booster,3,"devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,2,True,221,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_417_Succubus.png,0,0
+413,Fruit Cake,418,Rainbow effects!,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_418_FruitCake.png,0,0
+414,Teleport 2.0,419,I-Teleport!,3,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_419_Teleport20.png,0,0
+415,Black Powder,420,Spin the black circle!,0,"devil,demonBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_420_BlackPowder.png,0,0
+416,Kidney Bean,421,Love toots,0,"treasure,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,120,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_421_KidneyBean.png,1,0
+417,Glowing Hourglass,422,Turn back time,3,"treasure,shop,craneGame","TAG_WISP,TAG_NO_CANTRIP",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,-1,False,False,gfx/items/collectibles/Collectibles_422_GlowingHourGlass.png,0,0
+418,Circle of Protection,423,Protect me from myself,2,angel,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_423_CircleOfProtection.png,0,0
+419,Sack Head,424,More sacks!,3,"shop,secret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_424_SackHead.png,0,0
+420,Night Light,425,Scared of the dark?,1,"shop,craneGame",TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_425_NightLight.png,0,0
+421,Obsessed Fan,426,Follows my every move...,0,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_426_ObsessedFan.png,0,0
+422,Mine Crafter,427,Booom!,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,1,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_427_MineCrafter.png,0,0
+423,PJs,428,You feel cozy,2,"boss,goldenChest",TAG_NO_LOST_BR,-1,0,0,0,0,0,1,True,-1,0,True,15,0,8,24,False,2,False,False,gfx/items/collectibles/Collectibles_428_PJs.png,0,0
+424,Head of the Keeper,429,Penny tears,2,,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_429_HeadOfTheKeeper.png,0,0
+425,Papa Fly,430,Turret follower,1,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_430_PapaFly.png,0,0
+426,Multidimensional Baby,431,ydduB Buddy,2,"treasure,devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_431_MultidimensionalBaby.png,0,0
+427,Glitter Bombs,432,Prize bombs,2,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_432_GlitterBombs.png,0,5
+428,My Shadow,433,Me! And my shaaaadow!,1,devil,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,195,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_433_MyShadow.png,0,0
+429,Jar of Flies,434,Bug catcher,2,shop,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_FLY",-1,0,0,0,0,0,1,False,-1,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_434_JarOfFlies.png,0,0
+430,Lil Loki,435,4-way buddy!,1,"treasure,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_435_LilLoki.png,0,0
+431,Milk!,436,Don't cry over it...,1,treasure,"TAG_UNIQUE_FAMILIAR,TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_TEARS_UP",-1,0,514,0,0,0,1,True,-1,0,True,15,0,0,0,True,1,False,False,gfx/items/collectibles/Collectibles_436_Milk.png,0,0
+432,D7,437,Roll again,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,False,-1,3,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_437_D7.png,0,0
+433,Binky,438,Tears up,3,"boss,goldenChest,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2050,0,0,0,1,True,-1,0,True,15,0,2,0,False,3,False,False,gfx/items/collectibles/Collectibles_438_Binky.png,0,0
+434,Mom's Box,439,What's inside?,2,"shop,momsChest,craneGame,oldChest,woodenChest","TAG_OFFENSIVE,TAG_MOM",-1,0,65535,0,0,0,1,False,-1,4,False,15,0,0,0,False,2,False,True,gfx/items/collectibles/Collectibles_439_MomsBox.png,0,0
+435,Kidney Stone,440,Matt's kidney stone,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,26,0,0,0,1,True,232,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_440_KidneyStone.png,0,0
+436,Mega Blast,441,Laser breath,4,devil,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,276,12,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/collectibles_441_megasatansbreath.png,0,0
+437,Dark Prince's Crown,442,Loss is power,1,"devil,curse","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_TEARS_UP",-1,0,14,0,0,0,1,True,290,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_442_DarkPrincesCrown.png,0,0
+438,Apple!,443,Trick or treat?,3,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_443_Apple.png,0,0
+439,Lead Pencil,444,He's a bleeder!,3,"treasure,goldenChest,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_444_LeadPencil.png,0,0
+440,Dog Tooth,445,Bark at the moon!,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,17,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_445_DogTooth.png,0,0
+441,Dead Tooth,446,Toxic breath,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_446_DeadTooth.png,0,0
+442,Linger Bean,447,Crying makes me toot,0,"treasure,beggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_447_LingerBean.png,0,0
+443,Shard of Glass,448,Blood and guts!,1,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_448_ShardOfGlass.png,0,0
+444,Metal Plate,449,It itches...,1,treasure,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,2,0,False,1,False,False,gfx/items/collectibles/Collectibles_449_MetalPlate.png,0,0
+445,Eye of Greed,450,Gold tears!,2,secret,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,308,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_450_EyeOfGreed.png,0,0
+446,Tarot Cloth,451,I see the future,2,"shop,curse,craneGame","TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_451_TarotCloth.png,0,0
+447,Varicose Veins,452,I'm leaking...,0,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_452_VaricoseVeins.png,0,0
+448,Compound Fracture,453,Bone tears!,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,40,0,0,0,1,True,291,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_453_CompoundFracture.png,0,0
+449,Polydactyly,454,Hold me!,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_454_Polydactyly.png,0,0
+450,Dad's Lost Coin,455,I remember this...,1,"boss,goldenChest,beggar,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,8,0,0,0,1,True,307,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_455_DadsLostCoin.png,0,0
+451,Midnight Snack,456,HP up,1,"boss,goldenChest,beggar","TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_456_MoldyBread.png,0,0
+452,Cone Head,457,Hard headed!,2,treasure,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,2,0,False,2,False,False,gfx/items/collectibles/Collectibles_457_Conehead.png,0,0
+453,Belly Button,458,What's in there?,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_458_BellyButton.png,0,0
+454,Sinus Infection,459,Booger tears!,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_459_SinusInfection.png,0,0
+455,Glaucoma,460,Blind tears!,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_460_Glaucoma.png,0,0
+456,Parasitoid,461,Egg tears!,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER,TAG_FLY",-1,0,8,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_461_Parasitoid.png,0,0
+457,Eye of Belial,462,Possessed tears!,3,"devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,40,0,0,0,2,True,299,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_462_EyeOfBelial.png,0,0
+458,Sulfuric Acid,463,Acid tears!,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,97,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_463_SulfuricAcid.png,0,0
+459,Glyph of Balance,464,A gift from above,2,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,297,0,True,15,0,4,0,False,2,False,False,gfx/items/collectibles/Collectibles_464_GlyphOfBalance.png,0,0
+460,Analog Stick,465,360 tears!,2,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_465_AnalogStick.png,0,0
+461,Contagion,466,Outbreak!,2,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_466_Contagion.png,0,0
+462,Finger!,467,Watch where you point that!,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_467_Finger.png,0,0
+463,Shade,468,It follows,0,"devil,curse,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,285,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_468_Shade.png,0,0
+464,Depression,469,:(,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_469_Depression.png,0,0
+465,Hushy,470,Lil hush!,0,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,315,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_470_Hushy.png,0,0
+466,Lil Monstro,471,Ain't he cute?,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_471_LilMonstro.png,0,0
+467,King Baby,472,Hail to the king baby,1,"shop,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BABY",-1,0,512,0,0,0,1,True,286,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_472_KingBaby.png,0,0
+468,Big Chubby,473,Chub chub,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_473_BigChubby.png,0,0
+469,Broken Glass Cannon,474,You broke it!,0,,TAG_NO_EDEN,0,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_474_BrokenGlassCannon.png,0,0
+470,Plan C,475,My last resort,0,"shop,devil,redChest,demonBeggar,curse,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,305,0,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_475_PlanC.png,0,0
+471,D1,476,What will it be?,2,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,296,4,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_476_D1.png,0,0
+472,Void,477,Consume,3,"devil,angel","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,295,4,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_477_Void.png,0,0
+473,Pause,478,Stop!,0,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_478_Pause.png,0,0
+474,Smelter,479,Trinket melter!,2,shop,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,318,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_479_Smelter.png,0,0
+475,Compost,480,Gain more friends!,0,"shop,rottenBeggar","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_480_Compost.png,0,0
+476,Dataminer,481,109,0,"treasure,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_481_Dataminer.png,0,0
+477,Clicker,482,Change,0,treasure,"TAG_NO_CHALLENGE,TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,False,-1,6,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_482_Clicker.png,0,0
+478,Mama Mega!,483,BOOOOOOOOOM!,3,"shop,bombBum","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,0,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_483_MaMaMega.png,0,0
+479,Wait What?,484,I can't believe it's not butter bean!,1,,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,300,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_484_WaitWhat.png,1,0
+480,Crooked Penny,485,50/50,2,"treasure,shop,beggar","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,294,4,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_485_crookedpenny.png,0,0
+481,Dull Razor,486,I feel numb...,0,shop,TAG_WISP,-1,0,0,0,0,0,1,False,288,2,False,10,0,0,0,False,0,False,False,gfx/items/collectibles/collectibles_486_dullrazor.png,0,0
+482,Potato Peeler,487,A pound of flesh...,2,"shop,demonBeggar","TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,False,-1,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_487_potatopeeler.png,0,0
+483,Metronome,488,Waggles a finger,1,"treasure,craneGame,woodenChest","TAG_WISP,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,False,303,2,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_488_metronome.png,0,0
+484,D infinity,489,Reroll forever,4,secret,TAG_OFFENSIVE,-1,0,0,0,0,0,1,False,282,4,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/collectibles_489_dinfinity.png,0,0
+485,Eden's Soul,490,...,2,angel,"TAG_WISP,TAG_OFFENSIVE",0,0,0,0,0,0,1,False,289,12,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_490_edenssoul.png,0,0
+486,Acid Baby,491,Pills pills pills!,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_491_acidbaby.png,0,0
+487,YO LISTEN!,492,Yo listen!,2,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_FLY",-1,0,1536,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/collectibles_492_yolisten.png,0,0
+488,Adrenaline,493,Panic = power,1,"treasure,demonBeggar","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_SYRINGE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_493_adderline.png,0,0
+489,Jacob's Ladder,494,Electric tears,3,"treasure,batteryBum,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_494_jacobsladder.png,0,0
+490,Ghost Pepper,495,Flame tears,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_495_ghostpepper.png,0,0
+491,Euthanasia,496,Needle shot,3,"treasure,demonBeggar,curse","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SYRINGE",-1,0,0,0,0,0,1,True,292,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_496_euthanasia.png,0,0
+492,Camo Undies,497,Camo kid,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,16,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_497_camoundies.png,0,0
+493,Duality,498,You feel very balanced,1,"devil,angel","TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,306,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_498_duality.png,0,0
+494,Eucharist,499,Peace be with you,3,angel,"TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,283,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_499_eucharist.png,0,0
+495,Sack of Sacks,500,Gives sacks,2,secret,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,298,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_500_SackOfSacks.png,0,0
+496,Greed's Gullet,501,Money = health!,1,secret,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,335,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_501_GreedsGullet.png,0,0
+497,Large Zit,502,Creep shots,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_502_LargeZit.png,0,0
+498,Little Horn,503,Big brother is watching,3,"devil,demonBeggar,curse","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_503_LittleHorn.png,0,0
+499,Brown Nugget,504,Friendly fly,0,"treasure,shellGame","TAG_WISP,TAG_OFFENSIVE,TAG_POOP",-1,0,512,0,0,0,1,False,316,250,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_504_BrownNugget.png,1,0
+500,Poke Go,505,Gotta catch em...,2,"shop,craneGame","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_505_PokeGo.png,0,0
+501,Backstabber,506,Watch your back!,3,"treasure,devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_506_Backstabber.png,0,0
+502,Sharp Straw,507,More blood!,2,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,300,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_507_SharpStraw.png,1,0
+503,Mom's Razor,508,It's sharp!,1,"treasure,momsChest,oldChest","TAG_SUMMONABLE,TAG_MOM",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_508_MomsRazor.png,0,0
+504,Bloodshot Eye,509,Bloody friend,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_509_BloodshotEye.png,0,0
+505,Delirious,510,Unleash the power!,1,angel,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,338,12,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_510_Delirious.png,0,0
+506,Angry Fly,511,He's violent,1,"treasure,keyMaster,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,352,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_511_AngryFly.png,0,0
+507,Black Hole,512,Nothing can escape,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,349,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_512_BlackHole.png,0,0
+508,Bozo,513,Party time!,2,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,1,0,0,0,1,True,353,0,True,15,0,2,0,False,2,False,False,gfx/items/collectibles/Collectibles_513_Bozo.png,0,0
+509,Broken Modem,514,Lag!,3,shop,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,354,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_514_BrokenModem.png,0,0
+510,Mystery Gift,515,Wrapped up nice for you!,3,"shop,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,350,0,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_515_MysteryGift.png,0,0
+511,Sprinkler,516,Sprinkles.,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,512,0,0,0,1,False,351,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_516_Sprinkler.png,0,0
+512,Fast Bombs,517,Rapid bomb drops,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,356,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_517_FastBombs.png,0,7
+513,Buddy in a Box,518,What could it be?!,2,"shop,craneGame,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,355,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_518_BuddyBox.png,0,0
+514,Lil Delirium,519,Delirious friend,1,"devil,angel,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,357,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_519_LilDelirium.png,0,0
+515,Jumper Cables,520,Bloody recharge,2,"shop,batteryBum","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,367,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_520_JumperCable.png,0,0
+516,Coupon,521,Allow 6 weeks for delivery,2,shop,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,364,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_521_CerealCutout.png,0,0
+517,Telekinesis,522,Power of the mind,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,100,1,False,365,200,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_522_Telekinesis.png,1,0
+518,Moving Box,523,Pack and unpack,1,shop,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,366,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/collectibles_523_movingbox.png,0,0
+519,Technology Zero,524,Static tears,3,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TECH",-1,0,32,0,0,0,1,True,369,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_524_TechnologyZero.png,0,0
+520,Leprosy,525,You're tearing me apart!,0,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,512,0,0,0,1,True,368,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_525_Leprosy.png,0,0
+521,7 Seals,526,Lil harbingers!,2,"devil,angel","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,372,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_526_7Seals.png,0,0
+522,Mr. ME!,527,Caaan do!,3,"shop,keyMaster,craneGame,woodenChest","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,371,4,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_527_Mr_Me.png,0,0
+523,Angelic Prism,528,Eclipsed by the moon,3,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,373,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_528_angelic prism.png,0,0
+524,Pop!,529,Eyeball tears,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,374,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_529_Pop.png,0,0
+525,Death's List,530,Just hope you're not next...,1,devil,"TAG_LAZ_SHARED,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,376,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_530_DeathsList.png,0,0
+526,Haemolacria,531,I'm seeing red...,4,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,331,0,0,0,1,True,377,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_531_Haemolacria.png,0,0
+527,Lachryphagy,532,Feed them!,3,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,378,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_532_Lachryphagy.png,0,0
+528,Trisagion,533,Smite thy enemy,3,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,2,True,380,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_533_Trisagion.png,0,0
+529,Schoolbag,534,Extra active item room,3,"shop,goldenChest","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,379,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/collectibles_534_Schoolbag.png,0,0
+530,Blanket,535,You feel safe,2,shop,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,385,0,True,15,0,2,2,False,2,False,False,gfx/items/collectibles/Collectibles_535_Blanket.png,0,0
+531,Sacrificial Altar,536,He demands a sacrifice,1,"devil,curse","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,383,0,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_536_SacrificialAltar.png,0,0
+532,Lil Spewer,537,Puking buddy,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,384,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_537_LilSpewer.png,0,0
+533,Marbles,538,Choking hazard,2,"boss,craneGame",TAG_SUMMONABLE,-1,0,1024,0,0,0,1,True,386,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_538_Marbles.png,0,0
+534,Mystery Egg,539,Sacrificial insemination,0,"treasure,babyShop","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,512,0,0,0,1,True,387,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_539_MysteryEgg.png,0,0
+535,Flat Stone,540,Skipping tears,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,43,0,0,0,1,True,382,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_540_FlatStone.png,0,0
+536,Marrow,541,HP up?,1,"boss,ultraSecret",TAG_NO_LOST_BR,-1,0,0,0,0,0,1,True,392,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_541_Marrow.png,0,0
+537,Slipped Rib,542,Projectile shield,1,treasure,TAG_SUMMONABLE,-1,0,512,0,0,0,1,True,393,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_542_SlippedRib.png,0,0
+538,Hallowed Ground,543,Portable sanctuary,1,"treasure,angel","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_POOP",-1,0,512,0,0,0,1,True,398,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_543_HallowedGround.png,0,0
+539,Pointy Rib,544,Stabbing time,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,394,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_544_PointyRib.png,0,0
+540,Book of the Dead,545,Rise from the grave,2,"treasure,devil,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,False,401,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_545_BookOfTheDead.png,0,0
+541,Dad's Ring,546,Father's blessing,2,"secret,oldChest",TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,400,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_546_DadsRing.png,0,0
+542,Divorce Papers,547,Tears up + you feel empty,3,"boss,oldChest","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,397,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_547_DivorcePapers.png,0,0
+543,Jaw Bone,548,Fetch!,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,395,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_548_JawBone.png,0,0
+544,Brittle Bones,549,Everything hurts,3,treasure,"TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,0,0,0,0,1,True,396,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_549_BrittleBones.png,0,0
+545,Broken Shovel,550,It feels cursed,4,,"TAG_NO_EDEN,TAG_LAZ_SHARED_GLOBAL,TAG_WISP,TAG_OFFENSIVE,TAG_QUEST",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_550_ShovelPiece1.png,0,0
+546,Broken Shovel,551,It feels cursed,4,,"TAG_NO_EDEN,TAG_LAZ_SHARED_GLOBAL,TAG_OFFENSIVE,TAG_QUEST",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_551_ShovelPiece2.png,0,0
+547,Mom's Shovel,552,Lost but not forgotten,4,,"TAG_NO_EDEN,TAG_LAZ_SHARED_GLOBAL,TAG_WISP,TAG_OFFENSIVE,TAG_QUEST,TAG_MOM",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_552_MomsShovel.png,0,0
+548,Mucormycosis,553,Spore shot,3,treasure,"TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_553_Mucormycosis.png,0,0
+549,2Spooky,554,4me,1,"devil,ultraSecret","TAG_SUMMONABLE,TAG_TEARS_UP",-1,0,4102,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_554_2Spooky.png,0,0
+550,Golden Razor,555,Pain from gain,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,1,0,0,0,1,False,583,0,False,15,5,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_555_GoldenRazor.png,0,0
+551,Sulfur,556,Temporary demon form,2,"devil,ultraSecret","TAG_WISP,TAG_OFFENSIVE,TAG_DEVIL",-1,0,0,0,0,0,1,False,-1,3,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_556_Sulfur.png,0,0
+552,Fortune Cookie,557,Reusable fortunes,2,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,2,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_557_FortuneCookie.png,0,0
+553,Eye Sore,558,More eyes,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_558_EyeSore.png,0,0
+554,120 Volt,559,Zap!,2,"treasure,batteryBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_559_120Volt.png,0,0
+555,It Hurts,560,No it doesn't...,1,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_TEARS_UP",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_560_ItHurts.png,0,0
+556,Almond Milk,561,DMG down + tears up + you feel nutty,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,67,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_561_AlmondMilk.png,0,0
+557,Rock Bottom,562,It's only up from there,4,secret,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,433,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_562_RockBottom.png,0,0
+558,Nancy Bombs,563,Random blast +5 bombs,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_563_EnigmaBombs.png,0,5
+559,A Bar of Soap,564,Tears + shot speed up,2,boss,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,6,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_564_BarOfSoap.png,0,0
+560,Blood Puppy,565,What a cute little thing!,1,"treasure,redChest,curse,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,462,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_565_BloodPuppy.png,0,0
+561,Dream Catcher,566,Sweet dreams,2,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_566_DreamCatcher.png,0,0
+562,Paschal Candle,567,Keep the flame burning,3,angel,"TAG_UNIQUE_FAMILIAR,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,514,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_567_PaschalCandle.png,0,0
+563,Divine Intervention,568,Double tap shield,1,angel,TAG_ANGEL,-1,0,0,0,0,0,1,True,423,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_568_DivineIntervention.png,0,0
+564,Blood Oath,569,Bleed me dry,1,"devil,curse","TAG_NO_EDEN,TAG_NO_EDEN,TAG_UNIQUE_FAMILIAR,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_569_BloodOath.png,0,0
+565,Playdough Cookie,570,Tasty rainbow,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,32,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_570_PlaydohCookie.png,0,0
+566,Orphan Socks,571,Speed up + your feet feel stronger,2,"secret,goldenChest","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,16,0,0,0,1,True,-1,0,True,15,0,4,0,False,2,False,False,gfx/items/collectibles/Collectibles_571_Socks.png,0,0
+567,Eye of the Occult,572,DMG up + range up + controlled tears,3,"devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_DEVIL",-1,0,109,0,0,0,2,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_572_OccultEye.png,0,0
+568,Immaculate Heart,573,Halo of tears,3,"angel,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,1,0,2,0,2,True,-1,0,True,15,0,0,99,False,3,False,False,gfx/items/collectibles/Collectibles_573_ImmaculateHeart.png,0,0
+569,Monstrance,574,Purifying light,1,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_574_Monstrance.png,0,0
+570,The Intruder,575,Invasive friend,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_575_TheIntruder.png,0,0
+571,Dirty Mind,576,Filthy friends,1,"treasure,shellGame","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_POOP",-1,0,0,0,0,0,1,True,517,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_576_DirtyMind.png,0,0
+572,Damocles,577,A king's fortune... but at what cost?,3,devil,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,512,0,0,0,2,False,432,0,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_577_Damocles.png,0,0
+573,Free Lemonade,578,Party time!,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,4,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_578_FreeLemonade.png,0,0
+574,Spirit Sword,579,Divine blade,3,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,259,0,0,0,2,True,520,0,True,15,0,0,0,False,3,True,False,gfx/items/collectibles/Collectibles_579_SpiritSword.png,0,0
+575,Red Key,580,Explore the other side,3,"secret,redChest,curse,keyMaster,momsChest,ultraSecret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,False,415,4,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_580_SecretKey.png,0,0
+576,Psy Fly,581,Flamboyant protector,4,"treasure,keyMaster,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_581_PsyFly.png,0,0
+577,Wavy Cap,582,Tears up. A mind changing experience!,0,secret,"TAG_WISP,TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,19,0,0,0,1,False,-1,900,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_582_WavyCap.png,1,0
+578,Rocket in a Jar,583,Rocket propulsion +5 bombs,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_583_RocketInAJar.png,0,5
+579,Book of Virtues,584,Spiritual companionship,3,"angel,library","TAG_LAZ_SHARED_GLOBAL,TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,True,417,4,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_584_BookOfVirtues.png,0,0
+580,Alabaster Box,585,A sacred offering,1,shop,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",0,0,0,0,0,0,1,False,420,12,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_585_AlabasterBox.png,2,0
+581,The Stairway,586,May you get what you came for,3,angel,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,429,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_586_JacobsLadder.png,0,0
+582,Sol,588,Radiant victory,2,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_588_Sol.png,0,0
+583,Luna,589,The moon's blessing shines upon you,3,planetarium,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_589_Luna.png,0,0
+584,Mercurius,590,Speed up + you feel elusive,2,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,16,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_590_Mercurius.png,0,0
+585,Venus,591,HP up + you feel pretty,2,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/Collectibles_591_Venus.png,0,0
+586,Terra,592,Born to rock,3,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,33,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_592_Terra.png,0,0
+587,Mars,593,Double tap dash,0,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,10,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_593_Mars.png,0,0
+588,Jupiter,594,You're a gas giant!,2,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,24,0,4,0,1,True,-1,0,True,15,0,0,4,False,2,False,False,gfx/items/collectibles/Collectibles_594_Jupiter.png,0,0
+589,Saturnus,595,Ring of tears,2,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_595_Saturnus.png,0,0
+590,Uranus,596,Ice tears,3,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,96,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_596_Uranus.png,0,0
+591,Neptunus,597,Open the floodgates,3,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_597_Neptunus.png,0,0
+592,Pluto,598,Size down,3,planetarium,"TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2074,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_598_Pluto.png,0,0
+593,Voodoo Head,599,Extra curse rooms,2,"shop,craneGame","TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_599_VoodooHead.png,0,0
+594,Eye Drops,600,Tears up,3,boss,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_600_EyeDrops.png,0,0
+595,Act of Contrition,601,"Tears up, you feel forgiven",3,angel,"TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,2,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_601_ActOfContrition.png,0,0
+596,Member Card,602,Exclusive access!,2,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,582,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_602_MemberCard.png,0,0
+597,Battery Pack,603,Instant energy!,0,"shop,batteryBum","TAG_OFFENSIVE,TAG_BATTERY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_603_BatteryPack.png,0,0
+598,Mom's Bracelet,604,Mother's strength,1,"shop,craneGame,oldChest","TAG_WISP,TAG_OFFENSIVE,TAG_MOM",-1,0,0,0,0,0,1,False,-1,30,False,10,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_604_MomsBracelet.png,1,0
+599,The Scooper,605,Plop!,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,512,0,0,0,1,False,-1,3,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_605_TheScooper.png,0,0
+600,Ocular Rift,606,Stare into the abyss,2,"devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_606_OculusRift.png,0,0
+601,Boiled Baby,607,Messy friend,1,"treasure,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_607_BoiledBaby.png,0,0
+602,Freezer Baby,608,Iced iced baby,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_608_FreezerBaby.png,0,0
+603,Eternal D6,609,???,3,"treasure,secret,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,448,2,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_609_FloriansD6.png,0,0
+604,Bird Cage,610,Fat buddy,0,"treasure,babyShop","TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_DEAD",-1,0,512,0,0,0,1,True,450,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_610_BirdCage.png,0,0
+605,Larynx,611,Hear my pain,2,treasure,"TAG_WISP,TAG_OFFENSIVE",1,0,0,0,0,12,1,False,497,12,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_611_Larynx.png,0,0
+606,Lost Soul,612,Protect him,1,"treasure,secret,babyShop","TAG_UNIQUE_FAMILIAR,TAG_NO_CANTRIP,TAG_SUMMONABLE",-1,0,512,0,0,0,1,True,460,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_612_LostSoul.png,0,0
+607,Blood Bombs,614,Bloody blast + HP up,2,"treasure,ultraSecret,bombBum","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,10,False,2,False,False,gfx/items/collectibles/Collectibles_614_BloodBombs.png,0,0
+608,Lil Dumpy,615,Puffy buddy,3,"treasure,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_615_LilDumpy.png,0,0
+609,Bird's Eye,616,It burns,3,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_616_BirdsEye.png,0,0
+610,Lodestone,617,Magnetizing tears,2,"treasure,craneGame","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_617_Lodestone.png,0,0
+611,Rotten Tomato,618,Delicious!,2,"treasure,ultraSecret,rottenBeggar","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,64,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_618_RottenTomato.png,0,0
+612,Birthright,619,???,3,shop,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,431,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_619_Birthright.png,0,0
+613,Red Stew,621,Full HP + temporary DMG up,2,"shop,ultraSecret",TAG_OFFENSIVE,-1,0,1,0,0,0,1,True,430,0,True,15,0,0,99,False,2,False,False,gfx/items/collectibles/Collectibles_621_RedStew.png,0,0
+614,Genesis,622,In the beginning,2,angel,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,436,0,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_622_Genesis.png,0,0
+615,Sharp Key,623,Open your enemies,1,"shop,keyMaster","TAG_WISP,TAG_OFFENSIVE",-1,0,0,5,0,0,1,False,-1,0,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_623_SharpKey.png,0,0
+616,Booster Pack,624,Collect them all!,1,"shop,boss,craneGame",TAG_OFFENSIVE,-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_624_BoosterPack.png,0,0
+617,Mega Mush,625,I'm a big boy now!,4,"treasure,secret","TAG_OFFENSIVE,TAG_MUSHROOM",-1,0,65535,0,0,900,1,False,547,12,False,15,0,0,0,True,4,False,False,gfx/items/collectibles/Collectibles_625_MegaMush.png,0,0
+618,Knife Piece 1,626,???,0,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_UNIQUE_FAMILIAR,TAG_QUEST",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_626_KnifePiece1.png,0,0
+619,Knife Piece 2,627,???,0,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_UNIQUE_FAMILIAR,TAG_QUEST",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_627_KnifePiece2.png,0,0
+620,Death Certificate,628,Where am I?,4,secret,"TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,636,0,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_628_DeathCertificate.png,0,0
+621,Bot Fly,629,Defense drone,3,"treasure,keyMaster,craneGame,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_629_BotFly.png,0,0
+622,Meat Cleaver,631,Slice but no dice,0,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,440,2,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_631_MeatCleaver.png,0,0
+623,Evil Charm,632,Luck up + you feel protected,1,secret,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1024,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_632_EvilCharm.png,0,0
+624,Dogma,633,Ascended,3,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_QUEST",-1,0,145,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_633_Dogma.png,0,0
+625,Purgatory,634,Help from beyond,1,"devil,angel",TAG_OFFENSIVE,-1,0,0,0,0,0,1,True,519,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_634_Purgatory.png,0,0
+626,Stitches,635,Bait and switch,1,"treasure,babyShop","TAG_UNIQUE_FAMILIAR,TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,512,0,0,0,1,False,-1,90,False,15,0,0,0,False,1,False,True,gfx/items/collectibles/Collectibles_635_Stitches.png,1,0
+627,R Key,636,Time to start over,4,secret,"TAG_NO_DAILY,TAG_NO_CHALLENGE,TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,2,False,-1,0,False,99,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_636_RKey.png,0,0
+628,Knockout Drops,637,They pack a punch!,2,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_637_KnockoutDrops.png,0,0
+629,Eraser,638,Erase thy enemy,1,"shop,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,-1,1,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_638_Eraser.png,2,0
+630,Yuck Heart,639,Gross!,1,"treasure,rottenBeggar","TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,False,442,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_639_YuckHeart.png,0,0
+631,Urn of Souls,640,Unleash their sorrow,3,angel,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,418,0,False,15,0,0,0,True,3,False,False,gfx/items/collectibles/Collectibles_640_UrnOfSouls.png,0,0
+632,Akeldama,641,Spill your guts,1,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,446,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_641_Akeldama.png,0,0
+633,Magic Skin,642,All your desires fulfilled,2,"shop,redChest,curse","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,472,6,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_642_MagicSkin.png,0,0
+634,Revelation,643,Awaken your faith,4,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,128,0,0,0,2,True,470,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_643_Revelation.png,0,0
+635,Consolation Prize,644,+1 to lowest stat,1,"boss,goldenChest,craneGame","TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_644_ConsolationPrize.png,0,0
+636,Tinytoma,645,Itching for revenge,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,456,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_645_Tinytoma.png,0,0
+637,Brimstone Bombs,646,Demon blast +5 bombs,2,"devil,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,546,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_646_BrimstoneBombs.png,0,5
+638,4.5 Volt,647,Beat the juice out of them!,2,"shop,batteryBum","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BATTERY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_647_AssaultBattery.png,0,0
+639,Fruity Plum,649,Bouncy friend,1,"treasure,keyMaster,craneGame,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_FLY",-1,0,512,0,0,0,1,True,409,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_649_FruityPlum.png,0,0
+640,Plum Flute,650,Play time!,0,"treasure,ultraSecret","TAG_WISP,TAG_OFFENSIVE,TAG_FLY",-1,0,0,0,0,0,1,False,410,4,False,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_650_PlumFlute.png,0,0
+641,Star of Bethlehem,651,Follow the light,3,angel,"TAG_UNIQUE_FAMILIAR,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,512,0,0,0,2,True,425,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_651_StarOfBethlehem.png,0,0
+642,Cube Baby,652,Kick it!,1,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_652_CubeBaby.png,0,0
+643,Vade Retro,653,Begone!,1,angel,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,424,0,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_653_VadeRetro.png,0,0
+644,False PHD,654,Worse pills + evil up,2,"devil,redChest,curse,ultraSecret","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,2,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_654_FalsePhd.png,0,0
+645,Spin to Win,655,Let it rip!,0,"treasure,craneGame","TAG_WISP,TAG_NO_CANTRIP",-1,0,512,0,0,0,1,False,-1,90,False,15,0,0,0,False,0,False,True,gfx/items/collectibles/Collectibles_655_SpinToWin.png,1,0
+646,Vasculitis,657,Clogged enemies,1,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_657_Vasculitis.png,0,0
+647,Giant Cell,658,Micro friends,1,treasure,"TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_658_GiantCell.png,0,0
+648,Tropicamide,659,Tear size + range up,1,boss,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,8,0,0,0,1,True,-1,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_659_Tropicamide.png,0,0
+649,Card Reading,660,A link to your future,3,shop,"TAG_LAZ_SHARED_GLOBAL,TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_660_CardReading.png,0,0
+650,Quints,661,They lurk inside,2,"treasure,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_BABY",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_661_Quints.png,0,0
+651,Tooth and Nail,663,You feel prickly,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_663_ToothAndNail.png,0,0
+652,Binge Eater,664,All you can eat,4,secret,TAG_NO_LOST_BR,-1,0,1055,0,2,0,1,True,-1,0,True,15,0,0,99,False,4,False,False,gfx/items/collectibles/Collectibles_664_BingeEater.png,0,0
+653,Guppy's Eye,665,An eye for secrets,2,"devil,redChest,curse","TAG_OFFENSIVE,TAG_GUPPY,TAG_DEAD",-1,0,8192,0,0,0,1,True,444,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_665_GuppysEye.png,0,0
+654,Strawman,667,A helping hand,1,secret,"TAG_UNIQUE_FAMILIAR,TAG_OFFENSIVE,TAG_DEAD",-1,0,512,0,0,0,1,True,503,0,True,15,0,0,0,True,2,False,False,gfx/items/collectibles/Collectibles_667_Strawman.png,0,1
+655,Dad's Note,668,...,0,,"TAG_NO_EDEN,TAG_LAZ_SHARED,TAG_QUEST",-1,0,0,0,0,0,1,True,-1,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_668_DadsNote.png,0,0
+656,Sausage,669,All stats up,3,secret,"TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_TEARS_UP",-1,0,65535,0,2,0,1,True,-1,0,True,15,0,0,99,False,3,False,False,gfx/items/collectibles/Collectibles_669_Sausage.png,0,0
+657,Options?,670,There might be options,2,shop,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,0,0,0,0,1,True,441,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_670_Options.png,0,0
+658,Candy Heart,671,Power of love,1,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,65535,0,0,0,1,True,443,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_671_CandyHeart.png,0,0
+659,A Pound of Flesh,672,Blood money,0,"devil,demonBeggar","TAG_NO_EDEN,TAG_NO_EDEN,TAG_SUMMONABLE,TAG_NO_KEEPER,TAG_NO_GREED",-1,0,0,0,0,0,1,True,445,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_672_PoundOfFlesh.png,0,0
+660,Redemption,673,Deliver me from evil,2,,"TAG_LAZ_SHARED,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,447,0,True,15,0,0,0,True,2,False,False,gfx/items/collectibles/Collectibles_673_Redemption.png,0,0
+661,Spirit Shackles,674,Unfinished business,1,secret,,-1,0,0,0,0,0,1,True,469,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_674_SpiritShackles.png,0,0
+662,Cracked Orb,675,Shards of knowledge,1,"treasure,secret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,451,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_675_CrackedOrb.png,0,0
+663,Empty Heart,676,It multiplies,1,"treasure,demonBeggar","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,453,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_676_EmptyHeart.png,0,0
+664,Astral Projection,677,The true out-of-body experience!,1,"treasure,secret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,224,0,0,0,1,True,457,0,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_677_AstralProjection.png,0,0
+665,C Section,678,Fetus shots,4,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,331,0,0,0,1,True,463,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_678_CSection.png,0,0
+666,Lil Abaddon,679,Abyssal friend,2,"devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,1,True,455,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_679_LilAbaddon.png,0,0
+667,Montezuma's Revenge,680,Oh no...,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_POOP",-1,0,0,0,0,0,1,True,449,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_680_MontezumasRevenge.png,0,0
+668,Lil Portal,681,It hungers,0,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,512,0,0,0,1,True,466,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_681_LilPortal.png,0,0
+669,Worm Friend,682,Clingy buddy,3,"treasure,ultraSecret,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL",-1,0,512,0,0,0,1,True,467,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_682_WormFriend.png,0,0
+670,Bone Spurs,683,Break your enemies,2,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,468,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_683_BoneSpurs.png,0,0
+671,Hungry Soul,684,Out for blood,2,"devil,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,461,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_684_HungrySoul.png,0,0
+672,Jar of Wisps,685,Your faith grows,1,angel,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,471,12,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_685_JarOfWisps.png,0,0
+673,Soul Locket,686,Power of faith,1,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,65535,0,0,0,1,True,422,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_686_SoulLocket.png,0,0
+674,Friend Finder,687,Best friends forever!,2,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,473,4,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_687_FriendFinder.png,0,0
+675,Inner Child,688,Let him free,2,secret,,-1,0,2074,0,0,0,1,True,434,0,False,15,0,0,0,True,2,False,False,gfx/items/collectibles/Collectibles_688_InnerChild.png,0,0
+676,Glitched Crown,689,?????,4,secret,"TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,491,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_689_GlitchedCrown.png,0,0
+677,Belly Jelly,690,Bounce away!,3,treasure,TAG_SUMMONABLE,-1,0,0,0,0,0,1,True,492,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_690_BellyJelly.png,0,0
+678,Sacred Orb,691,Destined for greatness,4,"angel,secret","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,0,0,0,0,2,True,501,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_691_SacredOrb.png,0,0
+679,Sanguine Bond,692,He awaits your offering,1,"devil,curse,ultraSecret","TAG_NO_EDEN,TAG_NO_EDEN,TAG_LAZ_SHARED_GLOBAL,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,1,0,0,0,1,True,494,0,True,15,0,0,0,True,1,False,False,gfx/items/collectibles/Collectibles_692_SanguineBond.png,0,0
+680,The Swarm,693,Infest,2,"treasure,keyMaster","TAG_SUMMONABLE,TAG_FLY",-1,0,0,0,0,0,1,True,495,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_693_TheSwarm.png,0,0
+681,Heartbreak,694,Eternal sorrow,3,"devil,curse,ultraSecret",TAG_SUMMONABLE,-1,0,1,0,0,0,1,True,496,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_694_Heartbreak.png,0,0
+682,Bloody Gust,695,May your rage bring haste,2,"treasure,devil,ultraSecret","TAG_NO_EDEN,TAG_NO_EDEN,TAG_SUMMONABLE,TAG_NO_LOST_BR,TAG_TEARS_UP",-1,0,4114,0,0,0,1,True,452,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_695_BloodyGust.png,0,0
+683,Salvation,696,Divine protection,3,angel,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_ANGEL",-1,0,0,0,0,0,1,True,499,0,True,15,0,0,0,True,3,False,False,gfx/items/collectibles/Collectibles_696_Salvation.png,0,0
+684,Vanishing Twin,697,He wants revenge,1,"secret,curse,babyShop","TAG_LAZ_SHARED,TAG_UNIQUE_FAMILIAR,TAG_OFFENSIVE,TAG_NO_GREED",-1,0,512,0,0,0,1,True,435,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_697_VanishingTwin.png,0,0
+685,Twisted Pair,698,Double trouble!,4,"devil,babyShop","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_MONSTER_MANUAL,TAG_BABY",-1,0,512,0,0,0,2,True,502,0,True,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_698_TwistedPair.png,0,0
+686,Azazel's Rage,699,Ancient power,2,devil,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,498,0,True,15,0,0,0,True,2,False,False,gfx/items/collectibles/Collectibles_699_AzazelsRage.png,0,0
+687,Echo Chamber,700,I can see see the future future future,3,"secret,ultraSecret","TAG_NO_CANTRIP,TAG_SUMMONABLE,TAG_STARS,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,504,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_700_EchoChamber.png,0,0
+688,Isaac's Tomb,701,Buried memories,2,secret,"TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,505,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_701_IsaacsTomb.png,0,0
+689,Vengeful Spirit,702,Hot blooded,1,"devil,curse,ultraSecret","TAG_WISP,TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,506,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_702_BloodSoul.png,0,0
+690,Esau Jr.,703,Lost brother,1,"treasure,secret,ultraSecret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,507,1,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_703_EsauJr.png,0,0
+691,Berserk!,704,Rip and tear,1,"devil,ultraSecret","TAG_NO_EDEN,TAG_NO_EDEN,TAG_WISP,TAG_OFFENSIVE",50000,0,65535,0,0,150,1,False,590,100000,False,15,0,0,0,True,1,False,False,gfx/items/collectibles/Collectibles_704_Berserk.png,2,0
+692,Dark Arts,705,One with the shadows,1,"devil,ultraSecret","TAG_WISP,TAG_OFFENSIVE",-1,0,16,0,0,30,1,False,587,180,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_705_DarkArts.png,1,0
+693,Abyss,706,Come forth from the depths,3,"devil,ultraSecret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,597,4,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_706_Abyss.png,0,0
+694,Supper,707,HP up,1,"boss,beggar","TAG_NO_LOST_BR,TAG_FOOD",-1,0,0,0,2,0,1,True,-1,0,True,15,0,0,4,False,1,False,False,gfx/items/collectibles/Collectibles_707_Supper.png,0,0
+695,Stapler,708,DMG up,3,"boss,goldenChest","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_708_Stapler.png,0,0
+696,Suplex!,709,Angel breaker,1,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,437,200,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_709_Suplex.png,1,0
+697,Bag of Crafting,710,Make your destiny,3,treasure,"TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,586,0,False,15,0,0,0,False,-1,False,False,gfx/items/collectibles/Collectibles_710_BagOfCrafting.png,0,0
+698,Flip,711,Twist of fate,4,"secret,curse,ultraSecret","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,592,6,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_711_Flip.png,0,0
+699,Lemegeton,712,Item summoner,3,"devil,library","TAG_WISP,TAG_OFFENSIVE,TAG_BOOK",-1,0,0,0,0,0,1,False,599,6,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_712_Lemegeton.png,0,0
+700,Sumptorium,713,Blood to blood,3,treasure,"TAG_WISP,TAG_NO_LOST_BR",-1,0,0,0,0,60,1,False,589,300,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_713_Sumptorium.png,1,0
+701,Keeper's Sack,716,Spending power,3,"shop,secret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,25,0,0,0,1,True,464,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_716_KeepersSack.png,0,0
+702,Keeper's Kin,717,Under a rock,2,"treasure,secret","TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_SPIDER",-1,0,0,0,0,0,1,True,596,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_717_KeepersKin.png,0,0
+703,Keeper's Box,719,Portable shop,1,"shop,secret,woodenChest","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,465,4,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_719_KeepersBox.png,0,0
+704,Everything Jar,720,Anything is possible,2,"treasure,craneGame","TAG_WISP,TAG_OFFENSIVE",1,0,0,0,0,0,1,False,459,12,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_720_EverythingJar.png,0,0
+705,TMTRAINER,721,Isaac and his mother lived alone in a small house on a hill,0,secret,"TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,500,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_721_TMTRAINER.png,0,0
+706,Anima Sola,722,Repent,2,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,600,450,False,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_722_AnimaSola.png,1,0
+707,Spindown Dice,723,-1,4,"treasure,secret,craneGame","TAG_WISP,TAG_NO_CANTRIP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,584,6,False,15,0,0,0,False,4,False,False,gfx/items/collectibles/Collectibles_723_SpindownDice.png,0,0
+708,Hypercoagulation,724,Thick blooded,2,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_NO_LOST_BR",-1,0,0,0,0,0,1,True,585,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_724_Hypercoagulation.png,0,0
+709,IBS,725,Your stomach rumbles,0,treasure,"TAG_SUMMONABLE,TAG_OFFENSIVE,TAG_POOP",-1,0,0,0,0,0,1,True,588,0,True,15,0,0,0,False,0,False,False,gfx/items/collectibles/Collectibles_725_IBS.png,0,0
+710,Hemoptysis,726,Double tap sneeze,1,"treasure,ultraSecret","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,30,1,True,591,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_726_Hemoptysis.png,0,0
+711,Ghost Bombs,727,Spooky blast +5 bombs,1,"treasure,bombBum","TAG_SUMMONABLE,TAG_OFFENSIVE",-1,0,0,0,0,0,1,True,594,0,True,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_727_GhostBombs.png,0,5
+712,Gello,728,Demonic gestation,3,"treasure,devil,ultraSecret,babyShop","TAG_WISP,TAG_OFFENSIVE",-1,0,0,0,0,0,1,False,595,2,False,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_728_Gello.png,0,0
+713,Decap Attack,729,Chuck away!,1,treasure,"TAG_WISP,TAG_OFFENSIVE",-1,0,3,0,0,0,1,False,598,110,False,15,0,0,0,False,1,False,False,gfx/items/collectibles/Collectibles_729_DecapAttack.png,1,0
+714,Glass Eye,730,DMG + luck up,3,"boss,goldenChest,craneGame",TAG_OFFENSIVE,-1,0,1025,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_730_GlassEye.png,0,0
+715,Stye,731,DMG + range up,2,boss,TAG_OFFENSIVE,-1,0,9,0,0,0,1,True,-1,0,True,15,0,0,0,False,2,False,False,gfx/items/collectibles/Collectibles_731_Stye.png,0,0
+716,Mom's Ring,732,DMG up,3,"goldenChest,momsChest,oldChest","TAG_OFFENSIVE,TAG_MOM",-1,0,1,0,0,0,1,True,-1,0,True,15,0,0,0,False,3,False,False,gfx/items/collectibles/Collectibles_732_MomsRing.png,0,0

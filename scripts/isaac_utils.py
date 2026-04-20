@@ -1,13 +1,17 @@
 from pathlib import Path
 import os
+import json
 import xml.etree.ElementTree as ET
 
 from scripts import (
-    dataPathStringtableFile
+    dataPathStringtableFile,
+    dataPathModDataFile
 )
 
 STRING_LOOKUP_TABLE = {}
+ISAAC_LUA_ENUMS = {}
 
+# string lookup
 def _parse_stringtable():
     tree = ET.parse(dataPathStringtableFile)
     root = tree.getroot()
@@ -47,3 +51,40 @@ def lookup_string(link, lan="English") -> str:
         return STRING_LOOKUP_TABLE["items"][parsedLink][languageIndex]
     
     return f"[{link}] not present!!!"
+
+# parse mod data
+def _parse_mod_data():
+    with open(dataPathModDataFile, "r") as file:
+        modDataRaw = json.load(file)
+    
+    enumDataRaw = modDataRaw["enumData"]
+
+    for enumName, enum in enumDataRaw.items():
+        ISAAC_LUA_ENUMS[enumName] = {}
+        for luaKey, luaValue in enum.items():
+            ISAAC_LUA_ENUMS[enumName][luaValue] = luaKey
+
+def get_isaac_enum(name) -> dict:
+    if ISAAC_LUA_ENUMS == {}:
+        _parse_mod_data()
+    
+    if not name in ISAAC_LUA_ENUMS:
+        print(f"ERROR: {name} is not a stored lua enum!")
+        return {}
+    
+    return ISAAC_LUA_ENUMS[name]
+
+def get_values_of_isaac_enum(enumName: str, value: int) -> list:
+    enumEntries = []
+    isaacEnum = get_isaac_enum(enumName)
+    sortedEnum = sorted(isaacEnum.keys())[::-1]
+    if value < sortedEnum[-1]:
+        print("WARNING: passed undefind enum value!")
+        return []
+    while value > 0:
+        for enumValue in sortedEnum:
+            if value >= enumValue:
+                enumEntries.append(isaacEnum[enumValue])
+                value -= enumValue
+                break
+    return enumEntries

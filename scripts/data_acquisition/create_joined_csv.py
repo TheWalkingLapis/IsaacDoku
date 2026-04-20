@@ -25,7 +25,10 @@ from scripts import (
     dataCsvPath,
     dataCsvPathItemsFile
 )
-from scripts.isaac_utils import lookup_string,STRING_LOOKUP_TABLE
+from scripts.isaac_utils import (
+    lookup_string,
+    get_values_of_isaac_enum
+)
 
 #################################
 ## Util
@@ -45,6 +48,25 @@ def check_files_present() -> bool:
         if not file in presentFiles:
             return False
     return True
+
+def get_all_item_ids() -> list[int]:
+    """
+    assumes the csv is initalized since thats where the ids are read from
+    """
+    df = pd.read_csv(dataCsvPathItemsFile)
+    return list(df["ID"])
+
+def sort_csv_columns(filter = ["ID"], omitRemaining = False):
+    if not os.path.exists(dataCsvPathItemsFile):
+        print("ERROR: csv item file not found!")
+        return
+    
+    df = pd.read_csv(dataCsvPathItemsFile, index_col=0)
+    remainingCols = [c for c in df.columns if c not in filter]
+    df = df[filter if omitRemaining else filter + remainingCols]
+    if "ID" in filter:
+        df.sort_values("ID", inplace=True, ignore_index=True)
+    df.to_csv(dataCsvPathItemsFile)
 
 #################################
 ## ModData (and create csv)
@@ -67,6 +89,7 @@ def parse_mod_data() -> dict[str, list]:
     """
     REQUIRES_STRING_LOOKUP = ["Name", "Description"]
     REMOVE_CATEGORIES = ["Hidden"]
+    PARSE_ENUM = {"Tags": "ItemConfig"}
 
     with open(dataPathModDataFile, "r") as file:
         modDataRaw = json.load(file)
@@ -84,6 +107,12 @@ def parse_mod_data() -> dict[str, list]:
                 itemAttributeValue = lookup_string(itemAttributeValue)
             if itemAttributeKey in REMOVE_CATEGORIES:
                 continue
+            if itemAttributeKey in PARSE_ENUM:
+                if type(itemAttributeValue) == int:
+                    itemAttributeValue = get_values_of_isaac_enum(PARSE_ENUM[itemAttributeKey], itemAttributeValue)
+                    itemAttributeValue = ",".join(itemAttributeValue)
+                else:
+                    print(f"ERROR: Category {itemAttributeKey} defined as parsable but doesnt have int value!")
             parsedItemData[itemAttributeKey].append(itemAttributeValue)
     return parsedItemData
 
@@ -92,12 +121,8 @@ def init_csv_from_modData():
 
     df = pd.DataFrame(modData)
     df.drop_duplicates(inplace=True)
-    # re-order columns and sort by ID
-    columnOrder = ["Name", "ID", "Description", "Quality", "Tags"] # everything else is in the order given by modData.json
-    remainingCols = [c for c in df.columns if c not in columnOrder]
-    df = df[columnOrder + remainingCols]
-    df.sort_values("ID", inplace=True, ignore_index=True)
     df.to_csv(dataCsvPathItemsFile)
+    sort_csv_columns(["Name", "ID", "Description", "Quality", "Tags"])
 
 #################################
 ## Itempools
@@ -131,6 +156,9 @@ def _collect_item_itempool(id: int, itempools: dict[str, list[int]]) -> list[str
     return pools
 
 def collect_itempools(ids: list[int], filterPrefixes: list[str] = ['greed']) -> dict[int, list[str]]:
+    """
+    returns the itempools for each id in the given list
+    """
     parsedItempools = parse_itempools()
 
     result = {}
@@ -149,6 +177,17 @@ def collect_itempools(ids: list[int], filterPrefixes: list[str] = ['greed']) -> 
         result[id] = filteredItempools
     return result
 
+def mod_csv_with_itempools():
+    itempools = collect_itempools(get_all_item_ids())
+    if not os.path.exists(dataCsvPathItemsFile):
+        print("ERROR: csv item file not found!")
+        return
+    
+    df = pd.read_csv(dataCsvPathItemsFile, index_col=0)
+    df['Itempools'] = df['ID'].map(itempools).apply(lambda pool: ','.join(pool))
+    df.to_csv(dataCsvPathItemsFile)
+    sort_csv_columns(["Name", "ID", "Description", "Quality", "Itempools"])
+
 #################################
 ## Main
 #################################
@@ -158,9 +197,7 @@ def main():
 
     init_csv_from_modData()
 
-    # TODO use itemIDs from csv instead of explicit list
-    allItemIds = [1, 2]
-    print(collect_itempools(allItemIds))
+    mod_csv_with_itempools()
 
 if __name__ == "__main__":
     main()
