@@ -122,7 +122,7 @@ def init_csv_from_modData():
     df = pd.DataFrame(modData)
     df.drop_duplicates(inplace=True)
     df.to_csv(dataCsvPathItemsFile)
-    sort_csv_columns(["Name", "ID", "Description", "Quality", "Tags"])
+    sort_csv_columns(["Name", "ID", "Description", "Quality", "Type", "Tags"])
 
 #################################
 ## Itempools

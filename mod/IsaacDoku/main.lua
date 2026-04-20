@@ -3,6 +3,15 @@ local json = require("json")
 ---@type ModReference
 local mod = RegisterMod("IsaacDoku", 1)
 
+local function get_enum_key(value, enum)
+    for key, val in pairs(enum) do
+        if val == value then
+            return key
+        end
+    end
+    return "ITEM_NULL"
+end
+
 local jsonItems = {}
 
 for name, id in pairs(CollectibleType) do
@@ -40,7 +49,7 @@ for name, id in pairs(CollectibleType) do
             ShopPrice = item.ShopPrice,
             Special = item.Special,
             Tags = item.Tags,
-            Type = ItemType[item.Type]
+            Type = get_enum_key(item.Type, ItemType)
         }
         table.insert(jsonItems, itemDump)
     end
