@@ -9,8 +9,39 @@
             [
                 {
                     "column": "Itempools",
-                    "check": "in",
+                    "compare": "in",
                     "value": "treasure"
+                }
+            ]
+        }
+    },
+    {
+        "id": "itempool_angel",
+        "description": "Is in the Angle Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "compare": "in",
+                    "value": "angle"
+                }
+            ]
+        }
+    },{
+        "id": "itempool_devil",
+        "description": "Is in the Devil Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "compare": "in",
+                    "value": "devil"
                 }
             ]
         }
@@ -25,7 +56,7 @@
             [
                 {
                     "column": "Quality",
-                    "check": "==",
+                    "compare": "==",
                     "value": 0
                 }
             ]
@@ -41,7 +72,7 @@
             [
                 {
                     "column": "Quality",
-                    "check": "==",
+                    "compare": "==",
                     "value": 1
                 }
             ]
@@ -57,7 +88,7 @@
             [
                 {
                     "column": "Quality",
-                    "check": "==",
+                    "compare": "==",
                     "value": 2
                 }
             ]
@@ -73,7 +104,7 @@
             [
                 {
                     "column": "Quality",
-                    "check": "==",
+                    "compare": "==",
                     "value": 3
                 }
             ]
@@ -89,7 +120,7 @@
             [
                 {
                     "column": "Quality",
-                    "check": "==",
+                    "compare": "==",
                     "value": 4
                 }
             ]
