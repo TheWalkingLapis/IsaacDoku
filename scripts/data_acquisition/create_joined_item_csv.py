@@ -29,7 +29,9 @@ from scripts.isaac_utils import (
     lookup_string,
     get_values_of_isaac_enum
 )
-
+from scripts.utils import (
+    get_all_item_ids
+)
 #################################
 ## Util
 ################################# 
@@ -49,24 +51,17 @@ def check_files_present() -> bool:
             return False
     return True
 
-def get_all_item_ids() -> list[int]:
-    """
-    assumes the csv is initalized since thats where the ids are read from
-    """
-    df = pd.read_csv(dataCsvPathItemsFile)
-    return list(df["ID"])
-
 def sort_csv_columns(filter = ["ID"], omitRemaining = False):
     if not os.path.exists(dataCsvPathItemsFile):
         print("ERROR: csv item file not found!")
         return
     
-    df = pd.read_csv(dataCsvPathItemsFile, index_col=0)
+    df = pd.read_csv(dataCsvPathItemsFile)
     remainingCols = [c for c in df.columns if c not in filter]
     df = df[filter if omitRemaining else filter + remainingCols]
     if "ID" in filter:
         df.sort_values("ID", inplace=True, ignore_index=True)
-    df.to_csv(dataCsvPathItemsFile)
+    df.to_csv(dataCsvPathItemsFile, index=False)
 
 #################################
 ## ModData (and create csv)
@@ -121,7 +116,7 @@ def init_csv_from_modData():
 
     df = pd.DataFrame(modData)
     df.drop_duplicates(inplace=True)
-    df.to_csv(dataCsvPathItemsFile)
+    df.to_csv(dataCsvPathItemsFile, index=False)
     sort_csv_columns(["Name", "ID", "Description", "Quality", "Type", "Tags"])
 
 #################################
@@ -183,9 +178,9 @@ def mod_csv_with_itempools():
         print("ERROR: csv item file not found!")
         return
     
-    df = pd.read_csv(dataCsvPathItemsFile, index_col=0)
+    df = pd.read_csv(dataCsvPathItemsFile)
     df['Itempools'] = df['ID'].map(itempools).apply(lambda pool: ','.join(pool))
-    df.to_csv(dataCsvPathItemsFile)
+    df.to_csv(dataCsvPathItemsFile, index=False)
     sort_csv_columns(["Name", "ID", "Description", "Quality", "Itempools"])
 
 #################################
@@ -196,7 +191,6 @@ def main():
         print("Error: Missing files in data! Make sure you called the data fetching scripts beforehand!")
 
     init_csv_from_modData()
-
     mod_csv_with_itempools()
 
 if __name__ == "__main__":
