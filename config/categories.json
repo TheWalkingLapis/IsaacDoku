@@ -1,0 +1,98 @@
+[
+    {
+        "id": "itempool_treasure",
+        "description": "Is in the Treasure Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "check": "in",
+                    "value": "treasure"
+                }
+            ]
+        }
+    },
+    {
+        "id": "quality_0",
+        "description": "Has Quality 0",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Quality",
+                    "check": "==",
+                    "value": 0
+                }
+            ]
+        }
+    },
+    {
+        "id": "quality_1",
+        "description": "Has Quality 1",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Quality",
+                    "check": "==",
+                    "value": 1
+                }
+            ]
+        }
+    },
+    {
+        "id": "quality_2",
+        "description": "Has Quality 2",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Quality",
+                    "check": "==",
+                    "value": 2
+                }
+            ]
+        }
+    },
+    {
+        "id": "quality_3",
+        "description": "Has Quality 3",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Quality",
+                    "check": "==",
+                    "value": 3
+                }
+            ]
+        }
+    },
+    {
+        "id": "quality_4",
+        "description": "Has Quality 4",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Quality",
+                    "check": "==",
+                    "value": 4
+                }
+            ]
+        }
+    }
+]
