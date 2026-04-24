@@ -19,6 +19,8 @@ dataCsvPath = dataPath / "csv"
 dataCsvPathItemsFile = dataCsvPath / "items.csv"
 dataCsvPathCategoryAssignmentsFile = dataCsvPath / "category_assignments.csv"
 dataCsvPathCategoryMatchFile = dataCsvPath / "category_match.csv"
+dataGamePath = dataPath / "game"
+datagamePathDaily = dataGamePath / "daily.json"
 
 configPath = rootPath / "config"
 configPathCategoriesFile = configPath / "categories.json" 
