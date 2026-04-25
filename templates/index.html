@@ -7,7 +7,7 @@
 
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script type="module" src="/static/app.js"></script>
+    <script type="module" src="/static/IsaacDoku.js"></script>
 </head>
 
 <body>
@@ -38,4 +38,7 @@
         <button class="cell" id="cell21" state="inactive">8</button>
         <button class="cell" id="cell22" state="inactive">9</button>
     </div>
+    <p></p>
+    <button onclick="localStorage.clear()">clear localStorage</button>
+    <p></p>
 </body>

@@ -54,7 +54,7 @@ def is_item_in_categories(itemID:int, categories: list[str]) -> bool:
     global ASSIGMENT_DF_CACHE
     if ASSIGMENT_DF_CACHE is None:
         ASSIGMENT_DF_CACHE = pd.read_csv(dataCsvPathCategoryAssignmentsFile, index_col=0)
-    
+        
     try:
         matches = ASSIGMENT_DF_CACHE[categories].loc[itemID].values
         for m in matches:

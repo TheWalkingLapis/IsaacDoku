@@ -3,6 +3,7 @@ from flask import (
     Response,
     jsonify, 
     render_template,
+    request,
 )
 
 from datetime import datetime
@@ -14,7 +15,8 @@ from scripts import (
     datagamePathDaily
 )
 from scripts.utils import (
-    get_all_items
+    get_all_items,
+    is_item_in_categories
 )
 from scripts.isaac_doku.create_isaac_doku import (
     pick_categories
@@ -25,6 +27,22 @@ app = Flask(__name__)
 @app.route("/data/items")
 def all_items():
     return jsonify(get_all_items())
+
+@app.route('/submit', methods=["POST"])
+def submit():
+    form = request.get_json()
+    itemID = int(form.get("id"))
+    categoryIDs = form.get("categories")
+
+    # TODO replace with accessing the daily json
+    correct = is_item_in_categories(itemID, categoryIDs)
+    remainingTries = 1
+
+    response = {
+        "correct": correct,
+        "remainingTries": remainingTries,
+    }
+    return jsonify(response)
 
 @app.route("/data/daily")
 def daily():

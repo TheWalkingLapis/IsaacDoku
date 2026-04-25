@@ -21,5 +21,28 @@
             [],
             []
         ]
+    },
+    "2026-04-25": {
+        "rows": [
+            "itempool_treasure",
+            "itempool_devil",
+            "itempool_angel"
+        ],
+        "cols": [
+            "quality_3",
+            "quality_4",
+            "quality_2"
+        ],
+        "items": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
     }
 }
