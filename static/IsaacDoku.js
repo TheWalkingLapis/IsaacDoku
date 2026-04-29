@@ -1,140 +1,155 @@
-async function get_daily() {
-  const res = await fetch("/data/daily");
-  const data = await res.json();
-  return data
-}
+class Guess {
+  constructor(id, row, col) {
+    this.id = id;
+    this.row = row;
+    this.col = col;
+  }
 
-function get_today() {
-  return new Date().toJSON().split("T")[0];
-}
+  async submit() {
+    const response = await submit_item_for_categories(this.id, [this.row, this.col]);
+    const correct = response["correct"];
 
-function get_storage_guesses() {
-  const storedDate = localStorage.getItem("date");
-  if (storedDate == get_today()) {
-    const guesses = JSON.parse(localStorage.getItem("guesses"));
-    return guesses;
+    return correct;
   }
 }
 
-function add_guess_to_storage(guess) {
-  localStorage.setItem("date", get_today());
-  const stored = localStorage.getItem("guesses");
-  const guesses = stored ? JSON.parse(stored) : [];
-  guesses.push(guess);
-  localStorage.setItem("guesses", JSON.stringify(guesses));
-}
-
-function set_cell_state(selectedCell, desiredState) {
-  const cells = selectedCell.parentNode.querySelectorAll("button.cell");
-  switch (desiredState) {
-    case "active":
-      make_cell_active(selectedCell, selectedCell);
-      break;
-    case "inactive":
-      selectedCell.setAttribute("state", "inactive");
-      break
-    case "solved":
-      selectedCell.setAttribute("state", "solved");
-      break
-  }
-}
-
-function make_cell_active(selectedCell) {
-  const cells = selectedCell.parentNode.querySelectorAll("button.cell");
-  for (let cell of cells) {
-    const activate = cell == selectedCell;
-    const state = cell.getAttribute("state");
-    if (activate) {
-      if (state == "active") {
-        // continue
-        cell.setAttribute("state", "solved");
-      } else if (state == "solved") {
-        // do nothing when solved cell was clicked
-        break
-      } else if (state == "inactive") {
-        cell.setAttribute("state", "active");
+class GuessHistory {
+  constructor(fromLocalStorage, ...guesses) {
+    if (fromLocalStorage) {
+      try {
+        const storedGuesses = JSON.parse(localStorage["guesses"]);
+        this.guesses = [];
+        for (const storedGuess of storedGuesses) {
+          const guess = new Guess(storedGuess["id"], storedGuess["row"], storedGuess["col"]);
+          this.guesses.push(guess);
+        }
+      } catch (e) {
+        this.guesses = [];
       }
     } else {
-      if (state == "active") {
-        // reset
-        cell.setAttribute("state", "inactive");
-      } else if (state == "solved") {
-        // do nothing with unclicked solved cell
-        continue
-      } else if (state == "inactive") {
-        // do nothing with unclicked inactive cell
-        continue
+      this.guesses = guesses;
+      this.update_localStorage();
+    }
+    // TODO read /store date as well, allow storage of multiple guess histories using an id (?)
+    this.date = get_today();
+  }
+
+  add_guess(guess) {
+    this.guesses.push(guess);
+    this.update_localStorage();
+  }
+
+  clear() {
+    this.guesses = [];
+    this.update_localStorage();
+  }
+
+  update_localStorage() {
+    const json_str = JSON.stringify(this.guesses);
+    localStorage["guesses"] = json_str;
+  }
+
+  async replay(grid) {
+    for (const guess of this.guesses) {
+      const correct = await guess.submit();
+      if (correct) {
+        const targetCell = grid.get_cell_from_categories(guess.row, guess.col);
+        if (targetCell) {
+          grid.set_cell_state(targetCell, "solved");
+        }
       }
     }
   }
 }
 
-function get_cell_from_categories(grid, row, col) {
-  const cells = grid.querySelectorAll("button.cell");
-  for (let cell of cells) {
-    if (cell.getAttribute("row") == row && cell.getAttribute("col") == col) {
-      return cell;
-    }
+// TODO class cell
+// to handle seting image/text/state
+
+class Grid {
+  constructor(rows, cols, gridNodeID = "game-grid") {
+    this.rows = rows;
+    this.cols = cols;
+
+    this.searchInput = document.querySelector("#item-search");
+
+    this.guesses = new GuessHistory(true);
+    this.gridNode = document.querySelector("#" + gridNodeID);
+    // TODO handle nonexistet ID
+    this.cornerNode = this.gridNode.querySelectorAll(".empty");
+    this.cellNodes = this.gridNode.querySelectorAll(".cell");
+    this.rowLabels = this.gridNode.querySelectorAll(".row-label");
+    this.colLabels = this.gridNode.querySelectorAll(".col-label");
+
+    this.setupCells();
   }
-}
 
-function get_active_cell(grid) {
-  const cells = grid.querySelectorAll("button.cell");
-  for (let cell of cells) {
-    const active = cell.getAttribute("state") == "active";
-    if (active) {
-      return cell;
+  setupCells() {
+    for (const row of this.rowLabels) {
+      row.textContent = this.rows[parseInt(row.id[3])];
     }
-  }
-  return null;
-}
-
-async function setup_grid(categories) {
-  const grid = document.getElementById("game-grid");
-
-  const rows = categories["rows"];
-  const cols = categories["cols"];
-
-  for (let i = 0; i < 3; i++) {
-    const row = grid.querySelector("#row"+i+"-label");
-    row.textContent = rows[i];
-    const col = grid.querySelector("#col"+i+"-label");
-    col.textContent = cols[i];
-
-    for (let j = 0; j < 3; j++) {
-      const cell = grid.querySelector("#cell"+i+""+j);
-      cell.setAttribute("row", rows[i]);
-      cell.setAttribute("col", cols[j]);
-      cell.textContent = i+j;
+    for (const col of this.colLabels) {
+      col.textContent = this.cols[parseInt(col.id[3])];
+    }
+    for (const cell of this.cellNodes) {
+      const i = parseInt(cell.id[4]), j = parseInt(cell.id[5]);
+      cell.setAttribute("row", this.rows[i]);
+      cell.setAttribute("col", this.cols[j]);
+      cell.textContent = cell.id;
 
       cell.addEventListener("click", (e) => {
-        set_cell_state(cell, "active");
-      })
+        this.set_cell_state(cell, "active");
+      });
+    }
+  }
+
+  get_active_cell() {
+    for (const cell of this.cellNodes) {
+      const active = cell.getAttribute("state") == "active";
+      if (active) {
+        return cell;
+      }
     }
   }
   
-  const previousGuesses = get_storage_guesses();
-  if (previousGuesses) {
-    let remainingTries = 1;
-    for (const guess of previousGuesses) {
-      const response = await submit_item_for_categories(guess["id"], [guess["row"], guess["col"]])
-      remainingTries = response["remainingTries"];
-      const correct = response["correct"];
-      console.log(guess, response);
-      if (correct) {
-        // TODO instead of setting state in callback, ask server for cell states afterwards
-        // for all cells and only set to inactive here
-        const cell = get_cell_from_categories(grid, guess["row"], guess["col"]);
-        set_cell_state(cell, "solved");
+  set_cell_state(selectedCell, desiredState) {
+    if (selectedCell.getAttribute("state") == "solved") {
+      return;
+    }
+    if (desiredState == "active") {
+        const activeCell = this.get_active_cell();
+        if (activeCell) {
+          activeCell.setAttribute("state", "inactive");
+        }
+        selectedCell.setAttribute("state", "active");
+    } else if (desiredState == "inactive") {
+      selectedCell.setAttribute("state", "inactive");
+    } else if (desiredState == "solved") {
+      selectedCell.setAttribute("state", "solved");
+    }
+  }
+
+  get_cell_from_categories(row, col) {
+    for (const cell of this.cellNodes) {
+      if (cell.getAttribute("row") == row && cell.getAttribute("col") == col) {
+        return cell;
       }
     }
   }
-}
 
-async function get_items() {
-  const res = await fetch("/data/items");
-  const data = await res.json();
-  return data
+  async make_guess(itemID) {
+    const activeCell = this.get_active_cell();
+    if (!activeCell) {
+      return;
+    }
+    const guess = new Guess(itemID, activeCell.getAttribute("row"), activeCell.getAttribute("col"));
+    
+    console.log(guess)
+    this.guesses.add_guess(guess);
+    const correct = await guess.submit();
+    if (correct) {
+      this.set_cell_state(activeCell, "solved");
+    }
+  }
 }
 
 async function submit_item_for_categories(itemID, categories) {
@@ -151,13 +166,16 @@ async function submit_item_for_categories(itemID, categories) {
   return data;
 }
 
+function get_active_grid() {
+  return grid;
+}
+
 async function init_item_search() {
   // setup datalist for allowed values and autocomplete:
-  
   const div = document.querySelector("#item-search");
   const datalist = document.createElement("datalist");
   datalist.setAttribute("id", "item-search-datalist");
-  const items = await get_items();
+  const items = await fetch("/data/items").then((e) => e.json());
   for (let item of items) {
     const option = document.createElement("option");
     option.setAttribute("value", item["Name"]);
@@ -169,6 +187,8 @@ async function init_item_search() {
   // configure input event
   const itemSearch = document.querySelector("#item-search");
   itemSearch.addEventListener("input", async (e) => {
+    const grid = get_active_grid();
+
     const selectedValue = e.target.value.trim();
 
     const selectedOption = Array.from(datalist.options).find(
@@ -179,32 +199,23 @@ async function init_item_search() {
       e.target.value = "";
 
       // submit item
-      const activeCell = get_active_cell(document); // only one grid atm, so just global
-      const guess = {
-        "id": selectedOption.getAttribute("item-id"),
-        "row": activeCell.getAttribute("row"),
-        "col": activeCell.getAttribute("col"),
-      }
-      if (activeCell != null) {
-        const response = await submit_item_for_categories(guess["id"], [guess["row"], guess["col"]]);
-        
-        const correct = response["correct"];
-        const remainingTries = response["remainingTries"];
-        console.log(correct, activeCell, guess);
-        add_guess_to_storage(guess);
-        if (correct) {
-          // TODO instead of setting state in callback, ask server for cell states afterwards
-          // for all cells and only set to inactive here
-          set_cell_state(activeCell, "solved");
-        }
-      }
+      grid.make_guess(selectedOption.getAttribute("item-id"));
     }
   });
+}
+
+async function get_daily() {
+  const res = await fetch("/data/daily");
+  const data = await res.json();
+  return data
+}
+
+function get_today() {
+  return new Date().toJSON().split("T")[0];
 }
 
 await init_item_search();
 
 const daily = await get_daily();
-await setup_grid(daily);
-
-
+const grid = new Grid(daily["rows"], daily["cols"]);
+await grid.guesses.replay();
