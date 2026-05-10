@@ -35,12 +35,25 @@ def get_all_items(returnCatgeories=[]) -> list[dict]:
     if ITEMS_DF_CACHE is None:
         ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsFile)
     
-    # TODO remove by maing sure Nan is not exported
+    # TODO remove by making sure Nan is not exported
     clearNanDf = ITEMS_DF_CACHE.replace({np.nan: None})
 
     if len(returnCatgeories) == 0:
         return clearNanDf.to_dict("records")
     return clearNanDf[returnCatgeories].to_dict("records")
+
+def get_item_property(id, property):
+    if not os.path.exists(dataCsvPathItemsFile):
+        print("ERROR: Item csv not present!")
+        return []
+    
+    global ITEMS_DF_CACHE
+    if ITEMS_DF_CACHE is None:
+        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsFile)
+    
+    value = ITEMS_DF_CACHE.loc[ITEMS_DF_CACHE["ID"] == id, property]
+
+    return value
 
 def is_item_in_categories(itemID:int, categories: list[str]) -> bool:
     """

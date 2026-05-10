@@ -15,6 +15,7 @@ body {
 
 .grid .cell {
   display: flex;
+  position: relative;
   aspect-ratio: 1 / 1;
   width: 100%;
   background: #ff6262;
@@ -48,4 +49,31 @@ body {
   font-weight: bold;
   overflow: hidden;
   line-break: auto;
+}
+
+.cell img {
+    position: absolute;
+    image-rendering: pixelated;
+    inset: 0;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -60%);
+
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+
+.cell span {
+  position: relative;
+  z-index: 1;
+
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 4px black;
+
+  top: 40%;
 }

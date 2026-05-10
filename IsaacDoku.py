@@ -4,6 +4,8 @@ from flask import (
     jsonify, 
     render_template,
     request,
+    send_from_directory,
+    abort,
 )
 
 from datetime import datetime
@@ -16,6 +18,8 @@ from scripts import (
 )
 from scripts.utils import (
     get_all_items,
+    get_all_item_ids,
+    get_item_property,
     is_item_in_categories
 )
 from scripts.isaac_doku.create_isaac_doku import (
@@ -24,9 +28,21 @@ from scripts.isaac_doku.create_isaac_doku import (
 
 app = Flask(__name__)
 
+# item metadata
 @app.route("/data/items")
 def all_items():
     return jsonify(get_all_items())
+
+# item with all relevant files
+@app.route("/data/items/<int:id>")
+def item_data(id):
+    ids = get_all_item_ids()
+    if not id in ids:
+        abort(404)
+    gfxpath = get_item_property(id, "GfxFileName").item()
+    filename = gfxpath.split("/")[-1].lower()
+    print(filename)
+    return send_from_directory("static/images/items", filename)
 
 @app.route('/submit', methods=["POST"])
 def submit():
