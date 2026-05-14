@@ -67,5 +67,28 @@
             [],
             []
         ]
+    },
+    "2026-05-14": {
+        "rows": [
+            "quality_2",
+            "quality_4",
+            "quality_3"
+        ],
+        "cols": [
+            "itempool_devil",
+            "itempool_treasure",
+            "itempool_angel"
+        ],
+        "items": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
     }
 }
