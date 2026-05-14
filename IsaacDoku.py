@@ -79,7 +79,7 @@ def daily():
     if date in dailyData:
         rows, cols, items = dailyData[date]["rows"], dailyData[date]["cols"], dailyData[date]["items"]
     else:
-        rows, cols, items = pick_categories()
+        rows, cols, items = pick_categories(returnItems=True)
         dailyData[date] = {
             "rows": rows,
             "cols": cols,
