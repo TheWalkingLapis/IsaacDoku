@@ -36,11 +36,9 @@ def submit():
 
     # TODO replace with accessing the daily json
     correct = is_item_in_categories(itemID, categoryIDs)
-    remainingTries = 1
 
     response = {
         "correct": correct,
-        "remainingTries": remainingTries,
     }
     return jsonify(response)
 
