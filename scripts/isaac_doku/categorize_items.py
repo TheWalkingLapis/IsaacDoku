@@ -13,7 +13,7 @@ To define a category you need:
 
 The conditions allow to define some statement that needs to evaluate to true for all items
 that should be in the category. Within "conditions" you have to define:
-"concat": {"and", "or"}, how to concatenate the conditions
+"concat": (see _condition_translator) how to concatenate the conditions
 "values": the elemental conditions (see below) 
 [TODO the current approach allows for either (x and y and z) or (x or y or z)
 but not ((x or y) and z). For the future this could be accomplished by allowing
@@ -21,9 +21,9 @@ a new "conditions" dict as a value of "values"]
 
 A elemental condition is defined by:
 "column": The column from items.csv
-"check": {"<", ">", "==", "in"}
-"value": the value to perform the check operation with, such that 
-        <value> <check> <columnValue>, e.g. "treasure" "in" <"Itempools"> or "0" "==" <"Quality">
+"compare": how to compare the values (see _condition_translator)
+"value": the value to perform the compare operation with, such that 
+        <value> <compare> <columnValue>, e.g. "treasure" "in" <"Itempools"> or "0" "==" <"Quality">
 """
 
 from pathlib import Path
@@ -41,6 +41,16 @@ from scripts.utils import (
     get_all_item_ids
 )
 
+_condition_translator = {
+    "and": lambda x,y: x and y,
+    "or": lambda x,y: x or y,
+    
+    "<": lambda x,y: x < y,
+    ">": lambda x,y: x > y,
+    "==": lambda x,y: x == y,
+    "in": lambda x,y: x in y,
+}
+
 def evaluate_condition(conditionDict, itemData):
     if not ("concat" in conditionDict and "values" in conditionDict):
         print("ERROR: invalid condition in config!")
@@ -51,7 +61,7 @@ def evaluate_condition(conditionDict, itemData):
 
     for condition in conditionDict["values"]:
         condColumn = condition["column"]
-        condCheck = condition["check"]
+        condCompareFunc = _condition_translator[condition["compare"]]
         condValue = condition["value"]
 
         if condColumn in itemData:
@@ -60,19 +70,9 @@ def evaluate_condition(conditionDict, itemData):
             # if item has no value in a column instantly return flase 
             if pd.isna(itemValue):
                 return False
-            if condCheck == ">":
-                result = condValue > itemValue
-            if condCheck == "<":
-                result = condValue < itemValue
-            if condCheck == "==":
-                result = condValue == itemValue
-            if condCheck == "in":
-                result = condValue in itemValue
-
-            if conditionDict["concat"] == "and":
-                evaluationResult = evaluationResult and result
-            if conditionDict["concat"] == "or":
-                evaluationResult = evaluationResult or result
+            
+            result = condCompareFunc(condValue, itemValue)
+            evaluationResult = _condition_translator[conditionDict["concat"]](evaluationResult, result)
     
     return evaluationResult
 
