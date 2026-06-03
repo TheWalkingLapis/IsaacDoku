@@ -17,6 +17,9 @@ dataPathModDataFile = dataRawPath / "modData.json"
 dataPathStringtableFile = dataRawPath / "stringtable.sta"
 dataCsvPath = dataPath / "csv"
 dataCsvPathItemsFile = dataCsvPath / "items.csv"
+dataCsvPathCategoryAssignmentsFile = dataCsvPath / "category_assignments.csv"
+configPath = rootPath / "config"
+configPathCategoriesFile = configPath / "categories.json" 
 
 
 ## Isaac
