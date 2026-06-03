@@ -30,7 +30,8 @@
                 }
             ]
         }
-    },{
+    },
+    {
         "id": "itempool_devil",
         "description": "Is in the Devil Itempool",
         "conditions":
@@ -42,6 +43,70 @@
                     "column": "Itempools",
                     "compare": "in",
                     "value": "devil"
+                }
+            ]
+        }
+    },
+    {
+        "id": "itempool_shop",
+        "description": "Is in the Shop Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "compare": "in",
+                    "value": "shop"
+                }
+            ]
+        }
+    },
+    {
+        "id": "itempool_boss",
+        "description": "Is in the Boss Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "compare": "in",
+                    "value": "boss"
+                }
+            ]
+        }
+    },
+    {
+        "id": "itempool_secret",
+        "description": "Is in the Secret Room Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "compare": "in",
+                    "value": "secret"
+                }
+            ]
+        }
+    },
+    {
+        "id": "itempool_curse",
+        "description": "Is in the Curse Room Itempool",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Itempools",
+                    "compare": "in",
+                    "value": "curse"
                 }
             ]
         }
@@ -122,6 +187,43 @@
                     "column": "Quality",
                     "compare": "==",
                     "value": 4
+                }
+            ]
+        }
+    },
+    {
+        "id": "type_passive",
+        "description": "Passive (and Familiar) Items",
+        "conditions":
+        {
+            "concat": "or",
+            "values": 
+            [
+                {
+                    "column": "Type",
+                    "compare": "==",
+                    "value": "ITEM_PASSIVE"
+                },
+                {
+                    "column": "Type",
+                    "compare": "==",
+                    "value": "ITEM_FAMILIAR"
+                }
+            ]
+        }
+    },
+    {
+        "id": "type_active",
+        "description": "Active Items",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Type",
+                    "compare": "==",
+                    "value": "ITEM_ACTIVE"
                 }
             ]
         }

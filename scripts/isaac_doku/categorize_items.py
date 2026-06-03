@@ -23,7 +23,11 @@ A elemental condition is defined by:
 "column": The column from items.csv
 "compare": how to compare the values (see _condition_translator)
 "value": the value to perform the compare operation with, such that 
-        <value> <compare> <columnValue>, e.g. "treasure" "in" <"Itempools"> or "0" "==" <"Quality">
+    <value> <compare> <columnValue>, e.g. "treasure" "in" <"Itempools"> or "0" "==" <"Quality">
+[TODO this allows for checks of existing column properties, but also add option for:
+    - accessing next/prev item (cat: spinsdown into q4)
+    - ...
+]
 """
 
 from pathlib import Path
