@@ -1,11 +1,44 @@
 import pandas as pd
+import os
 from scripts import (
-    dataCsvPathItemsFile
+    dataCsvPathItemsFile,
+    dataCsvPathCategoryAssignmentsFile
 )
+
+ITEMS_DF_CACHE = None
+ASSIGMENT_DF_CACHE = None
 
 def get_all_item_ids() -> list[int]:
     """
     assumes the csv is initalized since thats where the ids are read from
     """
-    df = pd.read_csv(dataCsvPathItemsFile)
-    return list(df["ID"])
+    if not os.path.exists(dataCsvPathItemsFile):
+        print("ERROR: Item csv not present!")
+        return []
+    
+    global ITEMS_DF_CACHE
+    if ITEMS_DF_CACHE is None:
+        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsFile)
+    
+    return list(ITEMS_DF_CACHE["ID"])
+
+def is_item_in_categories(itemID:int, categories: list[str]) -> bool:
+    """
+    performs a lookup into the matched category csv to determine if the item
+    is in all categories provided
+    """
+    if not os.path.exists(dataCsvPathCategoryAssignmentsFile):
+        print("ERROR: Assignment csv not present!")
+        return False
+    
+    global ASSIGMENT_DF_CACHE
+    if ASSIGMENT_DF_CACHE is None:
+        ASSIGMENT_DF_CACHE = pd.read_csv(dataCsvPathCategoryAssignmentsFile, index_col=0)
+    
+    try:
+        matches = ASSIGMENT_DF_CACHE[categories].loc[itemID].values
+        for m in matches:
+            if not m: return False
+        return True
+    except KeyError:
+        return False
