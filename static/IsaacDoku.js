@@ -56,6 +56,8 @@ class GuessHistory {
         const targetCell = grid.get_cell_from_categories(guess.row, guess.col);
         if (targetCell) {
           grid.set_cell_state(targetCell, "solved");
+          const img = targetCell.querySelector("img");
+          img.src = "/data/items/" + guess.id;
         }
       }
     }
@@ -94,7 +96,17 @@ class Grid {
       const i = parseInt(cell.id[4]), j = parseInt(cell.id[5]);
       cell.setAttribute("row", this.rows[i]);
       cell.setAttribute("col", this.cols[j]);
-      cell.textContent = cell.id;
+      cell.textContent = "";
+
+      const img = document.createElement("img");
+      img.src = "/static/questionmark.png";
+      img.alt = "-?-"
+
+      const span = document.createElement("span");
+      span.textContent = ""
+
+      cell.appendChild(img);
+      cell.appendChild(span);
 
       cell.addEventListener("click", (e) => {
         this.set_cell_state(cell, "active");
@@ -148,6 +160,8 @@ class Grid {
     const correct = await guess.submit();
     if (correct) {
       this.set_cell_state(activeCell, "solved");
+      const img = activeCell.querySelector("img");
+      img.src = "/data/items/" + itemID;
     }
   }
 }
@@ -218,4 +232,4 @@ await init_item_search();
 
 const daily = await get_daily();
 const grid = new Grid(daily["rows"], daily["cols"]);
-await grid.guesses.replay();
+await grid.guesses.replay(grid);
