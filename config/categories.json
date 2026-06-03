@@ -227,5 +227,20 @@
                 }
             ]
         }
+    },{
+        "id": "tag_guppy",
+        "description": "Gives progress for Guppy Transformation",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_GUPPY"
+                }
+            ]
+        }
     }
 ]
