@@ -1,0 +1,25 @@
+{
+    "2026-04-24": {
+        "rows": [
+            "quality_3",
+            "quality_2",
+            "quality_1"
+        ],
+        "cols": [
+            "itempool_angel",
+            "itempool_devil",
+            "itempool_treasure"
+        ],
+        "items": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    }
+}
