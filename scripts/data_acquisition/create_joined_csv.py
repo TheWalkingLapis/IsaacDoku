@@ -12,6 +12,8 @@ Workflow of main:
 from pathlib import Path
 import os
 import xml.etree.ElementTree as ET
+import json
+import pandas as pd
 
 from scripts import (
     dataPathItempoolsFile,
@@ -20,8 +22,10 @@ from scripts import (
     dataPathModDataFile,
     dataPathStringtableFile,
     dataRawPath,
-    dataCsvPath
+    dataCsvPath,
+    dataCsvPathItemsFile
 )
+from scripts.isaac_utils import lookup_string,STRING_LOOKUP_TABLE
 
 #################################
 ## Util
@@ -45,8 +49,53 @@ def check_files_present() -> bool:
 #################################
 ## ModData (and create csv)
 #################################
+def parse_mod_data() -> dict[str, list]:
+    """
+    item attributes:
+    'PassiveCache', 'AddBombs', 'Tags', 'Description', 'PersistentEffect', 
+    'AddSoulHearts', 'Special', 'AddKeys', 'GfxFileName', 'InitCharge', 
+    'MaxCharges', 'DevilPrice', 'MaxCooldown', 'Name', 'AddCostumeOnPickup', 
+    'CacheFlags', 'Quality', 'AddBlackHearts', 'ID', 'AchievementID', 
+    'ShopPrice', 'CraftingQuality', 'AddMaxHearts', 'Hidden', 'AddCoins', 
+    'AddHearts', 'ClearEffectsOnRemove', 'ChargeType'
+
+    requires string lookup:
+    'Name', 'Description'
+
+    remove categories:
+    'Hidden' (whether an item is used in the game)
+    """
+    REQUIRES_STRING_LOOKUP = ["Name", "Description"]
+    REMOVE_CATEGORIES = ["Hidden"]
+
+    with open(dataPathModDataFile, "r") as file:
+        modDataRaw = json.load(file)
+    
+    # modData contains information ordered by item, for the dataframe
+    # this is changed to be ordered by attribute
+    parsedItemData = {attrib: [] for attrib in modDataRaw[0].keys() if not attrib in REMOVE_CATEGORIES}
+    for itemDataRaw in modDataRaw:
+        if itemDataRaw["Hidden"]:
+            continue
+        for itemAttributeKey, itemAttributeValue in itemDataRaw.items():
+            if itemAttributeKey in REQUIRES_STRING_LOOKUP:
+                itemAttributeValue = lookup_string(itemAttributeValue)
+            if itemAttributeKey in REMOVE_CATEGORIES:
+                continue
+            parsedItemData[itemAttributeKey].append(itemAttributeValue)
+    return parsedItemData
+
 def init_csv_from_modData():
-    pass
+    modData = parse_mod_data()
+
+    df = pd.DataFrame(modData)
+    df.drop_duplicates(inplace=True)
+    # re-order columns and sort by ID
+    columnOrder = ["Name", "ID", "Description", "Quality", "Tags"] # everything else is in the order given by modData.json
+    remainingCols = [c for c in df.columns if c not in columnOrder]
+    df = df[columnOrder + remainingCols]
+    df.sort_values("ID", inplace=True, ignore_index=True)
+    df.to_csv(dataCsvPathItemsFile)
 
 #################################
 ## Itempools
@@ -105,6 +154,9 @@ def main():
     if not check_files_present():
         print("Error: Missing files in data! Make sure you called the data fetching scripts beforehand!")
 
+    init_csv_from_modData()
+
+    # TODO use itemIDs from csv instead of explicit list
     allItemIds = [1, 2]
     print(collect_itempools(allItemIds))
 

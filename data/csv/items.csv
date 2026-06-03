@@ -1,0 +1,718 @@
+,Name,ID,Description
+0,The Sad Onion,1,Tears up
+1,The Inner Eye,2,Triple shot
+2,Spoon Bender,3,Homing shots
+3,Cricket's Head,4,DMG up
+4,My Reflection,5,Boomerang tears + DMG up + luck down
+5,Number One,6,Tears up + range down
+6,Blood of the Martyr,7,DMG up
+7,Brother Bobby,8,Friends 'till the end
+8,Skatole,9,Fly love
+9,Halo of Flies,10,Projectile protection
+10,1up!,11,Extra life
+11,Magic Mushroom,12,All stats up!
+12,The Virus,13,Poison touch + speed up
+13,Roid Rage,14,Speed and range up
+14,<3,15,HP up
+15,Raw Liver,16,HP up
+16,Skeleton Key,17,99 keys
+17,A Dollar,18,$$$
+18,Boom!,19,10 bombs
+19,Transcendence,20,We all float down here...
+20,The Compass,21,The end is near
+21,Lunch,22,HP up
+22,Dinner,23,HP up
+23,Dessert,24,HP up
+24,Breakfast,25,HP up
+25,Rotten Meat,26,HP up
+26,Wooden Spoon,27,Speed up
+27,The Belt,28,Speed up
+28,Mom's Underwear,29,Range up
+29,Mom's Heels,30,Range up
+30,Mom's Lipstick,31,Range up
+31,Wire Coat Hanger,32,Tears up
+32,The Bible,33,Temporary flight
+33,The Book of Belial,34,Temporary DMG up
+34,The Necronomicon,35,Mass room damage
+35,The Poop,36,Plop!
+36,Mr. Boom,37,Reusable bomb buddy
+37,Tammy's Head,38,Reusable tear burst
+38,Mom's Bra,39,Mass paralysis
+39,Kamikaze!,40,Become the bomb!
+40,Mom's Pad,41,Mass fear
+41,Bob's Rotten Head,42,Reusable ranged bomb
+42,Teleport!,44,Teleport!
+43,Yum Heart,45,Reusable regeneration
+44,Lucky Foot,46,Luck up
+45,Doctor's Remote,47,Reusable air strike
+46,Cupid's Arrow,48,Piercing shots
+47,Shoop da Whoop!,49,BLLLARRRRGGG!
+48,Steven,50,DMG up
+49,Pentagram,51,DMG up
+50,Dr. Fetus,52,???
+51,Magneto,53,Item snatcher
+52,Treasure Map,54,Full visible map
+53,Mom's Eye,55,Eye in the back of your head
+54,Lemon Mishap,56,Oops...
+55,Distant Admiration,57,Attack fly
+56,Book of Shadows,58,Temporary invincibility
+57,The Ladder,60,Building bridges
+58,Charm of the Vampire,62,DMG up + kills heal
+59,The Battery,63,Stores energy
+60,Steam Sale,64,50% off
+61,Anarchist Cookbook,65,Summon bombs
+62,The Hourglass,66,Temporary enemy slowdown
+63,Sister Maggy,67,Friends 'till the end
+64,Technology,68,Laser tears
+65,Chocolate Milk,69,Charge shots
+66,Growth Hormones,70,Speed + DMG up
+67,Mini Mush,71,Speed + range up
+68,Rosary,72,Tears + faith up
+69,Cube of Meat,73,Gotta meat 'em all
+70,A Quarter,74,+25 coins
+71,PHD,75,Better pills
+72,X-Ray Vision,76,I've seen everything
+73,My Little Unicorn,77,Temporary badass
+74,Book of Revelations,78,Reusable soul protection
+75,The Mark,79,DMG + speed up
+76,The Pact,80,DMG + tears up
+77,Dead Cat,81,9 lives
+78,Lord of the Pit,82,Demon wings
+79,The Nail,83,Temporary demon form
+80,We Need To Go Deeper!,84,Reusable level skip
+81,Deck of Cards,85,Reusable card generator
+82,Monstro's Tooth,86,Summon Monstro
+83,Loki's Horns,87,Cross tears
+84,Little Chubby,88,Attack buddy
+85,Spider Bite,89,Slow effect
+86,The Small Rock,90,DMG up + speed down
+87,Spelunker Hat,91,See-through doors
+88,Super Bandage,92,+2 hearts
+89,The Gamekid,93,Temporary Man-Pac
+90,Sack of Pennies,94,Gives money
+91,Robo-Baby,95,Friends 'till the bbbbzzzt
+92,Little C.H.A.D.,96,Gives kisses
+93,The Book of Sin,97,Reusable item generator
+94,The Relic,98,Soul generator
+95,Little Gish,99,Sticky friend
+96,Little Steven,100,Psychic friend
+97,The Halo,101,All stats up
+98,Mom's Bottle of Pills,102,Reusable pill generator
+99,The Common Cold,103,Poison damage
+100,The Parasite,104,Split shot
+101,The D6,105,Reroll your destiny
+102,Mr. Mega,106,Bigger boom
+103,The Pinking Shears,107,Cut and run
+104,The Wafer,108,Damage resistance
+105,Money = Power,109,$$$ = DMG
+106,Mom's Contacts,110,Freeze effect
+107,The Bean,111,Toot on command
+108,Guardian Angel,112,Extra protection
+109,Demon Baby,113,Auto-turret friend
+110,Mom's Knife,114,Stab stab stab
+111,Ouija Board,115,Spectral tears + tears up
+112,9 Volt,116,Quicker charge
+113,Dead Bird,117,Protective buddy
+114,Brimstone,118,Blood laser barrage
+115,Blood Bag,119,HP + speed up
+116,Odd Mushroom,120,Tears up + damage down
+117,Odd Mushroom,121,"HP + DMG up, speed down"
+118,Whore of Babylon,122,Curse up
+119,Monster Manual,123,Temporary buddy generator
+120,Dead Sea Scrolls,124,It's a mystery
+121,Bobby-Bomb,125,Homing bombs
+122,Razor Blade,126,Feel my pain
+123,Forget Me Now,127,I don't remember...
+124,Forever alone,128,Attack fly
+125,Bucket of Lard,129,HP up
+126,A Pony,130,Flight + dash attack
+127,Bomb Bag,131,Gives bombs
+128,A Lump of Coal,132,My Xmas present
+129,Guppy's Paw,133,Soul converter
+130,Guppy's Tail,134,Cursed?
+131,IV Bag,135,Portable blood bank
+132,Best Friend,136,Friends 'till the end
+133,Remote Detonator,137,Remote bomb detonation
+134,Stigmata,138,DMG + HP up
+135,Mom's Purse,139,More trinket room
+136,Bob's Curse,140,+5 poison bombs
+137,Pageant Boy,141,Ultimate grand supreme
+138,Scapular,142,Pray for a miracle
+139,Speed Ball,143,Speed + shot speed up
+140,Bum Friend,144,He's greedy
+141,Guppy's Head,145,Reusable fly hive
+142,Prayer Card,146,Reusable eternity
+143,Notched Axe,147,Rocks don't stand a chance
+144,Infestation,148,Fly revenge
+145,Ipecac,149,Explosive shots
+146,Tough Love,150,Tooth shot
+147,The Mulligan,151,They grow inside
+148,Technology 2,152,Extra laser
+149,Mutant Spider,153,Quad shot
+150,Chemical Peel,154,DMG up
+151,The Peeper,155,Plop!
+152,Habit,156,Item martyr
+153,Bloody Lust,157,RAGE!
+154,Crystal Ball,158,I see my future
+155,Spirit of the Night,159,Scary
+156,Crack the Sky,160,Holy white death
+157,Ankh,161,Eternal life?
+158,Celtic Cross,162,Blessing of protection
+159,Ghost Baby,163,Spectral buddy
+160,The Candle,164,Reusable flames
+161,Cat-o-nine-tails,165,Shot speed + damage up
+162,D20,166,Reroll the basics
+163,Harlequin Baby,167,Double shot buddy
+164,Epic Fetus,168,On-demand air strike
+165,Polyphemus,169,Mega tears
+166,Daddy Longlegs,170,Daddy's love
+167,Spider Butt,171,Mass enemy slowdown + damage
+168,Sacrificial Dagger,172,My fate protects me
+169,Mitre,173,Blessing of purity
+170,Rainbow Baby,174,Random buddy
+171,Dad's Key,175,Opens all doors...
+172,Stem Cells,176,HP up
+173,Portable Slot,177,Gamble 24/7
+174,Holy Water,178,Splash!
+175,Fate,179,Flight eternal
+176,The Black Bean,180,Toot on touch
+177,White Pony,181,Flight + holy death
+178,Sacred Heart,182,Homing shots + DMG up
+179,Tooth Picks,183,Tears + shot speed up
+180,Holy Grail,184,Flight + HP up
+181,Dead Dove,185,Flight + spectral tears
+182,Blood Rights,186,Mass enemy damage at a cost
+183,Guppy's Hairball,187,Swing it
+184,Abel,188,Mirrored buddy
+185,SMB Super Fan,189,All stats up
+186,Pyro,190,99 bombs
+187,3 Dollar Bill,191,Rainbow tears
+188,Telepathy For Dummies,192,Temporary psychic shot
+189,MEAT!,193,DMG + HP up
+190,Magic 8 Ball,194,Shot speed up
+191,Mom's Coin Purse,195,What's all this...?
+192,Squeezy,196,Tears up
+193,Jesus Juice,197,Damage + range up
+194,Box,198,Stuff
+195,Mom's Key,199,Better chest loot +2 keys
+196,Mom's Eyeshadow,200,Charm tears
+197,Iron Bar,201,DMG up + concussive tears
+198,Midas' Touch,202,Golden touch
+199,Humbleing Bundle,203,1+1 free 4Evar
+200,Fanny Pack,204,Filled with goodies
+201,Sharp Plug,205,Infinite charge... at a cost
+202,Guillotine,206,DMG + tears up. An out-of-body experience!
+203,Ball of Bandages,207,Gotta lick 'em all!
+204,Champion Belt,208,DMG + challenge up
+205,Butt Bombs,209,Toxic blast +5 bombs
+206,Gnawed Leaf,210,Unbreakable
+207,Spiderbaby,211,Spider revenge
+208,Guppy's Collar,212,Eternal life?
+209,Lost Contact,213,Shielded tears
+210,Anemic,214,Toxic blood
+211,Goat Head,215,He accepts your offering
+212,Ceremonial Robes,216,DMG + evil up
+213,Mom's Wig,217,You feel itchy...
+214,Placenta,218,Regeneration + HP up
+215,Old Bandage,219,HP up
+216,Sad Bombs,220,Tear blasts +5 bombs
+217,Rubber Cement,221,Bouncing tears
+218,Anti-Gravity,222,Anti-gravity tears + tears up
+219,Pyromaniac,223,It hurts so good +5 bombs
+220,Cricket's Body,224,Bursting shots + tears up
+221,Gimpy,225,Sweet suffering
+222,Black Lotus,226,HP up x3
+223,Piggy Bank,227,My life savings
+224,Mom's Perfume,228,Fear shot + tears up
+225,Monstro's Lung,229,Charged burst attack
+226,Abaddon,230,Evil + DMG up + fear shot
+227,Ball of Tar,231,Sticky feet...
+228,Stop Watch,232,Let's slow this down a bit...
+229,Tiny Planet,233,Orbiting tears + range up
+230,Infestation 2,234,Infestation shot
+231,E. Coli,236,Turdy touch
+232,Death's Touch,237,Piercing shots + DMG up
+233,Key Piece 1,238,???
+234,Key Piece 2,239,???
+235,Experimental Treatment,240,"Some stats up, some stats down"
+236,Contract from Below,241,Wealth... but at what cost?
+237,Infamy,242,Blocks damage... sometimes
+238,Trinity Shield,243,You feel guarded
+239,Tech.5,244,It's still being tested...
+240,20/20,245,Double shot
+241,Blue Map,246,Secrets
+242,BFFS!,247,Your friends rule
+243,Hive Mind,248,Giant spiders and flies
+244,There's Options,249,More options
+245,BOGO Bombs,250,1+1 BOOM!
+246,Starter Deck,251,Extra card room
+247,Little Baggy,252,Extra pill room
+248,Magic Scab,253,HP + luck up
+249,Blood Clot,254,DMG + range up
+250,Screw,255,Tears + shot speed up
+251,Hot Bombs,256,Burning blast +5 bombs
+252,Fire Mind,257,Flaming tears
+253,Missing No.,258,Syntax error
+254,Dark Matter,259,DMG up + fear shot
+255,Black Candle,260,Curse immunity + evil up
+256,Proptosis,261,Short range mega tears
+257,Missing Page 2,262,Evil up. Your enemies will pay!
+258,Clear Rune,263,Rune mimic
+259,Smart Fly,264,Revenge fly
+260,Dry Baby,265,Immortal friend
+261,Juicy Sack,266,Sticky babies
+262,Robo-Baby 2.0,267,We worked out all the kinks
+263,Rotten Baby,268,Infested friend
+264,Headless Baby,269,Bloody friend
+265,Leech,270,Blood sucker
+266,Mystery Sack,271,?
+267,BBF,272,Big Beautiful Fly
+268,Bob's Brain,273,Explosive thoughts
+269,Best Bud,274,Sworn protector
+270,Lil Brimstone,275,Evil friend
+271,Isaac's Heart,276,Protect it
+272,Lil Haunt,277,Fear him
+273,Dark Bum,278,He wants to take your life
+274,Big Fan,279,Fat protector
+275,Sissy Longlegs,280,She loves you
+276,Punching Bag,281,Scape goat
+277,How to Jump,282,It's time you learned how
+278,D100,283,REEROLLLLL!
+279,D4,284,Reroll into something else
+280,D10,285,Reroll enemies
+281,Blank Card,286,Card mimic
+282,Book of Secrets,287,Tome of knowledge
+283,Box of Spiders,288,It's a box of spiders
+284,Red Candle,289,Flame on
+285,The Jar,290,Save your life
+286,Flush!,291,...
+287,Satanic Bible,292,Reusable evil... but at what cost?
+288,Head of Krampus,293,Krampus rage
+289,Butter Bean,294,Reusable knock-back
+290,Magic Fingers,295,Pay to win
+291,Converter,296,Convert your soul
+292,Pandora's Box,297,? ?
+293,Unicorn Stump,298,You feel stumped
+294,Taurus,299,Speed down + rage is building
+295,Aries,300,Ramming speed
+296,Cancer,301,HP up + you feel protected
+297,Leo,302,Stompy
+298,Virgo,303,You feel refreshed and protected
+299,Libra,304,You feel balanced
+300,Scorpio,305,Poison tears
+301,Sagittarius,306,Piercing shots + speed up
+302,Capricorn,307,All stats up
+303,Aquarius,308,Trail of tears
+304,Pisces,309,Tears up + knock-back shot
+305,Eve's Mascara,310,"DMG up, tears + shot speed down"
+306,Judas' Shadow,311,Sweet revenge
+307,Maggy's Bow,312,HP up + you feel healthy
+308,Holy Mantle,313,Holy shield
+309,Thunder Thighs,314,HP up + speed down + you feel stompy
+310,Strange Attractor,315,Magnetic tears
+311,Cursed Eye,316,Cursed charge shot
+312,Mysterious Liquid,317,Toxic splash damage
+313,Gemini,318,Conjoined friend
+314,Cain's Other Eye,319,Near-sighted friend
+315,???'s Only Friend,320,Controlled friend
+316,Samson's Chains,321,The ol' ball and chain
+317,Mongo Baby,322,Mongo friend
+318,Isaac's Tears,323,Collected tears
+319,Undefined,324,Undefined
+320,Scissors,325,Lose your head
+321,Breath of Life,326,Invincibility at a cost
+322,The Polaroid,327,Fate chosen
+323,The Negative,328,Fate chosen
+324,The Ludovico Technique,329,Controlled tears
+325,Soy Milk,330,DMG down + tears way up
+326,Godhead,331,God tears
+327,Lazarus' Rags,332,Eternal life?
+328,The Mind,333,I know all
+329,The Body,334,I feel all
+330,The Soul,335,I am all
+331,Dead Onion,336,Toxic aura tears
+332,Broken Watch,337,I think it's broken
+333,The Boomerang,338,It will never leave you
+334,Safety Pin,339,Evil + range + shot speed up
+335,Caffeine Pill,340,Speed up + size down
+336,Torn Photo,341,Tears + shot speed up
+337,Blue Cap,342,HP + tears up + shot speed down
+338,Latch Key,343,Luck up
+339,Match Book,344,Evil up
+340,Synthoil,345,DMG + range up
+341,A Snack,346,HP up
+342,Diplopia,347,Double item vision
+343,Placebo,348,Pill mimic
+344,Wooden Nickel,349,Flip a coin
+345,Toxic Shock,350,Mass poison
+346,Mega Bean,351,Giga fart!
+347,Glass Cannon,352,Be gentle...
+348,Bomber Boy,353,Cross blast + 5 bombs
+349,Crack Jacks,354,HP up. Don't swallow the prize!
+350,Mom's Pearls,355,Range + luck up
+351,Car Battery,356,Active power up
+352,Box of Friends,357,Double your friends
+353,The Wiz,358,Double wiz shot!
+354,8 Inch Nails,359,Stick it to 'em!
+355,Incubus,360,Dark friend
+356,Fate's Reward,361,Your fate beside you
+357,Lil Chest,362,What's in the box?
+358,Sworn Protector,363,Protective friend
+359,Friend Zone,364,Friendly fly
+360,Lost Fly,365,Lost protector
+361,Scatter Bombs,366,We put bombs in your bombs!
+362,Sticky Bombs,367,Egg sack bombs!
+363,Epiphora,368,Intensifying tears
+364,Continuum,369,Transcendent tears
+365,Mr. Dolly,370,Range + tears up
+366,Curse of the Tower,371,Embrace chaos
+367,Charged Baby,372,Bbbzzzzzt!
+368,Dead Eye,373,Accuracy brings power
+369,Holy Light,374,Holy death shot
+370,Host Hat,375,Blast resistance
+371,Restock,376,Never ending stores!
+372,Bursting Sack,377,Spider love
+373,No. 2,378,Uh oh...
+374,Pupula Duplex,379,Wide shot
+375,Pay To Play,380,Money talks
+376,Eden's Blessing,381,Tears up + your future shines brighter
+377,Friendly Ball,382,Gotta fetch 'em all!
+378,Tear Detonator,383,Remote tear detonation
+379,Lil Gurdy,384,A gurd of your own!
+380,Bumbo,385,Bumbo want coin!
+381,D12,386,Rerolls rocks
+382,Censer,387,Peace be with you
+383,Key Bum,388,He wants your keys!
+384,Rune Bag,389,Rune generator
+385,Seraphim,390,Sworn friend
+386,Betrayal,391,Turn your enemy
+387,Zodiac,392,The heavens will change you
+388,Serpent's Kiss,393,The kiss of death
+389,Marked,394,Directed tears
+390,Tech X,395,Laser ring tears
+391,Ventricle Razor,396,Short cutter
+392,Tractor Beam,397,Controlled tears
+393,God's Flesh,398,Shrink shot!
+394,Maw Of The Void,399,Consume thy enemy!
+395,Spear Of Destiny,400,Your destiny
+396,Explosivo,401,Sticky bomb shot
+397,Chaos,402,!!!
+398,Spider Mod,403,Mod buddy
+399,Farting Baby,404,He farts
+400,GB Bug,405,Double tap glitch
+401,D8,406,Reroll stats
+402,Purity,407,Aura stat boost
+403,Athame,408,Call to the void
+404,Empty Vessel,409,I reward an empty vessel
+405,Evil Eye,410,Eye shot
+406,Lusty Blood,411,Their blood brings rage!
+407,Cambion Conception,412,Feed them hate
+408,Immaculate Conception,413,Feed them love
+409,More Options,414,There's options
+410,Crown Of Light,415,The untainted gain power
+411,Deep Pockets,416,More money!
+412,Succubus,417,Damage booster
+413,Fruit Cake,418,Rainbow effects!
+414,Teleport 2.0,419,I-Teleport!
+415,Black Powder,420,Spin the black circle!
+416,Kidney Bean,421,Love toots
+417,Glowing Hourglass,422,Turn back time
+418,Circle of Protection,423,Protect me from myself
+419,Sack Head,424,More sacks!
+420,Night Light,425,Scared of the dark?
+421,Obsessed Fan,426,Follows my every move...
+422,Mine Crafter,427,Booom!
+423,PJs,428,You feel cozy
+424,Head of the Keeper,429,Penny tears
+425,Papa Fly,430,Turret follower
+426,Multidimensional Baby,431,ydduB Buddy
+427,Glitter Bombs,432,Prize bombs
+428,My Shadow,433,Me! And my shaaaadow!
+429,Jar of Flies,434,Bug catcher
+430,Lil Loki,435,4-way buddy!
+431,Milk!,436,Don't cry over it...
+432,D7,437,Roll again
+433,Binky,438,Tears up
+434,Mom's Box,439,What's inside?
+435,Kidney Stone,440,Matt's kidney stone
+436,Mega Blast,441,Laser breath
+437,Dark Prince's Crown,442,Loss is power
+438,Apple!,443,Trick or treat?
+439,Lead Pencil,444,He's a bleeder!
+440,Dog Tooth,445,Bark at the moon!
+441,Dead Tooth,446,Toxic breath
+442,Linger Bean,447,Crying makes me toot
+443,Shard of Glass,448,Blood and guts!
+444,Metal Plate,449,It itches...
+445,Eye of Greed,450,Gold tears!
+446,Tarot Cloth,451,I see the future
+447,Varicose Veins,452,I'm leaking...
+448,Compound Fracture,453,Bone tears!
+449,Polydactyly,454,Hold me!
+450,Dad's Lost Coin,455,I remember this...
+451,Midnight Snack,456,HP up
+452,Cone Head,457,Hard headed!
+453,Belly Button,458,What's in there?
+454,Sinus Infection,459,Booger tears!
+455,Glaucoma,460,Blind tears!
+456,Parasitoid,461,Egg tears!
+457,Eye of Belial,462,Possessed tears!
+458,Sulfuric Acid,463,Acid tears!
+459,Glyph of Balance,464,A gift from above
+460,Analog Stick,465,360 tears!
+461,Contagion,466,Outbreak!
+462,Finger!,467,Watch where you point that!
+463,Shade,468,It follows
+464,Depression,469,:(
+465,Hushy,470,Lil hush!
+466,Lil Monstro,471,Ain't he cute?
+467,King Baby,472,Hail to the king baby
+468,Big Chubby,473,Chub chub
+469,Broken Glass Cannon,474,You broke it!
+470,Plan C,475,My last resort
+471,D1,476,What will it be?
+472,Void,477,Consume
+473,Pause,478,Stop!
+474,Smelter,479,Trinket melter!
+475,Compost,480,Gain more friends!
+476,Dataminer,481,109
+477,Clicker,482,Change
+478,Mama Mega!,483,BOOOOOOOOOM!
+479,Wait What?,484,I can't believe it's not butter bean!
+480,Crooked Penny,485,50/50
+481,Dull Razor,486,I feel numb...
+482,Potato Peeler,487,A pound of flesh...
+483,Metronome,488,Waggles a finger
+484,D infinity,489,Reroll forever
+485,Eden's Soul,490,...
+486,Acid Baby,491,Pills pills pills!
+487,YO LISTEN!,492,Yo listen!
+488,Adrenaline,493,Panic = power
+489,Jacob's Ladder,494,Electric tears
+490,Ghost Pepper,495,Flame tears
+491,Euthanasia,496,Needle shot
+492,Camo Undies,497,Camo kid
+493,Duality,498,You feel very balanced
+494,Eucharist,499,Peace be with you
+495,Sack of Sacks,500,Gives sacks
+496,Greed's Gullet,501,Money = health!
+497,Large Zit,502,Creep shots
+498,Little Horn,503,Big brother is watching
+499,Brown Nugget,504,Friendly fly
+500,Poke Go,505,Gotta catch em...
+501,Backstabber,506,Watch your back!
+502,Sharp Straw,507,More blood!
+503,Mom's Razor,508,It's sharp!
+504,Bloodshot Eye,509,Bloody friend
+505,Delirious,510,Unleash the power!
+506,Angry Fly,511,He's violent
+507,Black Hole,512,Nothing can escape
+508,Bozo,513,Party time!
+509,Broken Modem,514,Lag!
+510,Mystery Gift,515,Wrapped up nice for you!
+511,Sprinkler,516,Sprinkles.
+512,Fast Bombs,517,Rapid bomb drops
+513,Buddy in a Box,518,What could it be?!
+514,Lil Delirium,519,Delirious friend
+515,Jumper Cables,520,Bloody recharge
+516,Coupon,521,Allow 6 weeks for delivery
+517,Telekinesis,522,Power of the mind
+518,Moving Box,523,Pack and unpack
+519,Technology Zero,524,Static tears
+520,Leprosy,525,You're tearing me apart!
+521,7 Seals,526,Lil harbingers!
+522,Mr. ME!,527,Caaan do!
+523,Angelic Prism,528,Eclipsed by the moon
+524,Pop!,529,Eyeball tears
+525,Death's List,530,Just hope you're not next...
+526,Haemolacria,531,I'm seeing red...
+527,Lachryphagy,532,Feed them!
+528,Trisagion,533,Smite thy enemy
+529,Schoolbag,534,Extra active item room
+530,Blanket,535,You feel safe
+531,Sacrificial Altar,536,He demands a sacrifice
+532,Lil Spewer,537,Puking buddy
+533,Marbles,538,Choking hazard
+534,Mystery Egg,539,Sacrificial insemination
+535,Flat Stone,540,Skipping tears
+536,Marrow,541,HP up?
+537,Slipped Rib,542,Projectile shield
+538,Hallowed Ground,543,Portable sanctuary
+539,Pointy Rib,544,Stabbing time
+540,Book of the Dead,545,Rise from the grave
+541,Dad's Ring,546,Father's blessing
+542,Divorce Papers,547,Tears up + you feel empty
+543,Jaw Bone,548,Fetch!
+544,Brittle Bones,549,Everything hurts
+545,Broken Shovel,550,It feels cursed
+546,Broken Shovel,551,It feels cursed
+547,Mom's Shovel,552,Lost but not forgotten
+548,Mucormycosis,553,Spore shot
+549,2Spooky,554,4me
+550,Golden Razor,555,Pain from gain
+551,Sulfur,556,Temporary demon form
+552,Fortune Cookie,557,Reusable fortunes
+553,Eye Sore,558,More eyes
+554,120 Volt,559,Zap!
+555,It Hurts,560,No it doesn't...
+556,Almond Milk,561,DMG down + tears up + you feel nutty
+557,Rock Bottom,562,It's only up from there
+558,Nancy Bombs,563,Random blast +5 bombs
+559,A Bar of Soap,564,Tears + shot speed up
+560,Blood Puppy,565,What a cute little thing!
+561,Dream Catcher,566,Sweet dreams
+562,Paschal Candle,567,Keep the flame burning
+563,Divine Intervention,568,Double tap shield
+564,Blood Oath,569,Bleed me dry
+565,Playdough Cookie,570,Tasty rainbow
+566,Orphan Socks,571,Speed up + your feet feel stronger
+567,Eye of the Occult,572,DMG up + range up + controlled tears
+568,Immaculate Heart,573,Halo of tears
+569,Monstrance,574,Purifying light
+570,The Intruder,575,Invasive friend
+571,Dirty Mind,576,Filthy friends
+572,Damocles,577,A king's fortune... but at what cost?
+573,Free Lemonade,578,Party time!
+574,Spirit Sword,579,Divine blade
+575,Red Key,580,Explore the other side
+576,Psy Fly,581,Flamboyant protector
+577,Wavy Cap,582,Tears up. A mind changing experience!
+578,Rocket in a Jar,583,Rocket propulsion +5 bombs
+579,Book of Virtues,584,Spiritual companionship
+580,Alabaster Box,585,A sacred offering
+581,The Stairway,586,May you get what you came for
+582,Sol,588,Radiant victory
+583,Luna,589,The moon's blessing shines upon you
+584,Mercurius,590,Speed up + you feel elusive
+585,Venus,591,HP up + you feel pretty
+586,Terra,592,Born to rock
+587,Mars,593,Double tap dash
+588,Jupiter,594,You're a gas giant!
+589,Saturnus,595,Ring of tears
+590,Uranus,596,Ice tears
+591,Neptunus,597,Open the floodgates
+592,Pluto,598,Size down
+593,Voodoo Head,599,Extra curse rooms
+594,Eye Drops,600,Tears up
+595,Act of Contrition,601,"Tears up, you feel forgiven"
+596,Member Card,602,Exclusive access!
+597,Battery Pack,603,Instant energy!
+598,Mom's Bracelet,604,Mother's strength
+599,The Scooper,605,Plop!
+600,Ocular Rift,606,Stare into the abyss
+601,Boiled Baby,607,Messy friend
+602,Freezer Baby,608,Iced iced baby
+603,Eternal D6,609,???
+604,Bird Cage,610,Fat buddy
+605,Larynx,611,Hear my pain
+606,Lost Soul,612,Protect him
+607,Blood Bombs,614,Bloody blast + HP up
+608,Lil Dumpy,615,Puffy buddy
+609,Bird's Eye,616,It burns
+610,Lodestone,617,Magnetizing tears
+611,Rotten Tomato,618,Delicious!
+612,Birthright,619,???
+613,Red Stew,621,Full HP + temporary DMG up
+614,Genesis,622,In the beginning
+615,Sharp Key,623,Open your enemies
+616,Booster Pack,624,Collect them all!
+617,Mega Mush,625,I'm a big boy now!
+618,Knife Piece 1,626,???
+619,Knife Piece 2,627,???
+620,Death Certificate,628,Where am I?
+621,Bot Fly,629,Defense drone
+622,Meat Cleaver,631,Slice but no dice
+623,Evil Charm,632,Luck up + you feel protected
+624,Dogma,633,Ascended
+625,Purgatory,634,Help from beyond
+626,Stitches,635,Bait and switch
+627,R Key,636,Time to start over
+628,Knockout Drops,637,They pack a punch!
+629,Eraser,638,Erase thy enemy
+630,Yuck Heart,639,Gross!
+631,Urn of Souls,640,Unleash their sorrow
+632,Akeldama,641,Spill your guts
+633,Magic Skin,642,All your desires fulfilled
+634,Revelation,643,Awaken your faith
+635,Consolation Prize,644,+1 to lowest stat
+636,Tinytoma,645,Itching for revenge
+637,Brimstone Bombs,646,Demon blast +5 bombs
+638,4.5 Volt,647,Beat the juice out of them!
+639,Fruity Plum,649,Bouncy friend
+640,Plum Flute,650,Play time!
+641,Star of Bethlehem,651,Follow the light
+642,Cube Baby,652,Kick it!
+643,Vade Retro,653,Begone!
+644,False PHD,654,Worse pills + evil up
+645,Spin to Win,655,Let it rip!
+646,Vasculitis,657,Clogged enemies
+647,Giant Cell,658,Micro friends
+648,Tropicamide,659,Tear size + range up
+649,Card Reading,660,A link to your future
+650,Quints,661,They lurk inside
+651,Tooth and Nail,663,You feel prickly
+652,Binge Eater,664,All you can eat
+653,Guppy's Eye,665,An eye for secrets
+654,Strawman,667,A helping hand
+655,Dad's Note,668,...
+656,Sausage,669,All stats up
+657,Options?,670,There might be options
+658,Candy Heart,671,Power of love
+659,A Pound of Flesh,672,Blood money
+660,Redemption,673,Deliver me from evil
+661,Spirit Shackles,674,Unfinished business
+662,Cracked Orb,675,Shards of knowledge
+663,Empty Heart,676,It multiplies
+664,Astral Projection,677,The true out-of-body experience!
+665,C Section,678,Fetus shots
+666,Lil Abaddon,679,Abyssal friend
+667,Montezuma's Revenge,680,Oh no...
+668,Lil Portal,681,It hungers
+669,Worm Friend,682,Clingy buddy
+670,Bone Spurs,683,Break your enemies
+671,Hungry Soul,684,Out for blood
+672,Jar of Wisps,685,Your faith grows
+673,Soul Locket,686,Power of faith
+674,Friend Finder,687,Best friends forever!
+675,Inner Child,688,Let him free
+676,Glitched Crown,689,?????
+677,Belly Jelly,690,Bounce away!
+678,Sacred Orb,691,Destined for greatness
+679,Sanguine Bond,692,He awaits your offering
+680,The Swarm,693,Infest
+681,Heartbreak,694,Eternal sorrow
+682,Bloody Gust,695,May your rage bring haste
+683,Salvation,696,Divine protection
+684,Vanishing Twin,697,He wants revenge
+685,Twisted Pair,698,Double trouble!
+686,Azazel's Rage,699,Ancient power
+687,Echo Chamber,700,I can see see the future future future
+688,Isaac's Tomb,701,Buried memories
+689,Vengeful Spirit,702,Hot blooded
+690,Esau Jr.,703,Lost brother
+691,Berserk!,704,Rip and tear
+692,Dark Arts,705,One with the shadows
+693,Abyss,706,Come forth from the depths
+694,Supper,707,HP up
+695,Stapler,708,DMG up
+696,Suplex!,709,Angel breaker
+697,Bag of Crafting,710,Make your destiny
+698,Flip,711,Twist of fate
+699,Lemegeton,712,Item summoner
+700,Sumptorium,713,Blood to blood
+701,Keeper's Sack,716,Spending power
+702,Keeper's Kin,717,Under a rock
+703,Keeper's Box,719,Portable shop
+704,Everything Jar,720,Anything is possible
+705,TMTRAINER,721,Isaac and his mother lived alone in a small house on a hill
+706,Anima Sola,722,Repent
+707,Spindown Dice,723,-1
+708,Hypercoagulation,724,Thick blooded
+709,IBS,725,Your stomach rumbles
+710,Hemoptysis,726,Double tap sneeze
+711,Ghost Bombs,727,Spooky blast +5 bombs
+712,Gello,728,Demonic gestation
+713,Decap Attack,729,Chuck away!
+714,Glass Eye,730,DMG + luck up
+715,Stye,731,DMG + range up
+716,Mom's Ring,732,DMG up
