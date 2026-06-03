@@ -1,0 +1,9 @@
+,itempool_treasure,itempool_angel,itempool_devil,quality_0,quality_1,quality_2,quality_3,quality_4
+itempool_treasure,407,22,26,58,142,109,80,18
+itempool_angel,22,66,5,0,18,13,28,7
+itempool_devil,26,5,93,8,22,25,33,5
+quality_0,58,0,8,86,0,0,0,0
+quality_1,142,18,22,0,225,0,0,0
+quality_2,109,13,25,0,0,202,0,0
+quality_3,80,28,33,0,0,0,166,0
+quality_4,18,7,5,0,0,0,0,38

@@ -18,6 +18,8 @@ dataPathStringtableFile = dataRawPath / "stringtable.sta"
 dataCsvPath = dataPath / "csv"
 dataCsvPathItemsFile = dataCsvPath / "items.csv"
 dataCsvPathCategoryAssignmentsFile = dataCsvPath / "category_assignments.csv"
+dataCsvPathCategoryMatchFile = dataCsvPath / "category_match.csv"
+
 configPath = rootPath / "config"
 configPathCategoriesFile = configPath / "categories.json" 
 
