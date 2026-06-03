@@ -4,7 +4,7 @@ body {
 
   display: grid;
   place-items: center;
-  background-image: url("house_closet.png");
+  background-image: url("images/background/house_closet.png");
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,7 +32,7 @@ body h1 {
   position: relative;
   align-items: center;
   justify-content: center;
-  background-image: url("library_floor.png");
+  background-image: url("images/background/library_floor.png");
   background-repeat: no-repeat;
   background-size: cover;
   image-rendering: pixelated;

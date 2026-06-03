@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IsaacDoku</title>
 
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script type="module" src="/static/IsaacDoku.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
     <p></p>
     <h1>IsaacDoku</h1>
     <p></p>
+
     <label id="item-search-label">Search for Item</label> <br>
     <input type="search" list="item-search-datalist" id="item-search"/>
     <p></p>
@@ -42,3 +41,5 @@
     <button onclick="localStorage.clear()">clear localStorage</button>
     <p></p>
 </body>
+
+<script type="module" src="/static/js/isaac_doku.js"></script>
