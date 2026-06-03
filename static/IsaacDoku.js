@@ -56,8 +56,10 @@ class GuessHistory {
         const targetCell = grid.get_cell_from_categories(guess.row, guess.col);
         if (targetCell) {
           grid.set_cell_state(targetCell, "solved");
-          const img = targetCell.querySelector("img");
-          img.src = "/data/items/" + guess.id;
+          const img = targetCell.querySelector(".item-img");
+          img.src = "/img/items/" + guess.id;
+          const txt = targetCell.querySelector("span");
+          txt.textContent = (await fetch("/data/items/" + guess.id).then((e) => e.json()))["Name"];
         }
       }
     }
@@ -98,14 +100,21 @@ class Grid {
       cell.setAttribute("col", this.cols[j]);
       cell.textContent = "";
 
-      const img = document.createElement("img");
-      img.src = "/static/questionmark.png";
-      img.alt = "-?-"
+      const itemImg = document.createElement("img");
+      itemImg.className = "item-img";
+      itemImg.src = "/static/questionmark.png";
+      itemImg.alt = "-?-"
+
+      const pedestalImg = document.createElement("img");
+      pedestalImg.className = "pedestal-img";
+      pedestalImg.src = "/static/pedestal.png";
+      pedestalImg.alt = "_____"
 
       const span = document.createElement("span");
       span.textContent = ""
 
-      cell.appendChild(img);
+      cell.appendChild(pedestalImg);
+      cell.appendChild(itemImg);
       cell.appendChild(span);
 
       cell.addEventListener("click", (e) => {
@@ -160,8 +169,10 @@ class Grid {
     const correct = await guess.submit();
     if (correct) {
       this.set_cell_state(activeCell, "solved");
-      const img = activeCell.querySelector("img");
-      img.src = "/data/items/" + itemID;
+      const img = activeCell.querySelector(".item-img");
+      img.src = "/img/items/" + guess.id;
+      const txt = activeCell.querySelector("span");
+      txt.textContent = (await fetch("/data/items/" + guess.id).then((e) => e.json()))["Name"];
     }
   }
 }

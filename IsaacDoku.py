@@ -33,9 +33,18 @@ app = Flask(__name__)
 def all_items():
     return jsonify(get_all_items())
 
-# item with all relevant files
+# fetch item by id
 @app.route("/data/items/<int:id>")
 def item_data(id):
+    items = get_all_items()
+    item = [i for i in items if i["ID"] == id]
+    if len(item) == 0:
+        abort(404)
+    return item[0]
+
+# item images
+@app.route("/img/items/<int:id>")
+def item_image(id):
     ids = get_all_item_ids()
     if not id in ids:
         abort(404)
