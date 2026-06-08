@@ -1,4 +1,5 @@
 import { parse_csv, fetch_file_cached } from "./utils.js";
+import { ALL_CATEGORIES, NULL_CATEGORY } from "./category.js";
 
 export async function is_item_in_categories(itemID, ...categories) {
     const [ categoryAssignments, categoryIDs ] = parse_csv(await fetch_file_cached("fetch_category_assignments"));
@@ -13,28 +14,27 @@ export async function is_item_in_categories(itemID, ...categories) {
     return true;
 }
 
-export async function pickCategories(rng) {
+export async function pick_categories(rng) {
   /**
    * Picks 3 row and column categories that form the IsaacDoku Grid.
    * Ensures at least one valid item per cell.
    */
 
-  const categories = JSON.parse(await fetch_file_cached("fetch_categories"));
-  const categoryIDs = categories.map(cat => cat.id);
+  const categories = ALL_CATEGORIES;
   const [ categoryMatches, csvCategoryIDs ] = parse_csv(await fetch_file_cached("fetch_category_match"));
 
   // filter only configured categories that exist in csv
-  const validCategoryIDs = categoryIDs.filter(id => csvCategoryIDs.includes(id));
+  const validCategories = categories.filter(cat => csvCategoryIDs.includes(cat.id));
 
   function pickRandom(ignore = []) {
-    const valid = validCategoryIDs.filter(c => !ignore.includes(c));
-    if (valid.length === 0) return "";
+    const valid = validCategories.filter(c => !ignore.includes(c));
+    if (valid.length === 0) return NULL_CATEGORY;
     return rng.random_choice(valid);
   }
 
   function findCategories(maxTries = 10) {
-    let rows = ["", "", ""];
-    let cols = ["", "", ""];
+    let rows = [NULL_CATEGORY, NULL_CATEGORY, NULL_CATEGORY];
+    let cols = [NULL_CATEGORY, NULL_CATEGORY, NULL_CATEGORY];
     let attemptedRows = [];
 
     for (let attempt = 0; attempt < maxTries; attempt++) {
@@ -47,7 +47,7 @@ export async function pickCategories(rng) {
         let tried = [col];
 
         // repick col if first row has no overlapping items with it
-        while (categoryMatches[rows[0]][col] < 1) {
+        while (categoryMatches[rows[0].id][col.id] < 1) {
           col = pickRandom([...rows, ...cols, ...tried]);
           if (!col) {
             // at least one element should always be present, so use empty array as failure flag
@@ -63,10 +63,10 @@ export async function pickCategories(rng) {
 
       // for the chosen starting row, no 3 columns with at least one matching item were found
       // => try again but exclude starting row for first pick
-      if (cols.includes("")) {
+      if (cols.includes(NULL_CATEGORY)) {
         attemptedRows.push(rows[0]);
-        rows = ["", "", ""];
-        cols = ["", "", ""];
+        rows = [NULL_CATEGORY, NULL_CATEGORY, NULL_CATEGORY];
+        cols = [NULL_CATEGORY, NULL_CATEGORY, NULL_CATEGORY];
         continue;
       }
 
@@ -77,9 +77,9 @@ export async function pickCategories(rng) {
 
         // repick row if a column has no overlapping items with it
         while (
-          categoryMatches[row][cols[0]] < 1 ||
-          categoryMatches[row][cols[1]] < 1 ||
-          categoryMatches[row][cols[2]] < 1
+          categoryMatches[row.id][cols[0].id] < 1 ||
+          categoryMatches[row.id][cols[1].id] < 1 ||
+          categoryMatches[row.id][cols[2].id] < 1
         ) {
           row = pickRandom([...rows, ...cols, ...tried]);
           if (!row) {
@@ -93,12 +93,12 @@ export async function pickCategories(rng) {
         rows[i] = row;
       }
 
-      if (!rows.includes("")) {
+      if (!rows.includes(NULL_CATEGORY)) {
         return { rows, cols };
       }
 
-      rows = ["", "", ""];
-      cols = ["", "", ""];
+      rows = [NULL_CATEGORY, NULL_CATEGORY, NULL_CATEGORY];
+      cols = [NULL_CATEGORY, NULL_CATEGORY, NULL_CATEGORY];
     }
 
     return { rows, cols };

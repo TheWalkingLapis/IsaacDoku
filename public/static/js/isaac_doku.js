@@ -2,8 +2,9 @@ import { ItemList } from "./item.js" ;
 import { Grid, Cell, CELL_STATE } from "./grid.js";
 import { Guess, GuessHistory } from "./guess.js";
 import { RNG } from "./rng.js";
+import { Category } from "./category.js";
 
-import { pickCategories, is_item_in_categories } from "./isaac_utils.js";
+import { pick_categories, is_item_in_categories } from "./isaac_utils.js";
 import * as util from "./utils.js"
 
 export class IsaacDoku {
@@ -13,7 +14,7 @@ export class IsaacDoku {
     isaacDoku.seed = seed;
     isaacDoku.custom = custom;
     isaacDoku.rng = new RNG(isaacDoku.seed);
-    isaacDoku.categories = custom ? customCategories : await pickCategories(isaacDoku.rng);
+    isaacDoku.categories = custom ? customCategories : await pick_categories(isaacDoku.rng);
     isaacDoku.grid = new Grid(isaacDoku.categories["rows"], isaacDoku.categories["cols"]);
     isaacDoku.guessHistoy = new GuessHistory(isaacDoku.seed);
     isaacDoku.itemList = await ItemList.create();
@@ -62,8 +63,8 @@ export class IsaacDoku {
   async make_guess(itemID, fromGuess=null) {
     let activeCell = this.grid.get_active_cell();
     if (fromGuess) {
-      itemID = fromGuess.id
-      activeCell = this.grid.get_cell_from_categories(fromGuess.row, fromGuess.col);
+      itemID = fromGuess.id;
+      activeCell = this.grid.get_cell_from_category_ids(fromGuess.rowCatID, fromGuess.colCatID);
     }
     if (!activeCell) {
       return;
@@ -71,7 +72,7 @@ export class IsaacDoku {
     
     let guess = fromGuess;
     if (!guess) {
-      guess = new Guess(itemID, activeCell.row, activeCell.col);
+      guess = new Guess(itemID, activeCell.rowCat.id, activeCell.colCat.id);
       this.guessHistoy.add_guess(guess);
     }
 
@@ -86,5 +87,3 @@ export class IsaacDoku {
     return this.grid;
   }
 }
-
-IsaacDoku.create(util.get_today());

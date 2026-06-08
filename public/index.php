@@ -42,4 +42,4 @@
     <p></p>
 </body>
 
-<script type="module" src="/static/js/isaac_doku.js"></script>
+<script type="module" src="/static/js/game.js"></script>

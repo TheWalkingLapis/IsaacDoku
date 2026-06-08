@@ -9,8 +9,8 @@ export class Cell {
     this.grid = grid;
     this.cellID = cellID;
     this.cellNode = grid.gridNode.querySelector("#" + cellID);
-    this.row = grid.rows[this.get_row_idx()];
-    this.col = grid.cols[this.get_col_idx()];
+    this.rowCat = grid.rowCats[this.get_row_idx()];
+    this.colCat = grid.colCats[this.get_col_idx()];
 
     this.item = null;
     
@@ -54,8 +54,8 @@ export class Cell {
   }
 
   set_item(item) {
-    this.itemText.textContent = item.name();
     this.itemImg.src = item.img();
+    this.itemText.textContent = item.name();
   }
 
   set_state(state) {
@@ -83,9 +83,9 @@ export class Cell {
 }
 
 export class Grid {
-  constructor(rows, cols, gridNodeID = "game-grid") {
-    this.rows = rows;
-    this.cols = cols;
+  constructor(rowCategories, colCategories, gridNodeID = "game-grid") {
+    this.rowCats = rowCategories;
+    this.colCats = colCategories;
 
     this.gridNode = document.querySelector("#" + gridNodeID);
     this.cornerNode = this.gridNode.querySelectorAll(".empty");
@@ -95,10 +95,24 @@ export class Grid {
     this.colLabels = this.gridNode.querySelectorAll(".col-label");
 
     for (const row of this.rowLabels) {
-      row.textContent = this.rows[parseInt(row.id[3])];
+      const rowCat = this.rowCats[parseInt(row.id[3])];
+      row.textContent = rowCat.name;
+      const img = document.createElement("img");
+      img.className = "label-img";
+      img.src = rowCat.img;
+      img.alt = rowCat.id;
+      img.title = rowCat.description;
+      row.appendChild(img);
     }
     for (const col of this.colLabels) {
-      col.textContent = this.cols[parseInt(col.id[3])];
+      const colCat = this.colCats[parseInt(col.id[3])];
+      col.textContent = colCat.name;
+      const img = document.createElement("img");
+      img.className = "label-img";
+      img.src = colCat.img;
+      img.alt = colCat.id;
+      img.title = colCat.description;
+      col.appendChild(img);
     }
     for (const cellNode of this.cellNodes) {
       const i = parseInt(cellNode.id[4]), j = parseInt(cellNode.id[5]);
@@ -116,9 +130,9 @@ export class Grid {
     }
   }
 
-  get_cell_from_categories(row, col) {
+  get_cell_from_category_ids(rowCatID, colCatID) {
     for (const cell of this.cells) {
-      if (cell.row == row && cell.col == col) {
+      if (cell.rowCat.id == rowCatID && cell.colCat.id == colCatID) {
         return cell;
       }
     }

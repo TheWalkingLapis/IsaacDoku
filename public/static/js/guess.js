@@ -2,14 +2,14 @@ import { is_item_in_categories } from "./isaac_utils.js";
 import { get_today } from "./utils.js";
 
 export class Guess {
-  constructor(id, row, col) {
+  constructor(id, rowCatID, colCatID) {
     this.id = id;
-    this.row = row;
-    this.col = col;
+    this.rowCatID = rowCatID;
+    this.colCatID = colCatID;
   }
 
   async submit() {
-    return await is_item_in_categories(this.id, this.row, this.col);
+    return await is_item_in_categories(this.id, this.rowCatID, this.colCatID);
   }
 }
 
@@ -23,7 +23,7 @@ export class GuessHistory {
     try {
       const storedGuesses = JSON.parse(localStorage[this.storageKey]);
       for (const storedGuess of storedGuesses) {
-        const guess = new Guess(storedGuess["id"], storedGuess["row"], storedGuess["col"]);
+        const guess = new Guess(storedGuess["id"], storedGuess["rowCatID"], storedGuess["colCatID"]);
         this.guesses.push(guess);
       }
     } catch (e) {
