@@ -2,6 +2,7 @@
     {
         "id": "itempool_treasure",
         "description": "Is in the Treasure Itempool",
+        "img": "minimap_icons_treasure.png",
         "conditions":
         {
             "concat": "and",
@@ -18,6 +19,7 @@
     {
         "id": "itempool_angel",
         "description": "Is in the Angel Itempool",
+        "img": "minimap_icons_angel.png",
         "conditions":
         {
             "concat": "and",
@@ -34,6 +36,7 @@
     {
         "id": "itempool_devil",
         "description": "Is in the Devil Itempool",
+        "img": "minimap_icons_devil.png",
         "conditions":
         {
             "concat": "and",
@@ -50,6 +53,7 @@
     {
         "id": "itempool_shop",
         "description": "Is in the Shop Itempool",
+        "img": "minimap_icons_shop.png",
         "conditions":
         {
             "concat": "and",
@@ -66,6 +70,7 @@
     {
         "id": "itempool_boss",
         "description": "Is in the Boss Itempool",
+        "img": "minimap_icons_boss.png",
         "conditions":
         {
             "concat": "and",
@@ -82,6 +87,7 @@
     {
         "id": "itempool_secret",
         "description": "Is in the Secret Room Itempool",
+        "img": "minimap_icons_secret.png",
         "conditions":
         {
             "concat": "and",
@@ -98,6 +104,7 @@
     {
         "id": "itempool_curse",
         "description": "Is in the Curse Room Itempool",
+        "img": "minimap_icons_curse.png",
         "conditions":
         {
             "concat": "and",
