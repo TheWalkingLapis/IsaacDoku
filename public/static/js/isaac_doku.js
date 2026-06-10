@@ -19,46 +19,11 @@ export class IsaacDoku {
     isaacDoku.guessHistoy = new GuessHistory(isaacDoku.seed);
     isaacDoku.itemList = await ItemList.create();
 
-    await isaacDoku.init_item_search();
-
     await isaacDoku.guessHistoy.replay(isaacDoku.make_guess.bind(isaacDoku));
 
     return isaacDoku;
   }
 
-  async init_item_search() {
-    // setup datalist for allowed values and autocomplete:
-    const div = document.querySelector("#item-search");
-    const datalist = document.createElement("datalist");
-    datalist.setAttribute("id", "item-search-datalist");
-    const items = this.itemList.get_all();
-    for (const item of items) {
-      const option = document.createElement("option");
-      option.setAttribute("value", item.name());
-      option.setAttribute("item-id", item.id());
-      datalist.appendChild(option);
-    }
-    div.appendChild(datalist);
-
-    // configure input event
-    const itemSearch = document.querySelector("#item-search");
-    itemSearch.addEventListener("input", async (e) => {
-      const grid = this.get_active_grid();
-
-      const selectedValue = e.target.value.trim();
-
-      const selectedOption = Array.from(datalist.options).find(
-        option => option.value === selectedValue
-      );
-    
-      if (selectedOption) {
-        e.target.value = "";
-
-        // submit item
-        this.make_guess(selectedOption.getAttribute("item-id"));
-      }
-    });
-  }
 
   async make_guess(itemID, fromGuess=null) {
     let activeCell = this.grid.get_active_cell();

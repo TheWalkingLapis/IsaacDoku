@@ -5,6 +5,7 @@
     <title>IsaacDoku</title>
 
     <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@11.1.0/public/assets/styles/choices.min.css"/>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
@@ -12,9 +13,7 @@
     <p></p>
     <h1>IsaacDoku</h1>
     <p></p>
-
-    <label id="item-search-label">Search for Item</label> <br>
-    <input type="search" list="item-search-datalist" id="item-search"/>
+    <select id="item-search"></select>
     <p></p>
     <div class="grid" id="game-grid">
         <div class="empty" id="corner-empty"></div>
