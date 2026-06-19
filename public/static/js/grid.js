@@ -54,6 +54,7 @@ export class Cell {
   }
 
   set_item(item) {
+    this.item = item;
     this.itemImg.src = item.img();
     this.itemText.textContent = item.name();
     if (item.name().length < 7) {
@@ -150,5 +151,26 @@ export class Grid {
       activeCell.set_state(CELL_STATE.INACTIVE);
     }
     cell.set_state(CELL_STATE.ACTIVE);
+  }
+
+  compare(solution) {
+    const picks = {}
+    for (const catPair in solution) {
+      picks[catPair] = null;
+      const cell = this.get_cell_from_category_ids(...catPair.split(","))
+      if (!cell) {
+        continue;
+      }
+      if (!cell.item) {
+        continue;
+      }
+      for (const item of solution[catPair]) {
+        if (item.id() == cell.item.id()) {
+          picks[catPair] = cell.item;
+          break;
+        }
+      }
+    }
+    return picks;
   }
 }

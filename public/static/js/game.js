@@ -16,4 +16,18 @@ async function start_game() {
     currentGame = game;
 }
 
+async function end_game() {
+    if (!currentGame) {
+        return;
+    }
+
+    const solution = await currentGame.solution();
+    const playerPicks = currentGame.grid.compare(solution);
+
+    console.log(solution);
+}
+
+const endGameButton = document.querySelector("#end-game");
+endGameButton.onclick = end_game;
+
 await start_game();

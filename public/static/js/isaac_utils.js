@@ -14,6 +14,26 @@ export async function is_item_in_categories(itemID, ...categories) {
     return true;
 }
 
+// returns all items that are in all specified categories
+export async function items_in_categories(...categories) {
+  const [ categoryAssignments, categoryIDs ] = parse_csv(await fetch_file_cached("fetch_category_assignments"));
+  const items = [];
+  for (const id in categoryAssignments) {
+    const assignments = categoryAssignments[id];
+    let valid = true;
+    for (const cat of categories) {
+      if (!assignments[cat.id]) {
+        valid = false;
+        break;
+      }
+    }
+    if (valid) {
+      items.push(id);
+    }
+  }
+  return items;
+}
+
 export async function pick_categories(rng) {
   /**
    * Picks 3 row and column categories that form the IsaacDoku Grid.

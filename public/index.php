@@ -37,7 +37,7 @@
         <button class="cell" id="cell22" state="inactive">9</button>
     </div>
     <p></p>
-    <button onclick="localStorage.clear()">clear localStorage</button>
+    <button id="end-game">end game</button>
     <p></p>
 </body>
 

@@ -4,7 +4,7 @@ import { Guess, GuessHistory } from "./guess.js";
 import { RNG } from "./rng.js";
 import { Category } from "./category.js";
 
-import { pick_categories, is_item_in_categories } from "./isaac_utils.js";
+import { pick_categories, items_in_categories, is_item_in_categories } from "./isaac_utils.js";
 import * as util from "./utils.js"
 
 export class IsaacDoku {
@@ -48,7 +48,15 @@ export class IsaacDoku {
     }
   }
 
-  get_active_grid() {
-    return this.grid;
+  async solution() {
+    const solutions = {}
+    for (const row of this.categories.rows) {
+      for (const col of this.categories.cols) {
+        const ids = await items_in_categories(row, col);
+        const items = ids.map(id => this.itemList.get(id));
+        solutions[[row.id, col.id]] = items
+      }
+    }
+    return solutions;
   }
 }
