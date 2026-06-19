@@ -121,6 +121,7 @@
     {
         "id": "quality_0",
         "description": "Has Quality 0",
+        "img": "item_quality_icon_eid_0.png",
         "conditions":
         {
             "concat": "and",
@@ -137,6 +138,7 @@
     {
         "id": "quality_1",
         "description": "Has Quality 1",
+        "img": "item_quality_icons_eid_1.png",
         "conditions":
         {
             "concat": "and",
@@ -153,6 +155,7 @@
     {
         "id": "quality_2",
         "description": "Has Quality 2",
+        "img": "item_quality_icons_eid_2.png",
         "conditions":
         {
             "concat": "and",
@@ -169,6 +172,7 @@
     {
         "id": "quality_3",
         "description": "Has Quality 3",
+        "img": "item_quality_icons_eid_3.png",
         "conditions":
         {
             "concat": "and",
@@ -185,6 +189,7 @@
     {
         "id": "quality_4",
         "description": "Has Quality 4",
+        "img": "item_quality_icons_eid_4.png",
         "conditions":
         {
             "concat": "and",
@@ -199,53 +204,72 @@
         }
     },
     {
-        "id": "type_passive",
-        "description": "Passive (and Familiar) Items",
+        "id": "transformation_progress",
+        "description": "Gives progress towards any transformation",
         "conditions":
         {
             "concat": "or",
             "values": 
             [
                 {
-                    "column": "Type",
-                    "compare": "==",
-                    "value": "ITEM_PASSIVE"
-                },
-                {
-                    "column": "Type",
-                    "compare": "==",
-                    "value": "ITEM_FAMILIAR"
-                }
-            ]
-        }
-    },
-    {
-        "id": "type_active",
-        "description": "Active Items",
-        "conditions":
-        {
-            "concat": "and",
-            "values": 
-            [
-                {
-                    "column": "Type",
-                    "compare": "==",
-                    "value": "ITEM_ACTIVE"
-                }
-            ]
-        }
-    },{
-        "id": "tag_guppy",
-        "description": "Gives progress for Guppy Transformation",
-        "conditions":
-        {
-            "concat": "and",
-            "values": 
-            [
-                {
                     "column": "Tags",
                     "compare": "in",
                     "value": "TAG_GUPPY"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_FLY"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_MUSHROOM"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_ANGEL"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_BOB"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_SYRINGE"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_MOM"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_BABY"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_DEVIL"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_POOP"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_BOOK"
+                },
+                {
+                    "column": "Tags",
+                    "compare": "in",
+                    "value": "TAG_SPIDER"
                 }
             ]
         }

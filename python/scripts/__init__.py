@@ -2,9 +2,9 @@ from pathlib import Path
 
 MODNAME = "IsaacDoku"
 
-rootPath = Path(__file__).resolve().parent.parent
+rootPath = Path(__file__).resolve().parent.parent.parent
 
-scriptPath = rootPath / "scripts"
+scriptPath = rootPath / "python" / "scripts"
 
 modPath = rootPath / "mod" / MODNAME
 
@@ -27,7 +27,7 @@ configPathCategoriesFile = configPath / "categories.json"
 
 
 ## Isaac
-isaacPath = Path("C:/Program Files (x86)") / "Steam" / "steamapps" / "common" / "The Binding of Isaac Rebirth"
+isaacPath = Path("E:") / "Steam" / "steamapps" / "common" / "The Binding of Isaac Rebirth"
 isaacModsPath = isaacPath / "mods"
 isaacModPath = isaacPath / "mods" / MODNAME
 isaacModDataPath = isaacPath / "data" / MODNAME
