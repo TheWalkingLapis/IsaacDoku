@@ -121,7 +121,7 @@
     {
         "id": "quality_0",
         "description": "Has Quality 0",
-        "img": "item_quality_icon_eid_0.png",
+        "img": "item_quality_icons_eid_0.png",
         "conditions":
         {
             "concat": "and",
@@ -205,7 +205,8 @@
     },
     {
         "id": "transformation_progress",
-        "description": "Gives progress towards any transformation",
+        "description": "Gives progress towards ANY transformation",
+        "img": "collectibles_081_deadcat.png",
         "conditions":
         {
             "concat": "or",
@@ -270,6 +271,110 @@
                     "column": "Tags",
                     "compare": "in",
                     "value": "TAG_SPIDER"
+                }
+            ]
+        }
+    },
+    {
+        "id": "release_rebirth",
+        "description": "From the 'base' game (Rebirth)",
+        "img": "dlc_no.png",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "ID",
+                    "compare": "<",
+                    "value": 347
+                },
+                {
+                    "column": "ID",
+                    "compare": "!=",
+                    "value": 263
+                }
+            ]
+        }
+    },
+    {
+        "id": "release_afterbirth",
+        "description": "From the 'Afterbirth' DLC",
+        "img": "dlc_a.png",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "ID",
+                    "compare": ">",
+                    "value": 346
+                },
+                {
+                    "column": "ID",
+                    "compare": "<",
+                    "value": 442
+                }
+            ]
+        }
+    },
+    {
+        "id": "release_afterbirth_plus",
+        "description": "From the 'Afterbirth+' DLC",
+        "img": "dlc_a+.png",
+        "conditions":
+        {
+            "concat": "and",
+            "values": 
+            [
+                {
+                    "column": "ID",
+                    "compare": ">",
+                    "value": 441
+                },
+                {
+                    "column": "ID",
+                    "compare": "<",
+                    "value": 553
+                }
+            ]
+        }
+    },
+    {
+        "id": "release_repentance",
+        "description": "From the 'Repentance' DLC",
+        "img": "dlc_r.png",
+        "conditions":
+        {
+            "concat": "or",
+            "values": 
+            [
+                {
+                    "column": "ID",
+                    "compare": "==",
+                    "value": 263
+                },
+                {
+                    "column": "ID",
+                    "compare": ">",
+                    "value": 552
+                }
+            ]
+        }
+    },
+    {
+        "id": "unlock_always",
+        "description": "Item is always unlocked",
+        "conditions":
+        {
+            "concat": "or",
+            "values": 
+            [
+                {
+                    "column": "AchievementID",
+                    "compare": "==",
+                    "value": -1
                 }
             ]
         }
