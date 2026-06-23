@@ -3,48 +3,6 @@ local json = require("json")
 ---@type ModReference
 local mod = RegisterMod("IsaacDoku", 1)
 
---- reset isaac state as good as possible
-local function reset_isaac()
-    local player = Isaac.GetPlayer()
-    
-    -- remove items, then apply item changes
-    for i = 1, CollectibleType.NUM_COLLECTIBLES do
-        while player:HasCollectible(i) do
-            player:RemoveCollectible(i)
-        end
-    end
-    player:AddCacheFlags(CacheFlag.CACHE_ALL)
-    player:EvaluateItems()
-
-    -- reset hearts, coins, etc
-    player:AddBlackHearts(-player:GetBlackHearts())
-    player:AddSoulHearts(-player:GetSoulHearts())
-    player:AddEternalHearts(-player:GetEternalHearts())
-    player:AddBrokenHearts(-player:GetBrokenHearts())
-    player:AddBoneHearts(-player:GetBoneHearts())
-    player:AddCoins(-player:GetNumCoins())
-    player:AddBombs(-player:GetNumBombs())
-    player:AddKeys(-player:GetNumKeys())
-    player:AddMaxHearts(-player:GetMaxHearts() + 6, true) -- reset containers to 3 full (=6 half)
-    player:AddHearts(player:GetMaxHearts()) -- fullheal
-
-
-    -- clean room pickups
-    for i, entity in ipairs(Isaac.GetRoomEntities()) do
-        if entity.Type == 5 then -- Pickups
-            -- clean up all pickups
-            entity:Remove()
-        end
-    end
-end
-
---[[
-    Side effects:
-    - Edens Blessing still grants Items next run after removal
-
-    ! some items register callbacks and whatever, this seems to be incredibly hard or impossible to do automatically
-    -> reset runs
-]]
 local function simulate_item(id)
     local player = Isaac.GetPlayer()
 
@@ -74,9 +32,16 @@ local function measure_isaac(defaultValues)
         end
     end
 
+    local tearFlags = {}
+    for flag, bitset in pairs(TearFlags) do
+        if (player.TearFlags & bitset) ~= BitSet128(0,0) then
+            table.insert(tearFlags, flag)
+        end
+    end
+
     local newData = {
         Coins = player:GetNumCoins(),
-        Bombs = player:GetNumBombs(),
+        Bombs = player:GetNumBombs() - 1,
         Keys = player:GetNumKeys(),
         Pickups = table.concat(pickups, ","),
         Flight = player.CanFly,
@@ -86,7 +51,7 @@ local function measure_isaac(defaultValues)
         Range = (player.TearRange / 40.0) - defaultValues.Range,
         MoveSpeed = player.MoveSpeed - defaultValues.MoveSpeed,
         ShotSpeed = player.ShotSpeed - defaultValues.ShotSpeed,
-        TearFlags = player.TearFlags,
+        TearFlags = table.concat(tearFlags, ","),
     }
 
     return newData
@@ -147,7 +112,7 @@ end
 -- write content of enums to file as well to avoid hard coded copies in python/js
 local function save_enums()
     local jsonEnums = {
-        ItemConfig = {}
+        ItemConfig = {},
     }
     for tag, value in pairs(ItemConfig) do
         if string.sub(tag, 1, 4) == "TAG_" then
@@ -189,7 +154,7 @@ local function _on_update()
     end
 
     if itemTestQueue.State == SimulationState.InitReset then
-        reset_isaac()
+        Isaac.ExecuteCommand("restart")
 
         itemTestQueue.State = SimulationState.InitFinalize
     end
@@ -208,7 +173,7 @@ local function _on_update()
     end
 
     if itemTestQueue.State == SimulationState.ResetIsaac then
-        reset_isaac()
+        Isaac.ExecuteCommand("restart")
 
         itemTestQueue.State = SimulationState.ApplyItem
     end
@@ -242,19 +207,21 @@ local function _on_update()
             if nextItem == CollectibleType.NUM_COLLECTIBLES then break end
             nextItem = nextItem + 1
         end
-        if nextItem == CollectibleType.COLLECTIBLE_MAGIC_MUSHROOM then
+        if nextItem == CollectibleType.NUM_COLLECTIBLES then
             -- end sim
-            reset_isaac()
+            Isaac.ExecuteCommand("restart")
             write_results(save_enums(), itemTestQueue.Results)
 
             itemTestQueue.State = SimulationState.Finished
             return
         end
         itemTestQueue.NextItem = nextItem
+        if itemTestQueue.NextItem == CollectibleType.COLLECTIBLE_EDENS_BLESSING then
+            -- extra restart for edens blessing
+            Isaac.ExecuteCommand("restart")
+        end
 
         itemTestQueue.State = SimulationState.ResetIsaac
-
-        Isaac.ExecuteCommand("restart")
     end
 end
 
