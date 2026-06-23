@@ -79,6 +79,9 @@ def get_values_of_isaac_enum(enumName: str, value: int) -> list:
     isaacEnum = get_isaac_enum(enumName)
     sortedEnum = sorted(isaacEnum.keys())[::-1]
     if value < sortedEnum[-1]:
+        # if 0 is not in enum and value is 0, assume empty entry and dont print warning
+        if sortedEnum[-1] != 0 and value == 0:
+            return []
         print("WARNING: passed undefind enum value!")
         return []
     while value > 0:

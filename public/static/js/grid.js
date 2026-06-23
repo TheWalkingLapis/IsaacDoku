@@ -57,9 +57,9 @@ export class Cell {
     this.item = item;
     this.itemImg.src = item.img();
     this.itemText.textContent = item.name();
-    if (item.name().length < 7) {
-      this.itemText.style.top = "42.5%" // TODO scuffed, dont hard code here
-    }
+    //if (item.name().length < 9) {
+    //  this.itemText.style.top = "42.5%" // TODO scuffed, dont hard code here
+    //}
   }
 
   set_state(state) {

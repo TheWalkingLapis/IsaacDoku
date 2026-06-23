@@ -16,7 +16,7 @@ from scripts import (
     dataCsvPathCategoryMatchFile
 )
 
-def main():
+def match_categories():
     if not os.path.exists(dataCsvPathCategoryAssignmentsFile):
         print("ERROR: items have not been catgeorized yet!")
         return
@@ -33,4 +33,4 @@ def main():
     
 
 if __name__ == "__main__":
-    main()
+    match_categories()

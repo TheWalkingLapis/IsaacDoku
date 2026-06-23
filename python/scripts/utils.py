@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 from scripts import (
-    dataCsvPathItemsFile,
+    dataCsvPathItemsModDataFile,
     dataCsvPathCategoryAssignmentsFile
 )
 
@@ -13,13 +13,13 @@ def get_all_item_ids() -> list[int]:
     """
     assumes the csv is initalized since thats where the ids are read from
     """
-    if not os.path.exists(dataCsvPathItemsFile):
+    if not os.path.exists(dataCsvPathItemsModDataFile):
         print("ERROR: Item csv not present!")
         return []
     
     global ITEMS_DF_CACHE
     if ITEMS_DF_CACHE is None:
-        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsFile)
+        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsModDataFile)
     
     return list(ITEMS_DF_CACHE["ID"])
 
@@ -27,13 +27,13 @@ def get_all_items(returnCatgeories=[]) -> list[dict]:
     """
     empty returnCatgeories means return all
     """
-    if not os.path.exists(dataCsvPathItemsFile):
+    if not os.path.exists(dataCsvPathItemsModDataFile):
         print("ERROR: Item csv not present!")
         return []
     
     global ITEMS_DF_CACHE
     if ITEMS_DF_CACHE is None:
-        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsFile)
+        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsModDataFile)
     
     # TODO remove by making sure Nan is not exported
     clearNanDf = ITEMS_DF_CACHE.replace({np.nan: None})
@@ -43,13 +43,13 @@ def get_all_items(returnCatgeories=[]) -> list[dict]:
     return clearNanDf[returnCatgeories].to_dict("records")
 
 def get_item_property(id, property):
-    if not os.path.exists(dataCsvPathItemsFile):
+    if not os.path.exists(dataCsvPathItemsModDataFile):
         print("ERROR: Item csv not present!")
         return []
     
     global ITEMS_DF_CACHE
     if ITEMS_DF_CACHE is None:
-        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsFile)
+        ITEMS_DF_CACHE = pd.read_csv(dataCsvPathItemsModDataFile)
     
     value = ITEMS_DF_CACHE.loc[ITEMS_DF_CACHE["ID"] == id, property]
 

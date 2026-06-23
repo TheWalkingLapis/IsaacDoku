@@ -10,7 +10,7 @@ from scripts import (
     isaacModDataPath
 )
 
-def main():
+def fetch_and_format():
     files = os.listdir(isaacModDataPath)
     if len(files) < 1:
         print(f"Error: No saveData found at {isaacModDataPath}")
@@ -25,4 +25,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    fetch_and_format()

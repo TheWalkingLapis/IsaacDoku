@@ -23,7 +23,9 @@ from scripts import (
     dataPathStringtableFile,
     dataRawPath,
     dataCsvPath,
-    dataCsvPathItemsFile
+    dataCsvPathItemsFile,
+    dataCsvPathItemsModDataFile,
+    dataCsvPathItemsCustomPropsFile
 )
 from scripts.isaac_utils import (
     lookup_string,
@@ -52,16 +54,16 @@ def check_files_present() -> bool:
     return True
 
 def sort_csv_columns(filter = ["ID"], omitRemaining = False):
-    if not os.path.exists(dataCsvPathItemsFile):
+    if not os.path.exists(dataCsvPathItemsModDataFile):
         print("ERROR: csv item file not found!")
         return
     
-    df = pd.read_csv(dataCsvPathItemsFile)
+    df = pd.read_csv(dataCsvPathItemsModDataFile)
     remainingCols = [c for c in df.columns if c not in filter]
     df = df[filter if omitRemaining else filter + remainingCols]
     if "ID" in filter:
         df.sort_values("ID", inplace=True, ignore_index=True)
-    df.to_csv(dataCsvPathItemsFile, index=False)
+    df.to_csv(dataCsvPathItemsModDataFile, index=False)
 
 #################################
 ## ModData (and create csv)
@@ -116,7 +118,7 @@ def init_csv_from_modData():
 
     df = pd.DataFrame(modData)
     df.drop_duplicates(inplace=True)
-    df.to_csv(dataCsvPathItemsFile, index=False)
+    df.to_csv(dataCsvPathItemsModDataFile, index=False)
     sort_csv_columns(["Name", "ID", "Description", "Quality", "Type", "Tags"])
 
 #################################
@@ -174,24 +176,50 @@ def collect_itempools(ids: list[int], filterPrefixes: list[str] = ['greed']) -> 
 
 def mod_csv_with_itempools():
     itempools = collect_itempools(get_all_item_ids())
-    if not os.path.exists(dataCsvPathItemsFile):
+    if not os.path.exists(dataCsvPathItemsModDataFile):
         print("ERROR: csv item file not found!")
         return
     
-    df = pd.read_csv(dataCsvPathItemsFile)
+    df = pd.read_csv(dataCsvPathItemsModDataFile)
     df['Itempools'] = df['ID'].map(itempools).apply(lambda pool: ','.join(pool))
-    df.to_csv(dataCsvPathItemsFile, index=False)
+    df.to_csv(dataCsvPathItemsModDataFile, index=False)
     sort_csv_columns(["Name", "ID", "Description", "Quality", "Itempools"])
+
+def mod_csv_with_custom():
+    if not os.path.exists(dataCsvPathItemsCustomPropsFile):
+        print("ERROR: csv item custom props file not found!")
+        return
+    
+    if not os.path.exists(dataCsvPathItemsModDataFile):
+        print("ERROR: csv item file not found!")
+        return
+    
+    itemDf = pd.read_csv(dataCsvPathItemsModDataFile)
+    try:
+        customDf = pd.read_csv(dataCsvPathItemsCustomPropsFile)
+    except pd.errors.EmptyDataError:
+        # overwrite with mod data
+        itemDf.to_csv(dataCsvPathItemsFile, index=False)
+        return
+
+    itemDf = itemDf.set_index("ID")
+    customDf = customDf.set_index("ID")
+
+    itemDf.update(customDf)
+    itemDf = itemDf.reset_index()
+    itemDf.to_csv(dataCsvPathItemsFile, index=False)
+
 
 #################################
 ## Main
 #################################
-def main():
+def create_item_csv():
     if not check_files_present():
         print("Error: Missing files in data! Make sure you called the data fetching scripts beforehand!")
 
     init_csv_from_modData()
     mod_csv_with_itempools()
+    mod_csv_with_custom()
 
 if __name__ == "__main__":
-    main()
+    create_item_csv()

@@ -37,7 +37,7 @@ import json
 
 from scripts import (
     configPathCategoriesFile,
-    dataCsvPathItemsFile,
+    dataCsvPathItemsModDataFile,
     dataCsvPathCategoryAssignmentsFile
 )
 
@@ -51,8 +51,9 @@ _condition_translator = {
     
     "<": lambda x,y: x < y,
     ">": lambda x,y: x > y,
+    "!=": lambda x,y: x != y,
     "==": lambda x,y: x == y,
-    "in": lambda x,y: x in y,
+    "in": lambda x,y: y in x,
 }
 
 def evaluate_condition(conditionDict, itemData):
@@ -62,6 +63,8 @@ def evaluate_condition(conditionDict, itemData):
     
     # start with False for "or", True for "and"
     evaluationResult = conditionDict["concat"] == "and"
+
+    pr = (len(conditionDict["values"]) > 2)
 
     for condition in conditionDict["values"]:
         condColumn = condition["column"]
@@ -75,17 +78,18 @@ def evaluate_condition(conditionDict, itemData):
             if pd.isna(itemValue):
                 return False
             
-            result = condCompareFunc(condValue, itemValue)
+            result = condCompareFunc(itemValue, condValue)
             evaluationResult = _condition_translator[conditionDict["concat"]](evaluationResult, result)
+
     
     return evaluationResult
 
-def main():
+def categorize():
     if not os.path.exists(configPathCategoriesFile):
         print("ERROR: config file does not exist")
         return
     
-    itemDf = pd.read_csv(dataCsvPathItemsFile)
+    itemDf = pd.read_csv(dataCsvPathItemsModDataFile)
 
     allItemIDs = get_all_item_ids()
     categoryDf = pd.DataFrame({"id": allItemIDs})
@@ -108,4 +112,4 @@ def main():
         categoryDf.to_csv(dataCsvPathCategoryAssignmentsFile, index=False)
 
 if __name__ == "__main__":
-    main()
+    categorize()
