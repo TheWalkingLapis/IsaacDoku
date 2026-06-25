@@ -24,6 +24,10 @@ export class IsaacDoku {
     return isaacDoku;
   }
 
+  async reset() {
+    this.grid = new Grid(this.categories["rows"], this.categories["cols"]);
+    this.guessHistoy.clear()
+  }
 
   async make_guess(itemID, fromGuess=null) {
     let activeCell = this.grid.get_active_cell();
