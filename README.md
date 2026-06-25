@@ -1,38 +1,42 @@
 # IsaacDoku
-Isaac equivalent to PokeDoku
 
+Access at https://isaacdoku.net/
 
-## Install
+An Isaac-insprired daily puzzle, similar to Isaacle or IsaacConnect but in the style of Pokedoku.
+
+## The Game
+
+For both columns and rows, three item categories are chosen, resulting in a 3x3 grid.
+
+The player must find an item that fits both the row and column category for each cell in the grid to win.
+
+In contrast to wordle-like games there is (often) more than one solution per cell.
+
+# Install
+
+## Setup repo
+
 Run `source ./setup.sh` (see commment in script for installation on Unix).
+Also make sure you have php installed.
 
-## Run
-Run `python IsaacDoku.py` and access localhost (http://127.0.0.1:5000)
+## Setup Server
 
-# TODO
-- mod:
-    - [X] spawn clean isaac, give item and get stat changes/status changes
-    - [X] store and write to csv
-    - [ ] Cats:
-        - [ ] All stat ups
-        - [ ] damage multiplier (change that to manual, without repentogon seems unfun)
-        - [ ] stat down
-        - [ ] for all stats: up/down (cat maybe combination?)
-        - [ ] flight
-        - [ ] spectral
-        - [ ] piercing
-- [ ] end game
-    - [ ] show all solutions for categories (how should it look like?)
-    - [ ] disable further inputs
-- [ ] add hp
-- [ ] integrate custom properties:
-    - [ ] rename items.csv to items_extracted_props.csv
-    - [ ] have js/python code to join the table of custom and extracted which is then used as item.csv for everything
-- [ ] add more categories
-    - [X] items that add to transformation progress
-    - [ ] cats for unlock conditions (character, always, progression, ...)
-    - [X] release dlc
-    - [ ] colors (custom prop issue tbh)
-- [ ] beautify
-    - [ ] item select background / item seperator
-    - [ ] background images maybe other/new?
-- ([ ] group categegories and use that for better generation, also maybe difficulty based on #correct solutions)
+Run `./IsaacDokuServer` and access localhost (http://127.0.0.1:5000).
+
+Depending on your Server, note that the contents of 'public/' should be in the public root directory.
+Everything else if fetched via the files in 'public/api/', so you might need to change the path in these files.
+
+## Workflow
+
+When updating categories, item data, etc. some files further down may have to be updated as well to reflect the changes.
+In `python/update.py`, every step (except 1.) is executed to assure this happens. 
+This is the workflow:
+
+1. Isaac Mod extracts information about items not found in the game files
+2. Additional item tags (e.g. color) can be manually added or overwritten
+3. Raw data from 1. and 2. is processed and joined together
+4. Items are grouped in given categories
+5. Categories are matched against each other to get the pair-wise item overlap
+
+# Disclaimer
+I am not involved with the creators of The Binding of Isaac and do not own the rights to the related files.
