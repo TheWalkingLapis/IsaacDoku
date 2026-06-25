@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - deploy-action
+    paths:
+      - "isaacdoku/**"
+      - "public/**"
 
 jobs:
   deploy:
@@ -22,12 +25,6 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           server-dir: /public_html/
           local-dir: public/
-
-      - name: Prepare Backend
-        run: |
-          mkdir isaacdoku
-          rsync -av config/ isaacdoku/config/
-          rsync -av data/ isaacdoku/data/
         
       - name: Deploy Backend
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5

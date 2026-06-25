@@ -8,7 +8,7 @@ scriptPath = rootPath / "python" / "scripts"
 
 modPath = rootPath / "mod" / MODNAME
 
-dataPath = rootPath / "data"
+dataPath = rootPath / "isaacdoku" / "data"
 dataRawPath = dataPath / "raw"
 dataPathItempoolsFile = dataRawPath / "itempools.xml"
 dataPathItemsMetadataFile = dataRawPath / "items_metadata.xml"
@@ -24,7 +24,7 @@ dataCsvPathCategoryMatchFile = dataCsvPath / "category_match.csv"
 dataGamePath = dataPath / "game"
 datagamePathDaily = dataGamePath / "daily.json"
 
-configPath = rootPath / "config"
+configPath = rootPath / "isaacdoku" / "config"
 configPathCategoriesFile = configPath / "categories.json" 
 
 

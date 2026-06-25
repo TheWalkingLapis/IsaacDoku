@@ -3,8 +3,7 @@ name: Update data
 on:
   push:
     paths:
-      - "data/**"
-      - "config/**"
+      - "isaacdoku/**"
 
 permissions:
   contents: write
