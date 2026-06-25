@@ -10,6 +10,7 @@
         - [ ] flight
         - [ ] spectral
         - [ ] piercing
+- [ ] clear localStorage option (reset button for today)
 - [ ] end game
     - [ ] show all solutions for categories (how should it look like?)
     - [ ] disable further inputs
@@ -28,5 +29,6 @@
 - ([ ] group categegories and use that for better generation, also maybe difficulty based on #correct solutions)
 
 # Git
+- [ ] Add some versioning system, also add this to isaacdoku such that the daily game localStorage is reset on new versions
 - [X] Auto execute update.py for changes in data/ and config/
 - [X] Auto deploy webiste to Hostinger, maybe through FTP and github or check Hostinger options
