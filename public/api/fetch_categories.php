@@ -1,5 +1,5 @@
 <?php
 header('Content-Type: text/json');
 
-readfile("../../config/categories.json");
+readfile("../../isaacdoku/config/categories.json");
 exit;

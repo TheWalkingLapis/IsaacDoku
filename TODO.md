@@ -29,4 +29,4 @@
 
 # Git
 - [X] Auto execute update.py for changes in data/ and config/
-- [ ] Auto deploy webiste to Hostinger, maybe through FTP and github or check Hostinger options
+- [X] Auto deploy webiste to Hostinger, maybe through FTP and github or check Hostinger options
