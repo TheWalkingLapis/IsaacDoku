@@ -18,7 +18,7 @@ export class Item {
     }
 
     img() {
-        return "static/images/items/" + this.data["GfxFileName"].split("/")[3];
+        return "static/images/items/" + this.data["GfxFileName"].split("/")[3].toLowerCase();
     }
 
 }
