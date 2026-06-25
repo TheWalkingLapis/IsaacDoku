@@ -1,4 +1,4 @@
-# TODO
+# Game
 - mod:
     - [X] spawn clean isaac, give item and get stat changes/status changes
     - [X] store and write to csv
@@ -26,3 +26,7 @@
     - [ ] item select background / item seperator
     - [ ] background images maybe other/new?
 - ([ ] group categegories and use that for better generation, also maybe difficulty based on #correct solutions)
+
+# Git
+- [ ] Auto execute update.py for changes in data/ and config/
+- [ ] Auto deploy webiste to Hostinger, maybe through FTP and github or check Hostinger options

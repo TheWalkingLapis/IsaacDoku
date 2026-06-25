@@ -11,6 +11,9 @@ from scripts import (
 )
 
 def fetch_and_format():
+    if not os.path.exists(isaacModDataPath):
+        print(f"Skip scanning for mod data since there is no Isaac dir")
+        return
     files = os.listdir(isaacModDataPath)
     if len(files) < 1:
         print(f"Error: No saveData found at {isaacModDataPath}")
