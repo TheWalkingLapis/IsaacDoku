@@ -13,6 +13,9 @@ export class Cell {
     this.colCat = grid.colCats[this.get_col_idx()];
 
     this.item = null;
+    this.clickCallback = (e) => {
+      this.grid.make_cell_active(this);
+    }
     
     this.set_attributes();
   }
@@ -40,9 +43,7 @@ export class Cell {
     this.cellNode.appendChild(this.itemImg);
     this.cellNode.appendChild(this.itemText);
 
-    this.cellNode.addEventListener("click", (e) => {
-      this.grid.make_cell_active(this);
-    });
+    this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
   }
 
   get_row_idx() {
@@ -83,6 +84,10 @@ export class Cell {
 
   is_solved() {
     return this.cellState == CELL_STATE.SOLVED;
+  }
+
+  change_click_callback(callback) {
+    this.clickCallback = callback;
   }
 }
 
@@ -153,11 +158,12 @@ export class Grid {
     cell.set_state(CELL_STATE.ACTIVE);
   }
 
+  // returns the item for each cell if that item is part of the provided solution
   compare(solution) {
     const picks = {}
     for (const catPair in solution) {
       picks[catPair] = null;
-      const cell = this.get_cell_from_category_ids(...catPair.split(","))
+      const cell = this.get_cell_from_category_ids(...catPair.split(","));
       if (!cell) {
         continue;
       }
@@ -172,5 +178,26 @@ export class Grid {
       }
     }
     return picks;
+  }
+
+  // changes cell button callback to display the given solution, no longer makes the cell active
+  change_to_solution(solution) {
+    for (const catPair in solution) {
+      const cell = this.get_cell_from_category_ids(...catPair.split(","));
+      if (!cell) {
+        console.error("Cell for categories " + catPair + " does not exist!");
+        continue;
+      }
+      // set all cells to inactive
+      const activeCell = this.get_active_cell();
+      if (activeCell) {
+        activeCell.set_state(CELL_STATE.INACTIVE);
+      }
+
+      // change click behaviour
+      cell.change_click_callback((e) => {
+        console.log(solution[catPair]);
+      });
+    }
   }
 }

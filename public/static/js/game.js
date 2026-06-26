@@ -23,8 +23,7 @@ async function end_game() {
 
     const solution = await currentGame.solution();
     const playerPicks = currentGame.grid.compare(solution);
-
-    console.log(solution);
+    currentGame.grid.change_to_solution(solution);
 }
 
 async function retry() {
