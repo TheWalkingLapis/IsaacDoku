@@ -27,7 +27,18 @@ async function end_game() {
     console.log(solution);
 }
 
+async function retry() {
+    if (!currentGame) {
+        return;
+    }
+
+    currentGame.reset()
+}
+
 const endGameButton = document.querySelector("#end-game");
 endGameButton.onclick = end_game;
+
+const retryButton = document.querySelector("#retry");
+retryButton.onclick = retry;
 
 await start_game();

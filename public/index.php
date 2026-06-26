@@ -38,6 +38,7 @@
     </div>
     <p></p>
     <button id="end-game">end game</button>
+    <button id="retry">retry</button>
     <p></p>
 </body>
 
