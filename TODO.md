@@ -10,7 +10,7 @@
         - [ ] flight
         - [ ] spectral
         - [ ] piercing
-- [ ] clear localStorage option (reset button for today)
+- [X] clear localStorage option (reset button for today)
 - [ ] end game
     - [ ] show all solutions for categories (how should it look like?)
     - [ ] disable further inputs
