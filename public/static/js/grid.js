@@ -22,9 +22,9 @@ export class Cell {
   }
 
   set_attributes() {
-    // if child nodes are already set up only update eventlistener
+    // if child nodes are already set up only add eventlistener
     if (this.cellNode.childElementCount > 0) {
-      // TODO this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
+      this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
       return;
     }
 
@@ -104,6 +104,10 @@ export class Cell {
     this.itemImg.src = "/static/images/questionmark.png";
     this.itemText.textContent = "";
 
+  }
+
+  destroy() {
+    this.cellNode.removeEventListener("click", (e) => this.clickCallback(e));
   }
 }
 
