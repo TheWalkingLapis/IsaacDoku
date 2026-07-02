@@ -3,7 +3,7 @@ import Choices from "https://esm.sh/choices.js";
 import { Item, ItemList } from "./item.js";
 
 export class ItemSearch {
-  constructor(searchNode, items, onSelect,) {
+  constructor(searchNode, items, onSelect) {
     this.searchNode = searchNode;
     this.items = items;
     this.onSelect = onSelect;
