@@ -51,11 +51,99 @@ export class ItemSearch {
       },
     });
 
+    
+    this.choices.containerOuter.element.id = this.searchNode.id;
+
     this.searchNode.addEventListener("change", e => {
       const itemID = e.target.value;
 
       if (itemID && this.onSelect) {
         this.onSelect(itemID);
+      }
+
+      this.clear();
+    });
+  }
+
+  clear() {
+    if (!this.choices) return;
+
+    this.choices.removeActiveItems();
+    this.choices.setChoiceByValue("");
+  }
+}
+
+export class ItemShow {
+  constructor(searchNode) {
+    this.searchNode = searchNode;
+    this.items = [];
+    this.choices = null;
+
+    this.init();
+  }
+
+  set_items(itemList) {
+    this.items = itemList;
+    this.update();
+  }
+
+  update() {
+    this.choices.clearChoices();
+    this.choices.setChoices(
+      this.items.map(item => ({
+        value: item.id(),
+        label: item.name(),
+        customProperties: {
+          image: item.img()
+        }
+      })));
+  }
+
+  init() {
+    this.searchNode.innerHTML = "";
+
+    this.choices = new Choices(this.searchNode, {
+      itemSelectText: "",
+      searchResultLimit: -1,
+      choices: this.items.map(item => ({
+        value: item.id(),
+        label: item.name(),
+        customProperties: {
+          image: item.img()
+        }
+      })),
+
+      callbackOnCreateTemplates(strToEl) {
+        return {
+          choice: (classNames, data) =>
+            strToEl(`
+              <div
+                class="choices__item choices__item--choice"
+                data-choice
+                data-id="${data.id}"
+                data-value="${data.value}"
+              >
+                <img
+                  class="choice-image"
+                  src="${data.customProperties.image}"
+                  alt=""
+                >
+                <span class="choice-label">
+                  ${data.label}
+                </span>
+              </div>
+            `),
+        };
+      },
+    });
+
+    this.choices.containerOuter.element.id = this.searchNode.id;
+
+    this.searchNode.addEventListener("change", e => {
+      const itemID = e.target.value;
+
+      if (itemID && this.onSelect) {
+        console.lof(itemID);
       }
 
       this.clear();

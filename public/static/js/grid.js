@@ -1,3 +1,5 @@
+import { ItemShow } from "./item_search.js";
+
 export const CELL_STATE = {
   INACTIVE: "inactive",
   ACTIVE: "active",
@@ -19,15 +21,12 @@ export class Cell {
     
     this.set_state(CELL_STATE.INACTIVE);
     this.set_attributes();
+
+    this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
+    this.solutionList = [];
   }
 
   set_attributes() {
-    // if child nodes are already set up only add eventlistener
-    if (this.cellNode.childElementCount > 0) {
-      this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
-      return;
-    }
-
     this.cellNode.setAttribute("cell", this);
     this.cellNode.textContent = "";
 
@@ -47,8 +46,6 @@ export class Cell {
     this.cellNode.appendChild(this.pedestalImg);
     this.cellNode.appendChild(this.itemImg);
     this.cellNode.appendChild(this.itemText);
-
-    this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
   }
 
   get_row_idx() {
@@ -95,6 +92,10 @@ export class Cell {
     this.clickCallback = callback;
   }
 
+  set_solution(solution) {
+    this.solutionList = solution;
+  }
+
   reset() {
     this.change_click_callback((e) => {
       this.grid.make_cell_active(this);
@@ -103,7 +104,7 @@ export class Cell {
     this.item = null;
     this.itemImg.src = "/static/images/questionmark.png";
     this.itemText.textContent = "";
-
+    this.solutionList = [];
   }
 
   destroy() {
@@ -201,7 +202,7 @@ export class Grid {
   }
 
   // changes cell button callback to display the given solution, no longer makes the cell active
-  change_to_solution(solution) {
+  change_to_solution(solution, itemShow) {
     for (const catPair in solution) {
       const cell = this.get_cell_from_category_ids(...catPair.split(","));
       if (!cell) {
@@ -214,10 +215,10 @@ export class Grid {
         activeCell.set_state(CELL_STATE.INACTIVE);
       }
 
+      cell.set_solution(solution[catPair]);
       // change click behaviour
       cell.change_click_callback((e) => {
-        // TODO: make some sort of item list that also gets a node(create on cell gen or dynamically?) that acts as scrollable list
-        console.log(solution[catPair]);
+        itemShow.set_items(cell.solutionList);
       });
     }
   }
