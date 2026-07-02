@@ -25,8 +25,8 @@ export class IsaacDoku {
   }
 
   async reset() {
-    this.grid = new Grid(this.categories["rows"], this.categories["cols"]);
-    this.guessHistoy.clear()
+    this.grid.reset();
+    this.guessHistoy.clear();
   }
 
   async make_guess(itemID, fromGuess=null) {

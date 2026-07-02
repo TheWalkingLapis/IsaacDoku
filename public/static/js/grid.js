@@ -17,14 +17,19 @@ export class Cell {
       this.grid.make_cell_active(this);
     }
     
+    this.set_state(CELL_STATE.INACTIVE);
     this.set_attributes();
   }
 
   set_attributes() {
+    // if child nodes are already set up only update eventlistener
+    if (this.cellNode.childElementCount > 0) {
+      // TODO this.cellNode.addEventListener("click", (e) => this.clickCallback(e));
+      return;
+    }
+
     this.cellNode.setAttribute("cell", this);
     this.cellNode.textContent = "";
-
-    this.set_state(CELL_STATE.INACTIVE);
 
     this.itemImg = document.createElement("img");
     this.itemImg.className = "item-img";
@@ -88,6 +93,17 @@ export class Cell {
 
   change_click_callback(callback) {
     this.clickCallback = callback;
+  }
+
+  reset() {
+    this.change_click_callback((e) => {
+      this.grid.make_cell_active(this);
+    })
+    this.set_state(CELL_STATE.INACTIVE)
+    this.item = null;
+    this.itemImg.src = "/static/images/questionmark.png";
+    this.itemText.textContent = "";
+
   }
 }
 
@@ -196,8 +212,15 @@ export class Grid {
 
       // change click behaviour
       cell.change_click_callback((e) => {
+        // TODO: make some sort of item list that also gets a node(create on cell gen or dynamically?) that acts as scrollable list
         console.log(solution[catPair]);
       });
+    }
+  }
+
+  reset() {
+    for (const cell of this.cells) {
+      cell.reset();
     }
   }
 }
