@@ -35,9 +35,8 @@
         <button class="cell" id="cell20" state="inactive">7</button>
         <button class="cell" id="cell21" state="inactive">8</button>
         <button class="cell" id="cell22" state="inactive">9</button>
-
-        <select id="item-show"></select>
     </div>
+    <div id="item-show"></div>
     <p></p>
     <button id="end-game">end game</button>
     <button id="retry">retry</button>

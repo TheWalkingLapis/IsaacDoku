@@ -5,7 +5,7 @@ export class Item {
         this.data = data;
     }
 
-    id () {
+    id() {
         return this.data["ID"];
     }
 

@@ -39,11 +39,23 @@ body h1 {
   z-index: 10;
   font-size: 24px;
 }
+#item-search .choices__inner {
+  background-color: #252525;
+  border: none;
+  box-shadow: none;
+}
 #item-search .choices.is-open .choices__inner {
   opacity: 0;
 }
 #item-search .choices__list--dropdown {
   transform: translateY(-40px);
+  background-color: #252525;
+  border: none;
+  box-shadow: none;
+}
+#item-search .choices__input {
+  background-color: #252525;
+  color: #ffffff;
 }
 
 #item-search .choice-label {
@@ -54,11 +66,6 @@ body h1 {
 #item-search .choice-image {
   width: 60px;
   height: 60px;
-}
-
-#item-show.choices {
-  position: absolute;
-  width: 100%;
 }
 
 .grid {

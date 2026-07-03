@@ -12,7 +12,7 @@ async function start_game() {
     const seed = get_today();
     refs.game = await IsaacDoku.create(seed);
 
-    refs.search = new ItemSearch(document.querySelector("#item-search"), refs.itemList.get_all(), (itemId) => { game.make_guess(itemId) });
+    refs.search = new ItemSearch(document.querySelector("#item-search"), refs.itemList.get_all(), (itemId) => { refs.game.make_guess(itemId) });
     refs.itemShow = new ItemShow(document.querySelector("#item-show"));
 }
 
