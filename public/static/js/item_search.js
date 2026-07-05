@@ -89,9 +89,9 @@ export class ItemShow {
   update() {
     this.clear();
 
-    function make_item_div(item) {
+    function make_item_button(item) {
       const button = document.createElement("button");
-      button.className = "item-show-div";
+      button.className = "item-show-button";
       button.setAttribute("data-value", item.id());
       const img = document.createElement("img");
       img.className = "item-show-img";
@@ -107,7 +107,7 @@ export class ItemShow {
     }
 
     for (const item of this.items) {
-      const div = make_item_div(item);
+      const div = make_item_button(item);
       this.searchNode.appendChild(div);
     }
   }

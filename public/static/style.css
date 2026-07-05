@@ -18,6 +18,7 @@ body {
 
   display: grid;
   place-items: center;
+
   background-image: url("images/background/house_closet.png");
   background-color: black;
   background-repeat: no-repeat;
@@ -32,6 +33,7 @@ body h1 {
   text-shadow:
     0 0 20px rgb(255, 0, 0)
 }
+
 
 #item-search.choices {
   width: 25%;
@@ -67,6 +69,42 @@ body h1 {
   width: 60px;
   height: 60px;
 }
+
+.container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#item-show {
+  position: absolute;
+  left: calc(100% + 20px);
+  top: 0;
+  height: min(75vh, 75vw);
+  width: 20vw;
+  overflow: scroll;
+}
+
+#item-show button {
+  width: 100%;
+  height: 15%;
+  background-color: #252525;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-shadow: inherit;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 0 10px;
+}
+
+#item-show button img {
+  height: 80%;
+}
+
 
 .grid {
   position: relative;
