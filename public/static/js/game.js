@@ -10,7 +10,10 @@ async function start_game() {
     refs.itemList = await ItemList.create();
 
     const seed = get_today();
-    refs.game = await IsaacDoku.create(seed);
+    const callbackDict = {
+        "win": end_game,
+    }
+    refs.game = await IsaacDoku.create({seed: seed, callbacks: callbackDict});
 
     refs.search = new ItemSearch(document.querySelector("#item-search"), refs.itemList.get_all(), (itemId) => { refs.game.make_guess(itemId) });
     refs.itemShow = new ItemShow(document.querySelector("#item-show"));
@@ -31,7 +34,8 @@ async function retry() {
         return;
     }
 
-    refs.game.reset()
+    refs.itemShow.clear();
+    refs.game.reset();
 }
 
 const endGameButton = document.querySelector("#end-game");
