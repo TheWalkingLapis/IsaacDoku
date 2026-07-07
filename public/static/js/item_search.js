@@ -3,7 +3,7 @@ import Choices from "https://esm.sh/choices.js";
 import { Item, ItemList } from "./item.js";
 
 export class ItemSearch {
-  constructor(searchNode, items, onSelect,) {
+  constructor(searchNode, items, onSelect) {
     this.searchNode = searchNode;
     this.items = items;
     this.onSelect = onSelect;
@@ -51,6 +51,9 @@ export class ItemSearch {
       },
     });
 
+    
+    this.choices.containerOuter.element.id = this.searchNode.id;
+
     this.searchNode.addEventListener("change", e => {
       const itemID = e.target.value;
 
@@ -67,5 +70,49 @@ export class ItemSearch {
 
     this.choices.removeActiveItems();
     this.choices.setChoiceByValue("");
+  }
+}
+
+export class ItemShow {
+  constructor(searchNode) {
+    this.searchNode = searchNode;
+    this.items = [];
+
+    this.update();
+  }
+
+  set_items(itemList) {
+    this.items = itemList;
+    this.update();
+  }
+
+  update() {
+    this.clear();
+
+    function make_item_button(item) {
+      const button = document.createElement("button");
+      button.className = "item-show-button";
+      button.setAttribute("data-value", item.id());
+      const img = document.createElement("img");
+      img.className = "item-show-img";
+      img.src = item.img();
+      const span = document.createElement("span");
+      span.className = "item-show-span";
+      span.textContent = item.name();
+
+      button.appendChild(img);
+      button.appendChild(span);
+
+      return button;
+    }
+
+    for (const item of this.items) {
+      const div = make_item_button(item);
+      this.searchNode.appendChild(div);
+    }
+  }
+
+  clear() {
+    this.searchNode.innerHTML = "";
   }
 }

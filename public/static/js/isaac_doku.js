@@ -8,16 +8,19 @@ import { pick_categories, items_in_categories, is_item_in_categories } from "./i
 import * as util from "./utils.js"
 
 export class IsaacDoku {
-  static async create(seed = "DEFAULT", custom = false, customCategories = [{}]) {
+  // call using a dict!
+  static async create({seed = "DEFAULT", callbacks = {}, custom = false, customCategories = [{}]}) {
     const isaacDoku = new IsaacDoku();
 
     isaacDoku.seed = seed;
     isaacDoku.custom = custom;
+    isaacDoku.solvedCells = 0;
     isaacDoku.rng = new RNG(isaacDoku.seed);
     isaacDoku.categories = custom ? customCategories : await pick_categories(isaacDoku.rng);
     isaacDoku.grid = new Grid(isaacDoku.categories["rows"], isaacDoku.categories["cols"]);
     isaacDoku.guessHistoy = new GuessHistory(isaacDoku.seed);
     isaacDoku.itemList = await ItemList.create();
+    isaacDoku.callbacks = callbacks;
 
     await isaacDoku.guessHistoy.replay(isaacDoku.make_guess.bind(isaacDoku));
 
@@ -25,8 +28,9 @@ export class IsaacDoku {
   }
 
   async reset() {
-    this.grid = new Grid(this.categories["rows"], this.categories["cols"]);
-    this.guessHistoy.clear()
+    this.grid.reset();
+    this.solvedCells = 0;
+    this.guessHistoy.clear();
   }
 
   async make_guess(itemID, fromGuess=null) {
@@ -47,8 +51,14 @@ export class IsaacDoku {
 
     const correct = await guess.submit();
     if (correct) {
+      this.solvedCells += 1;
       activeCell.set_item(this.itemList.get(itemID));
       activeCell.set_state(CELL_STATE.SOLVED);
+      if (this.solvedCells == 9) {
+        if ("win" in this.callbacks) {
+          this.callbacks["win"]();
+        }
+      }
     }
   }
 
