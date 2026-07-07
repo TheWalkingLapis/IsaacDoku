@@ -14,6 +14,8 @@ export class IsaacDoku {
 
     isaacDoku.seed = seed;
     isaacDoku.custom = custom;
+    isaacDoku.maxHp = 3;
+    isaacDoku.hp = isaacDoku.maxHp;
     isaacDoku.solvedCells = 0;
     isaacDoku.rng = new RNG(isaacDoku.seed);
     isaacDoku.categories = custom ? customCategories : await pick_categories(isaacDoku.rng);
@@ -30,6 +32,7 @@ export class IsaacDoku {
   async reset() {
     this.grid.reset();
     this.solvedCells = 0;
+    this.hp = this.maxHp;
     this.guessHistoy.clear();
   }
 
@@ -57,6 +60,13 @@ export class IsaacDoku {
       if (this.solvedCells == 9) {
         if ("win" in this.callbacks) {
           this.callbacks["win"]();
+        }
+      }
+    } else {
+      this.hp -= 1
+      if (this.hp <= 0) {
+        if ("dead" in this.callbacks) {
+          this.callbacks["dead"]();
         }
       }
     }

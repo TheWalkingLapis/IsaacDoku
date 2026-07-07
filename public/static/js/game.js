@@ -12,6 +12,7 @@ async function start_game() {
     const seed = get_today();
     const callbackDict = {
         "win": end_game,
+        "dead": retry,
     }
     refs.game = await IsaacDoku.create({seed: seed, callbacks: callbackDict});
 
