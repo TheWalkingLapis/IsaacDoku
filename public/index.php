@@ -16,6 +16,10 @@
     <select id="item-search"></select>
     <p></p>
     <div class="container" id="game-container">
+        <div id="ui">
+            <div id="ui-character"></div>
+            <div id="ui-hp"></div>
+        </div>
         <div class="grid" id="game-grid">
             <div class="empty" id="corner-empty"></div>
             <div class="col-label" id="col0-label">A</div>

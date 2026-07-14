@@ -63,7 +63,11 @@ export class IsaacDoku {
         }
       }
     } else {
+
       this.hp -= 1
+      if ("setHP" in this.callbacks) {
+        this.callbacks["setHP"](this.hp);
+      }
       if (this.hp <= 0) {
         if ("dead" in this.callbacks) {
           this.callbacks["dead"]();
