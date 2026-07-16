@@ -14,9 +14,9 @@
 - [X] end game
     - [X] show all solutions for categories (how should it look like?)
     - [X] disable further inputs
-- [ ] add hp
+- [X] add hp
     - [X] hp counter
-    - [ ] hp display
+    - [X] hp display
 - [X] integrate custom properties:
     - [X] rename items.csv to items_extracted_props.csv
     - [X] have js/python code to join the table of custom and extracted which is then used as item.csv for everything
