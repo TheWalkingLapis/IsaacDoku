@@ -40,3 +40,7 @@ This is the workflow:
 
 # Disclaimer
 I am not involved with the creators of The Binding of Isaac and do not own the rights to the related files.
+
+# Non-Isaac assets used:
+- Quality Icons from [External Item Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=836319872)
+- [Skill Issue Death Screen](https://steamcommunity.com/sharedfiles/filedetails/?id=2866000080)
