@@ -17,7 +17,7 @@ async function start_game() {
 
     const callbackDict = {
         "win": end_game,
-        "dead": retry,
+        "dead": end_game,
         "setHP": set_hp,
     }
     refs.game = await IsaacDoku.create({seed: seed, callbacks: callbackDict});
@@ -27,10 +27,18 @@ async function end_game() {
     if (!refs.game) {
         return;
     }
+    // TODO split in win and loose
 
-    const solution = await refs.game.solution();
-    const playerPicks = refs.game.grid.compare(solution);
-    refs.game.grid.change_to_solution(solution, refs.itemShow);
+    refs.ui.skill_issue_visibility(true);
+    setTimeout(() => {
+        document.addEventListener("click", async () => {
+            refs.ui.skill_issue_visibility(false);
+
+            const solution = await refs.game.solution();
+            const playerPicks = refs.game.grid.compare(solution);
+            refs.game.grid.change_to_solution(solution, refs.itemShow);
+        }, { once: true });
+    }, 0);
 }
 
 async function retry() {

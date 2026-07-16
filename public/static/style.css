@@ -108,6 +108,20 @@ body h1 {
   object-fit: contain;
 }
 
+#ui-skill-issue {
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#ui-skill-issue img {
+  height: 80%;
+  z-index: 100;
+}
+
 #item-show {
   height: min(75vh, 75vw);
   width: 20vw;

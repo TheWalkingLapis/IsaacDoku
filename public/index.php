@@ -17,6 +17,7 @@
     <p></p>
     <div class="container" id="game-container">
         <div id="ui">
+            <div id="ui-skill-issue"></div>
             <div id="ui-character"></div>
             <div id="ui-hp"></div>
         </div>
